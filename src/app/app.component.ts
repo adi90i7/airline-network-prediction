@@ -57,13 +57,39 @@ export class AppComponent implements OnInit {
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
+  public countryFilter = new FormControl('');
+  public provinceFilter = new FormControl('');
+
+  public filterValues = {
+    country: '',
+    province: ''
+  };
+
   constructor(private historicalDataService: HistoricalDataService) {
     const users = Array.from(createNewUser());
 
     this.dataSource = new MatTableDataSource(users);
+    this.dataSource.filterPredicate = this.createFilter();
+
   }
 
   ngOnInit() {
+    this.countryFilter.valueChanges
+    .subscribe(
+      country => {
+        this.filterValues.country = country;
+        this.dataSource.filter = JSON.stringify(this.filterValues);
+      }
+    );
+
+    this.provinceFilter.valueChanges
+    .subscribe(
+      province => {
+        this.filterValues.province = province;
+        this.dataSource.filter = JSON.stringify(this.filterValues);
+      }
+    );
+
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
     this.historicalDataService.fetchHistoricalData().subscribe((data: HistoricalDataModel[]) => {
@@ -100,6 +126,16 @@ export class AppComponent implements OnInit {
     const cases: number[] = Object.values(data.timeline);
     return Math.round(cases[cases.length - 1] * Math.pow(data.growthAverage, 7));
   }
+
+  createFilter(): (data: any, filter: string) => boolean {
+    let filterFunction = function(data, filter): boolean {
+      let searchTerms = JSON.parse(filter);
+      return (data.country || '').toLowerCase().indexOf(searchTerms.country) !== -1
+      && (data.province || '').toString().toLowerCase().indexOf(searchTerms.province) !== -1;
+    }
+    return filterFunction;
+  }
+
 }
 
 function createNewUser(): HistoricalDataModel[] {
@@ -108,7 +144,7 @@ function createNewUser(): HistoricalDataModel[] {
     growthAverage: 2,
     growthTimeline: [2, 1, 1, 1],
     predictedValue: 29,
-    province: '',
+    province: '2',
     timeline: Math.round(Math.random() * 100).toString()
   }];
 }

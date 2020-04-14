@@ -23,21 +23,31 @@
 </div>-->
 
 <div class="airline-network-prediction-contianer">
-  <mat-form-field>
+  <!-- <mat-form-field>
     <mat-label>Country Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Canada">
-  </mat-form-field>
+  </mat-form-field> -->
 
   <div class="mat-elevation-z8">
     <table mat-table [dataSource]="dataSource" matSort multiTemplateDataRows>
 
       <ng-container matColumnDef="country">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> Country</th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Country
+          <mat-form-field class="filter" floatLabel="never">
+            <mat-label>Country</mat-label>
+            <input matInput [formControl]="countryFilter" placeholder="Ex. Canada">
+          </mat-form-field>
+        </th>
         <td mat-cell *matCellDef="let row"> {{row.country}}</td>
       </ng-container>
 
       <ng-container matColumnDef="province">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> Province / State</th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Province / State
+          <mat-form-field class="filter" floatLabel="never">
+            <mat-label>Province</mat-label>
+            <input matInput [formControl]="provinceFilter">
+          </mat-form-field>
+        </th>
         <td mat-cell *matCellDef="let row"> {{row.province}}</td>
       </ng-container>
 
@@ -64,15 +74,12 @@
 
       <ng-container matColumnDef="expandedDetail">
         <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
-          <div class="example-element-detail"
-               [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+          <div class="example-element-detail" [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
             <div class="example-element-description">
               <canvas baseChart width="400" height="400"
-                      [datasets]="[{data: objectValues(element.timeline), label: element.country}]"
-                      [labels]="objectKeys(element.timeline)"
-                      [options]="lineChartOptions"
-                      [colors]="lineChartColors"
-                      [chartType]="'line'">
+                [datasets]="[{data: objectValues(element.timeline), label: element.country}]"
+                [labels]="objectKeys(element.timeline)" [options]="lineChartOptions" [colors]="lineChartColors"
+                [chartType]="'line'">
               </canvas>
             </div>
           </div>
@@ -80,11 +87,10 @@
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-      <tr mat-row *matRowDef="let row; columns: displayedColumns;"
-          class="example-element-row"
-          [class.example-expanded-row]="expandedElement === row"
-          (click)="expandedElement = expandedElement === row ? null : row"
-          [ngClass]="{'highlight': row.growthAverage <1}">
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="example-element-row"
+        [class.example-expanded-row]="expandedElement === row"
+        (click)="expandedElement = expandedElement === row ? null : row"
+        [ngClass]="{'highlight': row.growthAverage <1}">
       </tr>
       <tr mat-row *matRowDef="let element; columns: ['expandedDetail']" class="example-detail-row"></tr>
 
