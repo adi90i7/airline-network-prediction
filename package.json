@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "node dist/network-predict/server/main.js",
+    "build": "ng build --prod && ng run network-predict:server:production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -27,6 +27,8 @@
     "@angular/platform-server": "~9.1.0",
     "@angular/router": "~9.1.0",
     "@nguniversal/express-engine": "^9.1.0",
+    "@angular/cli": "~9.1.0",
+    "@angular/compiler-cli": "~9.1.0",
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "cron": "^1.8.2",
@@ -43,8 +45,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.0",
-    "@angular/cli": "~9.1.0",
-    "@angular/compiler-cli": "~9.1.0",
     "@angular/language-service": "~9.1.0",
     "@nguniversal/builders": "^9.1.0",
     "@types/express": "^4.17.0",
@@ -64,5 +64,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
   }
 }
