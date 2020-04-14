@@ -4,7 +4,7 @@ import {CronJob} from 'cron';
 
 
 export async function runSchedulers() {
-  // await fetchAndStoreCovidHistoricalData();
+  await fetchAndStoreCovidHistoricalData();
   new CronJob('* * 6 * *', async () => {
     // await fetchAndStoreCovidHistoricalData();
   }, null, true).start();

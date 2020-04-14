@@ -39,7 +39,7 @@ export function app() {
     maxAge: '1y'
   }));
 
-  mongoose.connect('mongodb://localhost:27017/network-prediction', {
+  mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
