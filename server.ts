@@ -7,6 +7,13 @@ import {join} from 'path';
 import {AppServerModule} from './src/main.server';
 import {APP_BASE_HREF} from '@angular/common';
 import {existsSync} from 'fs';
+import {runSchedulers} from './src/cronscheduler/schedulers';
+
+const csv = require('csvtojson');
+const request = require('request');
+import * as mongoose from 'mongoose';
+import CovidCase from 'src/cronscheduler/historicalData';
+
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app() {
@@ -22,20 +29,30 @@ export function app() {
   server.set('view engine', 'html');
   server.set('views', distFolder);
 
-  // Example Express Rest API endpoints
-  server.get('/helloworld', (req, res) => {
-    res.send('it Loads something');
+  server.get('/historicalData', (req, res) => {
+    CovidCase.find({}, (err, users) => {
+      res.send(users);
+    });
   });
   // Serve static files from /browser
   server.get('*.*', express.static(distFolder, {
     maxAge: '1y'
   }));
 
+  mongoose.connect('mongodb://localhost:27017/network-prediction', {
+    useNewUrlParser: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true
+  })
+    .then(() => console.log('Database connected successfully!'))
+    .catch((err) => console.error(err));
+
   // All regular routes use the Universal engine
   server.get('*', (req, res) => {
     res.render(indexHtml, {req, providers: [{provide: APP_BASE_HREF, useValue: req.baseUrl}]});
   });
 
+  runSchedulers();
   return server;
 }
 
