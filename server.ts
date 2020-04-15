@@ -43,7 +43,7 @@ export function app() {
   server.get('/airports', async (req, res) => {
     const userQuery = req.query.find;
     if (userQuery) {
-      const filteredList = airportData.filter(x => x.airport.includes(userQuery));
+      const filteredList = airportData.filter(x => x.airport.toLowerCase().split(/\s+|\./).includes(userQuery.toLowerCase()));
       res.send(filteredList);
     } else {
       res.send(airportData);
