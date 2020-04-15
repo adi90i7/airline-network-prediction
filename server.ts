@@ -13,6 +13,7 @@ const csv = require('csvtojson');
 const request = require('request');
 import * as mongoose from 'mongoose';
 import CovidCase from 'src/cronscheduler/historicalData';
+import {airportData} from './airports';
 
 
 // The Express app is exported so that it can be used by serverless Functions.
@@ -39,7 +40,17 @@ export function app() {
     maxAge: '1y'
   }));
 
-  mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {
+  server.get('/airport', async (req, res) => {
+    const userQuery = req.query.find;
+    if (userQuery) {
+      const filteredList = airportData.filter(x => x.airport.includes(userQuery));
+      res.send(filteredList);
+    } else {
+      res.send(airportData);
+    }
+  });
+
+  mongoose.connect('mongodb://localhost:27017/network-prediction', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
