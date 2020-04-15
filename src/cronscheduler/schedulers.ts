@@ -16,14 +16,14 @@ async function fetchAndStoreCovidHistoricalData() {
   const track = new NovelCovid();
 
   async function performGrowthCalculation(res: Historical[], i: number,
-                                         searchedCase, historicalDataResult: { country: string; province: string }) {
+                                          searchedCase, historicalDataResult: { country: string; province: string }) {
     const updatedTimeline = appendTimeLine(res[i].timeline.cases, searchedCase.timeline);
     const growthTimeline = calculateGrowthFactor(updatedTimeline);
     const growthAverage = growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length;
     const caseTimeline = calculateTimeline(Object.keys(updatedTimeline));
     const predictedValue7 = calculatePredictedGrowth(updatedTimeline, growthAverage, 7);
     const predictedValue14 = calculatePredictedGrowth(updatedTimeline, growthAverage, 14);
-    searchedCase.casePrediction = Array(Object.keys(searchedCase.timeline).length).fill(0);
+    searchedCase.casePrediction = Array(Object.keys(searchedCase.timeline).length - 1).fill(0);
     for (let j = 0; j < 14; j++) {
       searchedCase.casePrediction.push(calculatePredictedGrowth(updatedTimeline, growthAverage, j + 1));
     }
