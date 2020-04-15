@@ -40,7 +40,7 @@ export function app() {
     maxAge: '1y'
   }));
 
-  server.get('/airport', async (req, res) => {
+  server.get('/airports', async (req, res) => {
     const userQuery = req.query.find;
     if (userQuery) {
       const filteredList = airportData.filter(x => x.airport.includes(userQuery));
