@@ -14,11 +14,13 @@ const request = require('request');
 import * as mongoose from 'mongoose';
 import CovidCase from 'src/cronscheduler/historicalData';
 import {airportData} from './airports';
+const cors = require('cors');
 
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app() {
   const server = express();
+  server.use(cors());
   const distFolder = join(process.cwd(), 'dist/network-predict/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
@@ -51,7 +53,7 @@ export function app() {
     }
   });
 
-  mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {
+  mongoose.connect('mongodb://localhost:27017/network-prediction', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true

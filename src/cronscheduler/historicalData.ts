@@ -6,9 +6,12 @@ const mongoose = require('mongoose');
 const HistoricalDataSchema: Schema = new Schema({
   country: String,
   province: String,
-  timeline: Map,
-  predictedValue: Number,
+  timeline: Object,
+  caseTimeline: Array,
+  caseCount: Array,
+  predictedValue7: Number,
+  predictedValue14: Number,
   growthAverage: Number,
-  growthTimeline: Array
+  casePrediction: Array
 });
 export default mongoose.model('CovidCase', HistoricalDataSchema);

@@ -11,8 +11,10 @@ import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 
-export interface User {
-  name: string;
+export interface Airport {
+  airport: string;
+  city: string;
+  country: string;
 }
 
 @Component({
@@ -31,10 +33,7 @@ export class AppComponent implements OnInit {
 
   displayedColumns: string[] = ['country', 'province', 'predictedValueWeek', 'predictedValue', 'growthAverage', 'riskFactor'];
   dataSource: MatTableDataSource<HistoricalDataModel>;
-  Math = Math;
   expandedElement: HistoricalDataModel | null;
-  objectKeys = Object.keys;
-  objectValues = Object.values;
   lineChartOptions: ChartOptions = {
     responsive: false
   };
@@ -46,12 +45,14 @@ export class AppComponent implements OnInit {
   ];
 
   myControl = new FormControl();
-  options: User[] = [
-    {name: 'Mary'},
-    {name: 'Shelley'},
-    {name: 'Igor'}
+  options: Airport[] = [
+    {
+      airport: 'Madang Airport, MAG',
+      city: 'Madang',
+      country: 'Papua New Guinea'
+    }
   ];
-  filteredOptions: Observable<User[]>;
+  filteredOptions: Observable<Airport[]>;
 
 
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
@@ -66,25 +67,31 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+    // this.options = airportData;
     this.historicalDataService.fetchHistoricalData().subscribe((data: HistoricalDataModel[]) => {
       this.dataSource.data = data;
     });
     this.filteredOptions = this.myControl.valueChanges
       .pipe(
         startWith(''),
-        map(value => typeof value === 'string' ? value : value.name),
+        map(value => typeof value === 'string' ? value : value.airport),
         map(name => name ? this._filter(name) : this.options.slice())
       );
   }
 
-  displayFn(user: User): string {
-    return user && user.name ? user.name : '';
+  displayFn(user: Airport): string {
+
+    this.dataSource.filter = user.country.trim().toLowerCase();
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+    return user && user.airport ? user.airport : '';
   }
 
-  private _filter(name: string): User[] {
+  private _filter(name: string): Airport[] {
     const filterValue = name.toLowerCase();
 
-    return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
+    return this.options.filter(option => option.airport.toLowerCase().indexOf(filterValue) === 0);
   }
 
   applyFilter(event: Event) {
@@ -106,8 +113,10 @@ function createNewUser(): HistoricalDataModel[] {
   return [{
     country: 'Afghanistan',
     growthAverage: 2,
-    growthTimeline: [2, 1, 1, 1],
+    casePrediction: [0, 0, 0, 0],
     predictedValue: 29,
+    caseCount: [2, 3, 4, 5],
+    caseHistory: ['12', '123', '123', '!23'],
     province: '',
     timeline: Math.round(Math.random() * 100).toString()
   }];

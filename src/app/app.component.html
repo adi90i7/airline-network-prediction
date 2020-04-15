@@ -67,9 +67,10 @@
           <div class="example-element-detail"
                [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
             <div class="example-element-description">
-              <canvas baseChart width="400" height="400"
-                      [datasets]="[{data: objectValues(element.timeline), label: element.country}]"
-                      [labels]="objectKeys(element.timeline)"
+              <canvas baseChart width="800" height="350"
+                      [datasets]="[{data: element.caseCount, label: 'Historical data'},
+                                    {data: element.casePrediction, label:'Predicted data'}]"
+                      [labels]="element.caseTimeline"
                       [options]="lineChartOptions"
                       [colors]="lineChartColors"
                       [chartType]="'line'">
