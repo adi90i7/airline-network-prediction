@@ -7,14 +7,18 @@ import {MatTableDataSource} from '@angular/material/table';
 import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
 import {animate, state, style, transition, trigger} from '@angular/animations';
-import {FormControl} from '@angular/forms';
-import {Observable} from 'rxjs';
-import {map, startWith} from 'rxjs/operators';
+import {FormBuilder, FormGroup} from '@angular/forms';
+import {debounceTime, finalize, map, switchMap, tap} from 'rxjs/operators';
 
 export interface Airport {
   airport: string;
   city: string;
   country: string;
+}
+
+export enum GrowthClassification {
+  High = 1.5,
+  Low = 0.9
 }
 
 @Component({
@@ -31,7 +35,8 @@ export interface Airport {
 })
 export class AppComponent implements OnInit {
 
-  displayedColumns: string[] = ['country', 'province', 'predictedValueWeek', 'predictedValue', 'growthAverage', 'riskFactor'];
+  displayedColumns: string[] = ['country', 'province', 'predictedValue7', 'predictedValue14', 'riskFactor'];
+  GrowthClassification = GrowthClassification;
   dataSource: MatTableDataSource<HistoricalDataModel>;
   expandedElement: HistoricalDataModel | null;
   lineChartOptions: ChartOptions = {
@@ -44,21 +49,14 @@ export class AppComponent implements OnInit {
     },
   ];
 
-  myControl = new FormControl();
-  options: Airport[] = [
-    {
-      airport: 'Madang Airport, MAG',
-      city: 'Madang',
-      country: 'Papua New Guinea'
-    }
-  ];
-  filteredOptions: Observable<Airport[]>;
-
+  filteredUsers: Airport[] = [];
+  usersForm: FormGroup;
+  isLoading = false;
 
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
-  constructor(private historicalDataService: HistoricalDataService) {
+  constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder) {
     const users = Array.from(createNewUser());
 
     this.dataSource = new MatTableDataSource(users);
@@ -71,27 +69,57 @@ export class AppComponent implements OnInit {
     this.historicalDataService.fetchHistoricalData().subscribe((data: HistoricalDataModel[]) => {
       this.dataSource.data = data;
     });
-    this.filteredOptions = this.myControl.valueChanges
+    this.usersForm = this.fb.group({
+      userInput: null,
+      userInput2: null,
+    });
+
+    this.usersForm
+      .get('userInput')
+      .valueChanges
       .pipe(
-        startWith(''),
-        map(value => typeof value === 'string' ? value : value.airport),
-        map(name => name ? this._filter(name) : this.options.slice())
-      );
+        debounceTime(300),
+        tap(() => this.isLoading = true),
+        switchMap(value => this.historicalDataService.fetchAirportList(value)
+          .pipe(
+            finalize(() => this.isLoading = false),
+          )
+        ),
+        map((data: Airport[]) => data.slice(0, 5))
+      )
+      .subscribe(users => this.filteredUsers = users);
+
+    this.usersForm
+      .get('userInput2')
+      .valueChanges
+      .pipe(
+        debounceTime(300),
+        tap(() => this.isLoading = true),
+        switchMap(value => this.historicalDataService.fetchAirportList(value)
+          .pipe(
+            finalize(() => this.isLoading = false),
+          )
+        ),
+        map((data: Airport[]) => data.slice(0, 5))
+      )
+      .subscribe(users => this.filteredUsers = users);
   }
 
-  displayFn(user: Airport): string {
-
-    this.dataSource.filter = user.country.trim().toLowerCase();
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
+  displayFn(user: Airport) {
+    if (user) {
+      return user.airport;
     }
-    return user && user.airport ? user.airport : '';
   }
 
-  private _filter(name: string): Airport[] {
-    const filterValue = name.toLowerCase();
+  selected(airport: Airport) {
+    console.log(airport);
+    if (airport) {
+      this.dataSource.filter = airport.country.trim().toLowerCase();
 
-    return this.options.filter(option => option.airport.toLowerCase().indexOf(filterValue) === 0);
+      if (this.dataSource.paginator) {
+        this.dataSource.paginator.firstPage();
+      }
+    }
   }
 
   applyFilter(event: Event) {
@@ -102,21 +130,18 @@ export class AppComponent implements OnInit {
       this.dataSource.paginator.firstPage();
     }
   }
-
-  getPrediction(data: HistoricalDataModel) {
-    const cases: number[] = Object.values(data.timeline);
-    return Math.round(cases[cases.length - 1] * Math.pow(data.growthAverage, 7));
-  }
 }
 
 function createNewUser(): HistoricalDataModel[] {
   return [{
     country: 'Afghanistan',
-    growthAverage: 2,
+    growthAverage: 1,
+    predictedValue7: 0,
+    predictedValue14: 0,
     casePrediction: [0, 0, 0, 0],
-    predictedValue: 29,
-    caseCount: [2, 3, 4, 5],
-    caseHistory: ['12', '123', '123', '!23'],
+    predictedValue: 0,
+    caseCount: [0, 0, 0, 0],
+    caseHistory: ['0', '0', '0', '0'],
     province: '',
     timeline: Math.round(Math.random() * 100).toString()
   }];

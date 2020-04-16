@@ -25,11 +25,9 @@ async function fetchAndStoreCovidHistoricalData() {
     const predictedValue14 = calculatePredictedGrowth(updatedTimeline, growthAverage, 14);
     const caseCount = Object.values(updatedTimeline);
     searchedCase.casePrediction = Array(Object.keys(searchedCase.timeline).length - 1).fill(0);
-    searchedCase.push(caseCount[caseCount.length - 1]);
     for (let j = 0; j < 14; j++) {
       searchedCase.casePrediction.push(calculatePredictedGrowth(updatedTimeline, growthAverage, j + 1));
     }
-    console.log(searchedCase.country);
     await CovidCase.findOneAndUpdate(historicalDataResult, {
       timeline: updatedTimeline,
       caseTimeline,

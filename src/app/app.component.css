@@ -36,7 +36,15 @@ tr.example-element-row:not(.example-expanded-row):active {
   height: 104px;
 }
 
-.highlight {
+.highlight-high {
+  background-color: rosybrown;
+}
+
+.highlight-med {
+  background-color: ghostwhite;
+}
+
+.highlight-low {
   background-color: lightgreen;
 }
 

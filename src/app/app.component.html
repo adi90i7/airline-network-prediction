@@ -1,26 +1,37 @@
 <h1> Airline Network Prediction </h1>
 
-<!--<div class="airport-filter">
+<form class="example-form" [formGroup]='usersForm'>
   <mat-form-field class="example-full-width">
-    <mat-label>Source</mat-label>
-    <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-        {{option.name}}
-      </mat-option>
-    </mat-autocomplete>
+    <input matInput placeholder="Source Airport" [matAutocomplete]="auto" formControlName='userInput'>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Destination Airport" [matAutocomplete]="auto2" formControlName='userInput2'>
   </mat-form-field>
 
-  <mat-form-field class="example-full-width">
-    <mat-label>Destination</mat-label>
-    <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-        {{option.name}}
+  <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" (optionSelected)="selected($event.option.value)">
+    <mat-option *ngIf="isLoading" class="is-loading">
+      <mat-spinner diameter="50"></mat-spinner>
+    </mat-option>
+    <ng-container *ngIf="!isLoading">
+      <mat-option *ngFor="let airport of filteredUsers" [value]="airport">
+        <span>{{ airport.country }}</span>
+        <small> | Airport : {{airport.airport}}</small>
       </mat-option>
-    </mat-autocomplete>
-  </mat-form-field>
-</div>-->
+    </ng-container>
+  </mat-autocomplete>
+
+  <mat-autocomplete #auto2="matAutocomplete" [displayWith]="displayFn" (optionSelected)="selected($event.option.value)">
+    <mat-option *ngIf="isLoading" class="is-loading">
+      <mat-spinner diameter="50"></mat-spinner>
+    </mat-option>
+    <ng-container *ngIf="!isLoading">
+      <mat-option *ngFor="let airport of filteredUsers" [value]="airport">
+        <span>{{ airport.country }}</span>
+        <small> | Airport : {{airport.airport}}</small>
+      </mat-option>
+    </ng-container>
+  </mat-autocomplete>
+</form>
 
 <div class="airline-network-prediction-contianer">
   <mat-form-field>
@@ -41,24 +52,20 @@
         <td mat-cell *matCellDef="let row"> {{row.province}}</td>
       </ng-container>
 
+      <ng-container matColumnDef="predictedValue7">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Prediction after 1 week</th>
+        <td mat-cell *matCellDef="let row"> {{row.predictedValue7}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="predictedValue14">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Prediction after 2 weeks</th>
+        <td mat-cell *matCellDef="let row"> {{row.predictedValue14}} </td>
+      </ng-container>
+
       <ng-container matColumnDef="riskFactor">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Risk Factor</th>
-        <td mat-cell *matCellDef="let row"> {{row.growthAverage < 1 ? 'Low' : 'High'}} </td>
-      </ng-container>
-
-      <ng-container matColumnDef="predictedValueWeek">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Prediction after 1 week</th>
-        <td mat-cell *matCellDef="let row"> {{getPrediction(row)}} </td>
-      </ng-container>
-
-      <ng-container matColumnDef="predictedValue">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Prediction after 2 weeks</th>
-        <td mat-cell *matCellDef="let row"> {{row.predictedValue}} </td>
-      </ng-container>
-
-      <ng-container matColumnDef="growthAverage">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> Growth Factor</th>
-        <td mat-cell *matCellDef="let row"> {{row.growthAverage}} </td>
+        <td mat-cell
+            *matCellDef="let row"> {{row.growthAverage > 1.2 ? 'High' : (row.growthAverage < 1.0 ? 'Low' : 'Medium')}} </td>
       </ng-container>
 
 
@@ -85,7 +92,7 @@
           class="example-element-row"
           [class.example-expanded-row]="expandedElement === row"
           (click)="expandedElement = expandedElement === row ? null : row"
-          [ngClass]="{'highlight': row.growthAverage <1}">
+          [ngClass]="[row.growthAverage > 1.2 ? 'highlight-high': (row.growthAverage < 1.0 ? 'highlight-low': 'highlight-med')]">
       </tr>
       <tr mat-row *matRowDef="let element; columns: ['expandedDetail']" class="example-detail-row"></tr>
 

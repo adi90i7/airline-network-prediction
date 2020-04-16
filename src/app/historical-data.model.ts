@@ -4,6 +4,8 @@ export interface HistoricalDataModel {
   timeline: any;
   caseHistory: Array<string>;
   caseCount: Array<number>;
+  predictedValue7: number,
+  predictedValue14: number,
   growthAverage: number;
   predictedValue: number;
   casePrediction: Array<number>;
