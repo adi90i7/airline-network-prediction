@@ -14,6 +14,7 @@ export interface Airport {
   airport: string;
   city: string;
   country: string;
+  airportCode: string;
 }
 
 export enum GrowthClassification {
@@ -35,7 +36,7 @@ export enum GrowthClassification {
 })
 export class AppComponent implements OnInit {
 
-  displayedColumns: string[] = ['country', 'province', 'predictedValue7', 'predictedValue14', 'riskFactor'];
+  displayedColumns: string[] = ['country', 'province', 'riskFactor'];
   GrowthClassification = GrowthClassification;
   dataSource: MatTableDataSource<HistoricalDataModel>;
   expandedElement: HistoricalDataModel | null;
@@ -53,6 +54,8 @@ export class AppComponent implements OnInit {
   usersForm: FormGroup;
   isLoading = false;
 
+  private initialDataSet: HistoricalDataModel[];
+
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
@@ -65,32 +68,16 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
-    // this.options = airportData;
     this.historicalDataService.fetchHistoricalData().subscribe((data: HistoricalDataModel[]) => {
       this.dataSource.data = data;
+      this.initialDataSet = data;
     });
     this.usersForm = this.fb.group({
       userInput: null,
-      userInput2: null,
     });
 
     this.usersForm
       .get('userInput')
-      .valueChanges
-      .pipe(
-        debounceTime(300),
-        tap(() => this.isLoading = true),
-        switchMap(value => this.historicalDataService.fetchAirportList(value)
-          .pipe(
-            finalize(() => this.isLoading = false),
-          )
-        ),
-        map((data: Airport[]) => data.slice(0, 5))
-      )
-      .subscribe(users => this.filteredUsers = users);
-
-    this.usersForm
-      .get('userInput2')
       .valueChanges
       .pipe(
         debounceTime(300),
@@ -113,13 +100,23 @@ export class AppComponent implements OnInit {
 
   selected(airport: Airport) {
     console.log(airport);
-    if (airport) {
-      this.dataSource.filter = airport.country.trim().toLowerCase();
+    // if (airport) {
+    //   this.dataSource.filter = airport.country.trim().toLowerCase();
+    //
+    //   if (this.dataSource.paginator) {
+    //     this.dataSource.paginator.firstPage();
+    //   }
+    // }
 
-      if (this.dataSource.paginator) {
-        this.dataSource.paginator.firstPage();
-      }
+    if (airport && airport.airportCode) {
+      this.historicalDataService.fetchRoute(airport.airportCode).subscribe((data: Airport[]) => {
+        const countriesOfAirport = data.map(x => x.country.toLowerCase());
+        this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+      });
+    } else {
+      this.dataSource.data = this.initialDataSet;
     }
+
   }
 
   applyFilter(event: Event) {

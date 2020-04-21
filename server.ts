@@ -9,11 +9,11 @@ import {APP_BASE_HREF} from '@angular/common';
 import {existsSync} from 'fs';
 import {runSchedulers} from './src/cronscheduler/schedulers';
 
-const csv = require('csvtojson');
-const request = require('request');
 import * as mongoose from 'mongoose';
 import CovidCase from 'src/cronscheduler/historicalData';
 import {airportData} from './airports';
+import {routes} from './routes';
+
 const cors = require('cors');
 
 
@@ -51,6 +51,13 @@ export function app() {
     } else {
       res.send(airportData);
     }
+  });
+
+  server.get('/routes', async (req, res) => {
+    const userQuery = req.query.airportCode;
+    const filteredRoutes = routes.filter(x => x.Source.toLowerCase() === userQuery.toLowerCase()).map(route => route.Destination);
+    const countries = airportData.filter(x => filteredRoutes.includes(x.airportCode));
+    res.send(countries);
   });
 
   mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {

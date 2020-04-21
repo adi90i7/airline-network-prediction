@@ -16,10 +16,6 @@
                     <mat-form-field class="example-full-width">
                       <input matInput placeholder="Source Airport" [matAutocomplete]="auto" formControlName='userInput'>
                     </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                      <input matInput placeholder="Destination Airport" [matAutocomplete]="auto2"
-                        formControlName='userInput2'>
-                    </mat-form-field>
 
                     <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn"
                       (optionSelected)="selected($event.option.value)">
@@ -34,18 +30,6 @@
                       </ng-container>
                     </mat-autocomplete>
 
-                    <mat-autocomplete #auto2="matAutocomplete" [displayWith]="displayFn"
-                      (optionSelected)="selected($event.option.value)">
-                      <mat-option *ngIf="isLoading" class="is-loading">
-                        <mat-spinner diameter="50"></mat-spinner>
-                      </mat-option>
-                      <ng-container *ngIf="!isLoading">
-                        <mat-option *ngFor="let airport of filteredUsers" [value]="airport">
-                          <span>{{ airport.country }}</span>
-                          <small> | Airport : {{airport.airport}}</small>
-                        </mat-option>
-                      </ng-container>
-                    </mat-autocomplete>
                   </form>
                   <mat-form-field>
                     <mat-label>Country Filter</mat-label>
@@ -75,17 +59,7 @@
                     <td mat-cell *matCellDef="let row"> {{row.province}}</td>
                   </ng-container>
 
-                  <ng-container matColumnDef="predictedValue7">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary">Prediction after 1 week
-                    </th>
-                    <td mat-cell *matCellDef="let row"> {{row.predictedValue7}} </td>
-                  </ng-container>
 
-                  <ng-container matColumnDef="predictedValue14">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary">Prediction after 2 weeks
-                    </th>
-                    <td mat-cell *matCellDef="let row"> {{row.predictedValue14}} </td>
-                  </ng-container>
 
                   <ng-container matColumnDef="riskFactor">
                     <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary"> Risk Factor</th>

@@ -15,4 +15,8 @@ export class HistoricalDataService {
   fetchAirportList(queryString: string): Observable<Airport[]> {
     return this.httpClient.get<Airport[]>(`/airports?find=${queryString}`);
   }
+
+  fetchRoute(queryString: string) {
+    return this.httpClient.get(`/routes?airportCode=${queryString}`);
+  }
 }
