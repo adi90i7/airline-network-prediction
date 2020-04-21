@@ -23,7 +23,11 @@ async function fetchAndStoreCovidHistoricalData() {
       };
 
       const timeline = countryCases[i].timeline.cases;
-      const growthTimeline = calculateGrowthFactor(timeline);
+      const initialCaseTimeline = Object.values(timeline);
+      while (initialCaseTimeline[0] === 0) {
+        initialCaseTimeline.shift();
+      }
+      const growthTimeline = calculateGrowthFactor(initialCaseTimeline);
       const growthAverage = growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length;
       const casePrediction = Array(Object.keys(timeline).length - 1).fill(0);
       const caseCount = Object.values(timeline);
@@ -61,6 +65,7 @@ function calculateGrowthFactor(caseTimeline) {
 
 function calculatePredictedGrowth(caseTimeline, growthAverage, days) {
   const cases: number[] = Object.values(caseTimeline);
+  // return Math.log(cases[cases.length - 1]) + (Math.log(growthAverage) * days);
   return Math.round(cases[cases.length - 1] * Math.pow(growthAverage, days));
 }
 
