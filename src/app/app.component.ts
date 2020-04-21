@@ -99,15 +99,6 @@ export class AppComponent implements OnInit {
   }
 
   selected(airport: Airport) {
-    console.log(airport);
-    // if (airport) {
-    //   this.dataSource.filter = airport.country.trim().toLowerCase();
-    //
-    //   if (this.dataSource.paginator) {
-    //     this.dataSource.paginator.firstPage();
-    //   }
-    // }
-
     if (airport && airport.airportCode) {
       this.historicalDataService.fetchRoute(airport.airportCode).subscribe((data: Airport[]) => {
         const countriesOfAirport = data.map(x => x.country.toLowerCase());

@@ -1,6 +1,7 @@
 import CovidCase from 'src/cronscheduler/historicalData';
-import {Historical, NovelCovid} from 'novelcovid';
 import {CronJob} from 'cron';
+
+const axios = require('axios').default;
 
 const dateFormat = require('dateformat');
 
@@ -13,62 +14,34 @@ export async function runSchedulers() {
 }
 
 async function fetchAndStoreCovidHistoricalData() {
-  const track = new NovelCovid();
-
-  async function performGrowthCalculation(res: Historical[], i: number,
-                                          searchedCase, historicalDataResult: { country: string; province: string }) {
-    const updatedTimeline = appendTimeLine(res[i].timeline.cases, searchedCase.timeline);
-    const growthTimeline = calculateGrowthFactor(updatedTimeline);
-    const growthAverage = growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length;
-    const caseTimeline = calculateTimeline(Object.keys(updatedTimeline));
-    const predictedValue7 = calculatePredictedGrowth(updatedTimeline, growthAverage, 7);
-    const predictedValue14 = calculatePredictedGrowth(updatedTimeline, growthAverage, 14);
-    const caseCount = Object.values(updatedTimeline);
-    searchedCase.casePrediction = Array(Object.keys(searchedCase.timeline).length - 1).fill(0);
-    for (let j = 0; j < 14; j++) {
-      searchedCase.casePrediction.push(calculatePredictedGrowth(updatedTimeline, growthAverage, j + 1));
-    }
-    await CovidCase.findOneAndUpdate(historicalDataResult, {
-      timeline: updatedTimeline,
-      caseTimeline,
-      caseCount,
-      growthAverage,
-      predictedValue7,
-      predictedValue14,
-      casePrediction: searchedCase.casePrediction
-    }, {
-      new: true,
-      upsert: true
-    });
-  }
-
-  await track.historical().then(async (res: Historical[]) => {
-    for (let i = 0; i < res.length - 1; i++) {
+  await axios.get('https://corona.lmao.ninja/v2/historical?lastdays=60').then(async (response: any) => {
+    const countryCases = response.data;
+    for (let i = 0; i < countryCases.length - 1; i++) {
       const historicalDataResult = {
-        country: res[i].country,
-        province: res[i].province
+        country: countryCases[i].country,
+        province: countryCases[i].province
       };
-      const searchedCase = await CovidCase.findOne(historicalDataResult);
-      if (searchedCase && searchedCase.country) {
-        await performGrowthCalculation(res, i, searchedCase, historicalDataResult);
-      } else {
-        await CovidCase.findOneAndUpdate(historicalDataResult, {
-          timeline: res[i].timeline.cases,
-          caseTimeline: [],
-          caseCount: [],
-          growthAverage: 1.0,
-          predictedValue7: 123,
-          predictedValue14: 12,
-          casePrediction: []
-        }, {
-          new: true,
-          upsert: true
-        });
-        const findCase = await CovidCase.findOne(historicalDataResult);
-        await performGrowthCalculation(res, i, findCase, historicalDataResult);
-      }
-    }
 
+      const timeline = countryCases[i].timeline.cases;
+      const growthTimeline = calculateGrowthFactor(timeline);
+      const growthAverage = growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length;
+      const casePrediction = Array(Object.keys(timeline).length - 1).fill(0);
+      const caseCount = Object.values(timeline);
+      casePrediction.push(caseCount[caseCount.length - 1]);
+      for (let j = 0; j < 14; j++) {
+        casePrediction.push(calculatePredictedGrowth(timeline, growthAverage, j + 1));
+      }
+      await CovidCase.findOneAndUpdate(historicalDataResult, {
+        timeline,
+        caseTimeline: calculateTimeline(Object.keys(timeline)),
+        caseCount,
+        growthAverage,
+        casePrediction
+      }, {
+        new: true,
+        upsert: true
+      });
+    }
   });
 
 }
