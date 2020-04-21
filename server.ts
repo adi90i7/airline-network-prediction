@@ -11,6 +11,7 @@ import {runSchedulers} from './src/cronscheduler/schedulers';
 
 import * as mongoose from 'mongoose';
 import CovidCase from 'src/cronscheduler/historicalData';
+import Severity from 'src/severity';
 import {airportData} from './airports';
 import {routes} from './routes';
 
@@ -34,6 +35,12 @@ export function app() {
 
   server.get('/historicalData', (req, res) => {
     CovidCase.find({}, (err, users) => {
+      res.send(users);
+    });
+  });
+
+  server.get('/severity', (req, res) => {
+    Severity.find({}, (err, users) => {
       res.send(users);
     });
   });

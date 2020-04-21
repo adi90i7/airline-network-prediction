@@ -19,4 +19,8 @@ export class HistoricalDataService {
   fetchRoute(queryString: string) {
     return this.httpClient.get(`/routes?airportCode=${queryString}`);
   }
+
+  getSeverityLevel() {
+    return this.httpClient.get('/severity');
+  }
 }

@@ -68,9 +68,13 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
-    this.historicalDataService.fetchHistoricalData().subscribe((data: HistoricalDataModel[]) => {
-      this.dataSource.data = data;
-      this.initialDataSet = data;
+    this.historicalDataService.fetchHistoricalData().subscribe(async (data: HistoricalDataModel[]) => {
+      const caseSeverity = await this.historicalDataService.getSeverityLevel().toPromise();
+      const transformedData = data.map((x) => {
+        return {...x, ...caseSeverity[0]};
+      });
+      this.dataSource.data = transformedData
+      this.initialDataSet = transformedData;
     });
     this.usersForm = this.fb.group({
       userInput: null,

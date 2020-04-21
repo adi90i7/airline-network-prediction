@@ -28,7 +28,7 @@ async function fetchAndStoreCovidHistoricalData() {
         initialCaseTimeline.shift();
       }
       const growthTimeline = calculateGrowthFactor(initialCaseTimeline);
-      const growthAverage = growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length;
+      const growthAverage = growthTimeline.length > 0 ? (growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length) : 0;
       const casePrediction = Array(Object.keys(timeline).length - 1).fill(0);
       const caseCount = Object.values(timeline);
       casePrediction.push(caseCount[caseCount.length - 1]);
