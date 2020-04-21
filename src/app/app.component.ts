@@ -9,6 +9,7 @@ import {MatSort} from '@angular/material/sort';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import {FormBuilder, FormGroup} from '@angular/forms';
 import {debounceTime, finalize, map, switchMap, tap} from 'rxjs/operators';
+import {Observable} from 'rxjs';
 
 export interface Airport {
   airport: string;
@@ -53,7 +54,8 @@ export class AppComponent implements OnInit {
   filteredUsers: Airport[] = [];
   usersForm: FormGroup;
   isLoading = false;
-
+  selectedAirport: string;
+  airlines: Observable<string[]>;
   private initialDataSet: HistoricalDataModel[];
 
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
@@ -73,7 +75,7 @@ export class AppComponent implements OnInit {
       const transformedData = data.map((x) => {
         return {...x, ...caseSeverity[0]};
       });
-      this.dataSource.data = transformedData
+      this.dataSource.data = transformedData;
       this.initialDataSet = transformedData;
     });
     this.usersForm = this.fb.group({
@@ -108,10 +110,18 @@ export class AppComponent implements OnInit {
         const countriesOfAirport = data.map(x => x.country.toLowerCase());
         this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
       });
+      this.selectedAirport = airport.airportCode;
+      this.airlines = this.historicalDataService.getAirlinesRoutes(airport.airportCode);
     } else {
       this.dataSource.data = this.initialDataSet;
     }
+  }
 
+  updateCountryList(airlineCode: string) {
+    this.historicalDataService.fetchRoute(this.selectedAirport, airlineCode).subscribe((data: Airport[]) => {
+      const countriesOfAirport = data.map(x => x.country.toLowerCase());
+      this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+    });
   }
 
   applyFilter(event: Event) {

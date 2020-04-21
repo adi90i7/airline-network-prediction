@@ -14,26 +14,28 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {ReactiveFormsModule} from '@angular/forms';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
-  imports: [
-    HttpClientModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    MatInputModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule,
-    MatProgressSpinnerModule,
-    ChartsModule,
-    BrowserModule.withServerTransition({appId: 'serverApp'}),
-    MatAutocompleteModule,
-    ReactiveFormsModule
-  ],
+    imports: [
+        HttpClientModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        MatInputModule,
+        MatTableModule,
+        MatPaginatorModule,
+        MatSortModule,
+        MatProgressSpinnerModule,
+        ChartsModule,
+        BrowserModule.withServerTransition({appId: 'serverApp'}),
+        MatAutocompleteModule,
+        ReactiveFormsModule,
+        MatSelectModule
+    ],
   providers: [HistoricalDataService,
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } }],
   bootstrap: [AppComponent]

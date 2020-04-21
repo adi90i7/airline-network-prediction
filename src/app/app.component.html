@@ -17,6 +17,15 @@
                     <input matInput placeholder="Source Airport" [matAutocomplete]="auto" formControlName='userInput'>
                   </mat-form-field>
 
+                  <mat-form-field *ngIf="selectedAirport">
+                    <mat-label>Airline</mat-label>
+                    <mat-select>
+                      <mat-option>None</mat-option>
+                      <mat-option *ngFor="let state of airlines | async" [value]="state"
+                                  (onSelectionChange)="updateCountryList(state)">{{state}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
                   <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn"
                                     (optionSelected)="selected($event.option.value)">
                     <mat-option *ngIf="isLoading" class="is-loading">
@@ -49,7 +58,7 @@
               <table mat-table [dataSource]="dataSource" matSort multiTemplateDataRows class="table">
 
                 <ng-container matColumnDef="country">
-                  <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary"> Destination Country </th>
+                  <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary"> Destination Country</th>
                   <td mat-cell *matCellDef="let row"> {{row.country}}</td>
                 </ng-container>
 

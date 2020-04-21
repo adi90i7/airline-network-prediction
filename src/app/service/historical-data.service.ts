@@ -16,11 +16,20 @@ export class HistoricalDataService {
     return this.httpClient.get<Airport[]>(`/airports?find=${queryString}`);
   }
 
-  fetchRoute(queryString: string) {
-    return this.httpClient.get(`/routes?airportCode=${queryString}`);
+  fetchRoute(airportCode: string, airline?: string) {
+    return this.httpClient.get(`/routes`, {
+      params: {
+        airportCode,
+        airline
+      }
+    });
   }
 
   getSeverityLevel() {
     return this.httpClient.get('/severity');
+  }
+
+  getAirlinesRoutes(airportCode: string): Observable<string[]> {
+    return this.httpClient.get<string[]>(`/airlines?airportCode=${airportCode}`);
   }
 }

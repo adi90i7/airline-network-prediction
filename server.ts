@@ -61,10 +61,20 @@ export function app() {
   });
 
   server.get('/routes', async (req, res) => {
-    const userQuery = req.query.airportCode;
-    const filteredRoutes = routes.filter(x => x.Source.toLowerCase() === userQuery.toLowerCase()).map(route => route.Destination);
-    const countries = airportData.filter(x => filteredRoutes.includes(x.airportCode));
+    const airportCode = req.query.airportCode;
+    const airline = req.query.airline;
+    let filteredRoutes = routes.filter(x => x.source.toLowerCase() === airportCode.toLowerCase());
+    if (airline && airline !== 'undefined') {
+      filteredRoutes = filteredRoutes.filter(x => x.airline.toLowerCase() === airline.toLowerCase());
+    }
+    const countries = airportData.filter(x => filteredRoutes.map(route => route.destination).includes(x.airportCode));
     res.send(countries);
+  });
+
+  server.get('/airlines', async (req, res) => {
+    const userQuery = req.query.airportCode;
+    const airlines = routes.filter(x => x.source.toLowerCase() === userQuery.toLowerCase()).map(route => route.airline);
+    res.send([...new Set(airlines)]);
   });
 
   mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {
