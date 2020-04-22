@@ -8,3 +8,14 @@ body {
   padding: 30px;
 }
 
+body {
+  background: url(./assets/img/bg2.jpg) 0 0/cover repeat;
+}
+
+.main-content.wrapper {
+  opacity: .9;
+}
+
+.card-header.card-header-icon.card-header-rose .card-icon {
+  background: #00a1de !important;
+}
