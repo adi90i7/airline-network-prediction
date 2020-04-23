@@ -83,6 +83,7 @@
                                 [labels]="element.caseTimeline" [options]="lineChartOptions" [colors]="lineChartColors"
                                 [chartType]="'line'">
                         </canvas>
+                        <span class="graph-note">Note: The future prediction is based on exponential prediction algorithm = ab^x</span>
                       </div>
                     </div>
                   </td>
@@ -100,9 +101,14 @@
 
               <mat-paginator [pageSizeOptions]="[10, 25, 100]"></mat-paginator>
             </div>
+            <div class="formulae-note">
+              Note: The calculation on the future prediction is based on the exponential prediction algorithm. In real life scenarios, this may not be the case
+            </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
+
 </div>

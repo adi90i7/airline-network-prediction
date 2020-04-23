@@ -47,7 +47,7 @@ export class MainComponent implements OnInit, DoCheck {
   dataSource: MatTableDataSource<HistoricalDataModel>;
   expandedElement: HistoricalDataModel | null;
   lineChartOptions: ChartOptions = {
-    responsive: false
+    responsive: true
   };
   lineChartColors: Color[] = [
     {
