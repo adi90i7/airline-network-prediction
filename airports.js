@@ -2762,187 +2762,187 @@ export const airportData =[
   {
     airport: 'Belfast International Airport, BFS',
     city: 'Belfast',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BFS'
   },
   {
     airport: 'St Angelo Airport, ENK',
     city: 'Enniskillen',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ENK'
   },
   {
     airport: 'George Best Belfast City Airport, BHD',
     city: 'Belfast',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BHD'
   },
   {
     airport: 'City of Derry Airport, LDY',
     city: 'Londonderry',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LDY'
   },
   {
     airport: 'Birmingham International Airport, BHX',
     city: 'Birmingham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BHX'
   },
   {
     airport: 'Coventry Airport, CVT',
     city: 'Coventry',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CVT'
   },
   {
     airport: 'Leicester Airport, \\N',
     city: 'Leicester',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Gloucestershire Airport, GLO',
     city: 'Golouchestershire',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'GLO'
   },
   {
     airport: 'Wolverhampton Halfpenny Green Airport, \\N',
     city: 'Halfpenny Green',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Cotswold Airport, GBA',
     city: 'Pailton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'GBA'
   },
   {
     airport: 'Turweston Airport, \\N',
     city: 'Turweston',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Wellesbourne Mountford Airport, \\N',
     city: 'Wellesbourne',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Manchester Airport, MAN',
     city: 'Manchester',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'MAN'
   },
   {
     airport: 'Manchester Woodford Airport, \\N',
     city: 'Woodfort',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Royal Marines Base Chivenor Airport, \\N',
     city: 'Chivenor',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Newquay Cornwall Airport, NQY',
     city: 'Newquai',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NQY'
   },
   {
     airport: 'RAF Lyneham, LYE',
     city: 'Lyneham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LYE'
   },
   {
     airport: 'MoD Boscombe Down Airport, \\N',
     city: 'Boscombe Down',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RNAS Culdrose, \\N',
     city: 'Culdrose',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'MoD St. Athan, \\N',
     city: 'St. Athan',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RNAS Yeovilton, YEO',
     city: 'Yeovilton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'YEO'
   },
   {
     airport: 'Haverfordwest Airport, HAW',
     city: 'Haverfordwest',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'HAW'
   },
   {
     airport: 'Cardiff International Airport, CWL',
     city: 'Cardiff',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CWL'
   },
   {
     airport: 'Swansea Airport, SWS',
     city: 'Swansea',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SWS'
   },
   {
     airport: 'Bristol Airport, BRS',
     city: 'Bristol',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BRS'
   },
   {
     airport: 'Liverpool John Lennon Airport, LPL',
     city: 'Liverpool',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LPL'
   },
   {
     airport: 'London Luton Airport, LTN',
     city: 'London',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LTN'
   },
   {
     airport: 'Plymouth City Airport, PLH',
     city: 'Plymouth',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'PLH'
   },
   {
     airport: 'Bournemouth Airport, BOH',
     city: 'Bournemouth',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BOH'
   },
   {
     airport: 'Southampton Airport, SOU',
     city: 'Southampton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SOU'
   },
   {
     airport: 'Lasham Airport, QLA',
     city: 'Lasham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'QLA'
   },
   {
@@ -2966,121 +2966,121 @@ export const airportData =[
   {
     airport: 'Shoreham Airport, ESH',
     city: 'Shoreham By Sea',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ESH'
   },
   {
     airport: 'London Biggin Hill Airport, BQH',
     city: 'Biggin Hill',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BQH'
   },
   {
     airport: 'London Gatwick Airport, LGW',
     city: 'London',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LGW'
   },
   {
     airport: 'London City Airport, LCY',
     city: 'London',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LCY'
   },
   {
     airport: 'Farnborough Airport, FAB',
     city: 'Farnborough',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'FAB'
   },
   {
     airport: 'Chalgrove Airport, \\N',
     city: 'Chalsgrove',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Blackbushe Airport, BBS',
     city: 'Blackbushe',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BBS'
   },
   {
     airport: 'London Heathrow Airport, LHR',
     city: 'London',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LHR'
   },
   {
     airport: 'Southend Airport, SEN',
     city: 'Southend',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SEN'
   },
   {
     airport: 'Lydd Airport, LYX',
     city: 'Lydd',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LYX'
   },
   {
     airport: 'Kent International Airport, MSE',
     city: 'Manston',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'MSE'
   },
   {
     airport: 'Brough Airport, \\N',
     city: 'Brough',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Carlisle Airport, CAX',
     city: 'Carlisle',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CAX'
   },
   {
     airport: 'Retford Gamston Airport, \\N',
     city: 'Repton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Blackpool International Airport, BLK',
     city: 'Blackpool',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BLK'
   },
   {
     airport: 'Humberside Airport, HUY',
     city: 'Humberside',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'HUY'
   },
   {
     airport: 'Barrow Walney Island Airport, BWF',
     city: 'Barrow Island',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BWF'
   },
   {
     airport: 'Leeds Bradford Airport, LBA',
     city: 'Leeds',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LBA'
   },
   {
     airport: 'Warton Airport, WRT',
     city: 'Warton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'WRT'
   },
   {
     airport: 'Hawarden Airport, CEG',
     city: 'Hawarden',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CEG'
   },
   {
@@ -3092,343 +3092,343 @@ export const airportData =[
   {
     airport: 'Newcastle Airport, NCL',
     city: 'Newcastle',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NCL'
   },
   {
     airport: 'Durham Tees Valley Airport, MME',
     city: 'Teesside',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'MME'
   },
   {
     airport: 'East Midlands Airport, EMA',
     city: 'East Midlands',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'EMA'
   },
   {
     airport: 'Llanbedr Airport, \\N',
     city: 'Llanbedr',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Ternhill, \\N',
     city: 'Ternhill',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Shawbury, \\N',
     city: 'Shawbury',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Woodvale, \\N',
     city: 'Woodvale',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Kirkwall Airport, KOI',
     city: 'Kirkwall',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'KOI'
   },
   {
     airport: 'Sumburgh Airport, LSI',
     city: 'Sumburgh',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LSI'
   },
   {
     airport: 'Wick Airport, WIC',
     city: 'Wick',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'WIC'
   },
   {
     airport: 'Aberdeen Dyce Airport, ABZ',
     city: 'Aberdeen',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ABZ'
   },
   {
     airport: 'Inverness Airport, INV',
     city: 'Inverness',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'INV'
   },
   {
     airport: 'Glasgow International Airport, GLA',
     city: 'Glasgow',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'GLA'
   },
   {
     airport: 'Edinburgh Airport, EDI',
     city: 'Edinburgh',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'EDI'
   },
   {
     airport: 'Islay Airport, ILY',
     city: 'Islay',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ILY'
   },
   {
     airport: 'Glasgow Prestwick Airport, PIK',
     city: 'Prestwick',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'PIK'
   },
   {
     airport: 'Benbecula Airport, BEB',
     city: 'Benbecula',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BEB'
   },
   {
     airport: 'Scatsta Airport, SCS',
     city: 'Scatsta',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SCS'
   },
   {
     airport: 'Dundee Airport, DND',
     city: 'Dundee',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'DND'
   },
   {
     airport: 'Stornoway Airport, SYY',
     city: 'Stornoway',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SYY'
   },
   {
     airport: 'Tiree Airport, TRE',
     city: 'Tiree',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'TRE'
   },
   {
     airport: 'RAF Leuchars, ADX',
     city: 'Leuchars',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ADX'
   },
   {
     airport: 'RAF Lossiemouth, LMO',
     city: 'Lossiemouth',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LMO'
   },
   {
     airport: 'Cambridge Airport, CBG',
     city: 'Cambridge',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CBG'
   },
   {
     airport: 'Peterborough Business Airport, \\N',
     city: 'Peterborough',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Norwich International Airport, NWI',
     city: 'Norwich',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NWI'
   },
   {
     airport: 'London Stansted Airport, STN',
     city: 'London',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'STN'
   },
   {
     airport: 'North Weald Airport, \\N',
     city: 'North Weald',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Sheffield City Heliport, \\N',
     city: 'Fowlmere',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Cranfield Airport, \\N',
     city: 'Cranfield',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Exeter International Airport, EXT',
     city: 'Exeter',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'EXT'
   },
   {
     airport: 'Bristol Filton Airport, FZO',
     city: 'Bristol',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'FZO'
   },
   {
     airport: 'Oxford (Kidlington) Airport, OXF',
     city: 'Oxford',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'OXF'
   },
   {
     airport: 'RAF Benson, BEX',
     city: 'Benson',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BEX'
   },
   {
     airport: 'RAF Lakenheath, LKZ',
     city: 'Lakenheath',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LKZ'
   },
   {
     airport: 'RAF Mildenhall, MHZ',
     city: 'Mildenhall',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'MHZ'
   },
   {
     airport: 'RAF Wattisham, \\N',
     city: 'Wattisham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Wyton, QUY',
     city: 'Wyton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'QUY'
   },
   {
     airport: 'RAF Fairford, FFD',
     city: 'Fairford',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'FFD'
   },
   {
     airport: 'RAF Brize Norton, BZZ',
     city: 'Brize Norton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BZZ'
   },
   {
     airport: 'RAF Odiham, ODH',
     city: 'Odiham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ODH'
   },
   {
     airport: 'DCAE Cosford Air Base, \\N',
     city: 'Cosford',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Northolt, NHT',
     city: 'Northolt',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NHT'
   },
   {
     airport: 'RAF Coningsby, QCY',
     city: 'Coningsby',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'QCY'
   },
   {
     airport: 'RAF Dishforth, \\N',
     city: 'Dishforth',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Leeming Airport, \\N',
     city: 'Leeming',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Leeds East Airport, \\N',
     city: 'Church Fenton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Honington, BEQ',
     city: 'Honington',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BEQ'
   },
   {
     airport: 'RAF Cottesmore, \\N',
     city: 'Cottesmore',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Scampton, SQZ',
     city: 'Scampton',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SQZ'
   },
   {
     airport: 'RAF Wittering, \\N',
     city: 'Wittering',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Linton-On-Ouse, HRT',
     city: 'Linton-on-ouse',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'HRT'
   },
   {
     airport: 'RAF Waddington, WTN',
     city: 'Waddington',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'WTN'
   },
   {
     airport: 'RAF Topcliffe, \\N',
     city: 'Topcliffe',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Cranwell, \\N',
     city: 'Cranwell',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Barkston Heath, \\N',
     city: 'Barkston Heath',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Marham, KNF',
     city: 'Marham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'KNF'
   },
   {
@@ -12548,73 +12548,73 @@ export const airportData =[
   {
     airport: 'Abu Dhabi International Airport, AUH',
     city: 'Abu Dhabi',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'AUH'
   },
   {
     airport: 'Bateen Airport, AZI',
     city: 'Abu Dhabi',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'AZI'
   },
   {
     airport: 'Al Hamra Aux Airport, \\N',
     city: 'Al Hamra',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: '\\N'
   },
   {
     airport: 'Jebel Dhana Airport, \\N',
     city: 'Jebel Dhana',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: '\\N'
   },
   {
     airport: 'Al Dhafra Air Base, DHF',
     city: 'Abu Dhabi',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'DHF'
   },
   {
     airport: 'Arzanah Airport, \\N',
     city: 'Arzana',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: '\\N'
   },
   {
     airport: 'Das Island Airport, \\N',
     city: 'Das Island',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: '\\N'
   },
   {
     airport: 'Zirku Airport, \\N',
     city: 'Zirku',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: '\\N'
   },
   {
     airport: 'Dubai International Airport, DXB',
     city: 'Dubai',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'DXB'
   },
   {
     airport: 'Fujairah International Airport, FJR',
     city: 'Fujeirah',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'FJR'
   },
   {
     airport: 'Ras Al Khaimah International Airport, RKT',
     city: 'Ras Al Khaimah',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'RKT'
   },
   {
     airport: 'Sharjah International Airport, SHJ',
     city: 'Sharjah',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'SHJ'
   },
   {
@@ -19268,2839 +19268,2839 @@ export const airportData =[
   {
     airport: 'Barter Island LRRS Airport, BTI',
     city: 'Barter Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BTI'
   },
   {
     airport: 'Wainwright Air Station, \\N',
     city: 'Fort Wainwright',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Cape Lisburne LRRS Airport, LUR',
     city: 'Cape Lisburne',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LUR'
   },
   {
     airport: 'Point Lay LRRS Airport, PIZ',
     city: 'Point Lay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIZ'
   },
   {
     airport: 'Hilo International Airport, ITO',
     city: 'Hilo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ITO'
   },
   {
     airport: 'Orlando Executive Airport, ORL',
     city: 'Orlando',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ORL'
   },
   {
     airport: 'Bettles Airport, BTT',
     city: 'Bettles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BTT'
   },
   {
     airport: 'Clear Airport, \\N',
     city: 'Clear Mews',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Indian Mountain LRRS Airport, UTO',
     city: 'Indian Mountains',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UTO'
   },
   {
     airport: 'Fort Yukon Airport, FYU',
     city: 'Fort Yukon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FYU'
   },
   {
     airport: 'Sparrevohn LRRS Airport, SVW',
     city: 'Sparrevohn',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SVW'
   },
   {
     airport: 'Bryant Army Heliport, FRN',
     city: 'Fort Richardson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FRN'
   },
   {
     airport: 'Tatalina LRRS Airport, TLJ',
     city: 'Tatalina',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TLJ'
   },
   {
     airport: 'Cape Romanzof LRRS Airport, CZF',
     city: 'Cape Romanzof',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CZF'
   },
   {
     airport: 'Laurence G Hanscom Field, BED',
     city: 'Bedford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BED'
   },
   {
     airport: 'St Paul Island Airport, SNP',
     city: 'St. Paul Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SNP'
   },
   {
     airport: 'Cape Newenham LRRS Airport, EHM',
     city: 'Cape Newenham',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EHM'
   },
   {
     airport: 'St George Airport, STG',
     city: 'Point Barrow',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STG'
   },
   {
     airport: 'Iliamna Airport, ILI',
     city: 'Iliamna',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ILI'
   },
   {
     airport: 'Platinum Airport, PTU',
     city: 'Port Moller',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PTU'
   },
   {
     airport: 'Big Mountain Airport, BMX',
     city: 'Big Mountain',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BMX'
   },
   {
     airport: 'Oscoda Wurtsmith Airport, OSC',
     city: 'Oscoda',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OSC'
   },
   {
     airport: 'Marina Municipal Airport, OAR',
     city: 'Fort Ord',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OAR'
   },
   {
     airport: 'Sacramento Mather Airport, MHR',
     city: 'Sacramento',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MHR'
   },
   {
     airport: 'Bicycle Lake Army Air Field, BYS',
     city: 'Fort Irwin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BYS'
   },
   {
     airport: 'Twentynine Palms (Self) Airport, \\N',
     city: 'Twenty Nine Palms',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Fort Smith Regional Airport, FSM',
     city: 'Fort Smith',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FSM'
   },
   {
     airport: 'Merrill Field, MRI',
     city: 'Anchorage',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MRI'
   },
   {
     airport: 'Grants-Milan Municipal Airport, GNT',
     city: 'Grants',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GNT'
   },
   {
     airport: 'Ponca City Regional Airport, PNC',
     city: 'Ponca City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PNC'
   },
   {
     airport: 'Hunter Army Air Field, SVN',
     city: 'Hunter Aaf',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SVN'
   },
   {
     airport: 'Grand Forks International Airport, GFK',
     city: 'Grand Forks',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GFK'
   },
   {
     airport: 'Pine Bluff Regional Airport, Grider Field, PBF',
     city: 'Pine Bluff',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PBF'
   },
   {
     airport: 'Whiting Field Naval Air Station - North, NSE',
     city: 'Milton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NSE'
   },
   {
     airport: 'Hana Airport, HNM',
     city: 'Hana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HNM'
   },
   {
     airport: 'Ernest A. Love Field, PRC',
     city: 'Prescott',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PRC'
   },
   {
     airport: 'Trenton Mercer Airport, TTN',
     city: 'Trenton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TTN'
   },
   {
     airport: 'General Edward Lawrence Logan International Airport, BOS',
     city: 'Boston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BOS'
   },
   {
     airport: 'Travis Air Force Base, SUU',
     city: 'Fairfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SUU'
   },
   {
     airport: 'Griffiss International Airport, RME',
     city: 'Rome',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RME'
   },
   {
     airport: 'Wendover Airport, ENV',
     city: 'Wendover',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ENV'
   },
   {
     airport: 'Mobile Downtown Airport, BFM',
     city: 'Mobile',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFM'
   },
   {
     airport: 'Metropolitan Oakland International Airport, OAK',
     city: 'Oakland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OAK'
   },
   {
     airport: 'Eppley Airfield, OMA',
     city: 'Omaha',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OMA'
   },
   {
     airport: 'Port Angeles Cgas Airport, \\N',
     city: 'Port Angeles',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Kahului Airport, OGG',
     city: 'Kahului',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OGG'
   },
   {
     airport: 'Wichita Eisenhower National Airport, ICT',
     city: 'Wichita',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ICT'
   },
   {
     airport: 'Kansas City International Airport, MCI',
     city: 'Kansas City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCI'
   },
   {
     airport: 'Dane County Regional Truax Field, MSN',
     city: 'Madison',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSN'
   },
   {
     airport: 'Dillingham Airport, DLG',
     city: 'Dillingham',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DLG'
   },
   {
     airport: 'Boone County Airport, HRO',
     city: 'Harrison',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HRO'
   },
   {
     airport: 'Phoenix Sky Harbor International Airport, PHX',
     city: 'Phoenix',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PHX'
   },
   {
     airport: 'Bangor International Airport, BGR',
     city: 'Bangor',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BGR'
   },
   {
     airport: 'Fort Lauderdale Executive Airport, FXE',
     city: 'Fort Lauderdale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FXE'
   },
   {
     airport: 'East Texas Regional Airport, GGG',
     city: 'Longview',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GGG'
   },
   {
     airport: 'Anderson Regional Airport, AND',
     city: 'Andersen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AND'
   },
   {
     airport: 'Spokane International Airport, GEG',
     city: 'Spokane',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GEG'
   },
   {
     airport: 'North Perry Airport, HWO',
     city: 'Hollywood',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HWO'
   },
   {
     airport: 'San Francisco International Airport, SFO',
     city: 'San Francisco',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SFO'
   },
   {
     airport: 'Cut Bank International Airport, CTB',
     city: 'Cutbank',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CTB'
   },
   {
     airport: 'Acadiana Regional Airport, ARA',
     city: 'Louisiana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ARA'
   },
   {
     airport: 'Gainesville Regional Airport, GNV',
     city: 'Gainesville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GNV'
   },
   {
     airport: 'Memphis International Airport, MEM',
     city: 'Memphis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MEM'
   },
   {
     airport: 'Bisbee Douglas International Airport, DUG',
     city: 'Douglas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DUG'
   },
   {
     airport: 'Allen Army Airfield, BIG',
     city: 'Delta Junction',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BIG'
   },
   {
     airport: 'TSTC Waco Airport, CNW',
     city: 'Waco',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CNW'
   },
   {
     airport: 'Annette Island Airport, ANN',
     city: 'Annette Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANN'
   },
   {
     airport: 'Caribou Municipal Airport, CAR',
     city: 'Caribou',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CAR'
   },
   {
     airport: 'Little Rock Air Force Base, LRF',
     city: 'Jacksonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LRF'
   },
   {
     airport: 'Redstone Army Air Field, HUA',
     city: 'Redstone',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HUA'
   },
   {
     airport: 'Pope Field, POB',
     city: 'Fort Bragg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'POB'
   },
   {
     airport: 'Dalhart Municipal Airport, DHT',
     city: 'Dalhart',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DHT'
   },
   {
     airport: 'DLF Airport, DLF',
     city: 'Del Rio',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DLF'
   },
   {
     airport: 'Los Angeles International Airport, LAX',
     city: 'Los Angeles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAX'
   },
   {
     airport: 'Anniston Regional Airport, ANB',
     city: 'Anniston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANB'
   },
   {
     airport: 'Cleveland Hopkins International Airport, CLE',
     city: 'Cleveland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLE'
   },
   {
     airport: 'Dover Air Force Base, DOV',
     city: 'Dover',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DOV'
   },
   {
     airport: 'Cincinnati Northern Kentucky International Airport, CVG',
     city: 'Cincinnati',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CVG'
   },
   {
     airport: 'Tipton Airport, FME',
     city: 'Fort Meade',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FME'
   },
   {
     airport: 'China Lake Naws (Armitage Field) Airport, \\N',
     city: 'China Lake',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Huron Regional Airport, HON',
     city: 'Huron',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HON'
   },
   {
     airport: 'Juneau International Airport, JNU',
     city: 'Juneau',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JNU'
   },
   {
     airport: 'Lafayette Regional Airport, LFT',
     city: 'Lafayette',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LFT'
   },
   {
     airport: 'Newark Liberty International Airport, EWR',
     city: 'Newark',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EWR'
   },
   {
     airport: 'Boise Air Terminal/Gowen Field, BOI',
     city: 'Boise',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BOI'
   },
   {
     airport: 'Creech Air Force Base, INS',
     city: 'Indian Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'INS'
   },
   {
     airport: 'Garden City Regional Airport, GCK',
     city: 'Garden City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GCK'
   },
   {
     airport: 'Minot International Airport, MOT',
     city: 'Minot',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MOT'
   },
   {
     airport: 'Wheeler Army Airfield, HHI',
     city: 'Wahiawa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HHI'
   },
   {
     airport: 'Maxwell Air Force Base, MXF',
     city: 'Montgomery',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MXF'
   },
   {
     airport: 'Robinson Army Air Field, \\N',
     city: 'Robinson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Dallas Love Field, DAL',
     city: 'Dallas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DAL'
   },
   {
     airport: 'Butts AAF (Fort Carson) Air Field, FCS',
     city: 'Fort Carson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FCS'
   },
   {
     airport: 'Helena Regional Airport, HLN',
     city: 'Helena',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HLN'
   },
   {
     airport: 'Miramar Marine Corps Air Station - Mitscher Field, NKX',
     city: 'Miramar',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NKX'
   },
   {
     airport: 'Luke Air Force Base, LUF',
     city: 'Phoenix',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LUF'
   },
   {
     airport: 'Hurlburt Field, \\N',
     city: 'Mary Esther',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jack Northrop Field Hawthorne Municipal Airport, HHR',
     city: 'Hawthorne',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HHR'
   },
   {
     airport: 'Houlton International Airport, HUL',
     city: 'Houlton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HUL'
   },
   {
     airport: 'Vance Air Force Base, END',
     city: 'Enid',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'END'
   },
   {
     airport: 'Point Mugu Naval Air Station (Naval Base Ventura Co), NTD',
     city: 'Point Mugu',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NTD'
   },
   {
     airport: 'Edwards Air Force Base, EDW',
     city: 'Edwards Afb',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EDW'
   },
   {
     airport: 'Lake Charles Regional Airport, LCH',
     city: 'Lake Charles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LCH'
   },
   {
     airport: 'Ellison Onizuka Kona International At Keahole Airport, KOA',
     city: 'Kona',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KOA'
   },
   {
     airport: 'Myrtle Beach International Airport, MYR',
     city: 'Myrtle Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MYR'
   },
   {
     airport: 'Lemoore Naval Air Station (Reeves Field) Airport, NLC',
     city: 'Lemoore',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NLC'
   },
   {
     airport: 'Nantucket Memorial Airport, ACK',
     city: 'Nantucket',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ACK'
   },
   {
     airport: 'Felker Army Air Field, FAF',
     city: 'Fort Eustis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FAF'
   },
   {
     airport: 'Campbell AAF (Fort Campbell) Air Field, HOP',
     city: 'Hopkinsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HOP'
   },
   {
     airport: 'Ronald Reagan Washington National Airport, DCA',
     city: 'Washington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DCA'
   },
   {
     airport: 'Patuxent River Naval Air Station (Trapnell Field), NHK',
     city: 'Patuxent River',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NHK'
   },
   {
     airport: 'Palacios Municipal Airport, PSX',
     city: 'Palacios',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PSX'
   },
   {
     airport: 'Arkansas International Airport, BYH',
     city: 'Blytheville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BYH'
   },
   {
     airport: 'Atlantic City International Airport, ACY',
     city: 'Atlantic City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ACY'
   },
   {
     airport: 'Tinker Air Force Base, TIK',
     city: 'Oklahoma City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TIK'
   },
   {
     airport: 'Elizabeth City Regional Airport & Coast Guard Air Station, ECG',
     city: 'Elizabeth City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ECG'
   },
   {
     airport: 'Pueblo Memorial Airport, PUB',
     city: 'Pueblo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PUB'
   },
   {
     airport: 'Northern Maine Regional Airport at Presque Isle, PQI',
     city: 'Presque Isle',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PQI'
   },
   {
     airport: 'Gray Army Air Field, GRF',
     city: 'Fort Lewis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GRF'
   },
   {
     airport: 'Kodiak Airport, ADQ',
     city: 'Kodiak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ADQ'
   },
   {
     airport: 'Upolu Airport, UPP',
     city: 'Opolu',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UPP'
   },
   {
     airport: 'Fort Lauderdale Hollywood International Airport, FLL',
     city: 'Fort Lauderdale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FLL'
   },
   {
     airport: 'Muskogee-Davis Regional Airport, \\N',
     city: 'Muskogee',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Falls International Airport, INL',
     city: 'International Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'INL'
   },
   {
     airport: 'Salt Lake City International Airport, SLC',
     city: 'Salt Lake City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SLC'
   },
   {
     airport: 'Childress Municipal Airport, CDS',
     city: 'Childress',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDS'
   },
   {
     airport: 'Keesler Air Force Base, BIX',
     city: 'Biloxi',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BIX'
   },
   {
     airport: 'Lawson Army Air Field (Fort Benning), LSF',
     city: 'Fort Benning',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LSF'
   },
   {
     airport: 'Kingsville Naval Air Station, NQI',
     city: 'Kingsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NQI'
   },
   {
     airport: 'Marshall Army Air Field, FRI',
     city: 'Fort Riley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FRI'
   },
   {
     airport: 'Harrisburg International Airport, MDT',
     city: 'Harrisburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MDT'
   },
   {
     airport: 'Lincoln Airport, LNK',
     city: 'Lincoln',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LNK'
   },
   {
     airport: 'Capital City Airport, LAN',
     city: 'Lansing',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAN'
   },
   {
     airport: 'Waimea Kohala Airport, MUE',
     city: 'Kamuela',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MUE'
   },
   {
     airport: 'Massena International Richards Field, MSS',
     city: 'Massena',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSS'
   },
   {
     airport: 'Hickory Regional Airport, HKY',
     city: 'Hickory',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HKY'
   },
   {
     airport: 'Albert Whitted Airport, SPG',
     city: 'St. Petersburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SPG'
   },
   {
     airport: 'Page Field, FMY',
     city: 'Fort Myers',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FMY'
   },
   {
     airport: 'George Bush Intercontinental Houston Airport, IAH',
     city: 'Houston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IAH'
   },
   {
     airport: 'Millinocket Municipal Airport, \\N',
     city: 'Millinocket',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Joint Base Andrews, ADW',
     city: 'Camp Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ADW'
   },
   {
     airport: 'Smith Reynolds Airport, INT',
     city: 'Winston-salem',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'INT'
   },
   {
     airport: 'Southern California Logistics Airport, VCV',
     city: 'Victorville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VCV'
   },
   {
     airport: 'Bob Sikes Airport, CEW',
     city: 'Crestview',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CEW'
   },
   {
     airport: 'Wheeler Sack Army Air Field, \\N',
     city: 'Fort Drum',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'St Clair County International Airport, PHN',
     city: 'Port Huron',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PHN'
   },
   {
     airport: 'Meadows Field, BFL',
     city: 'Bakersfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFL'
   },
   {
     airport: 'El Paso International Airport, ELP',
     city: 'El Paso',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ELP'
   },
   {
     airport: 'Valley International Airport, HRL',
     city: 'Harlingen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HRL'
   },
   {
     airport: 'Columbia Metropolitan Airport, CAE',
     city: 'Columbia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CAE'
   },
   {
     airport: 'Davis Monthan Air Force Base, DMA',
     city: 'Tucson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DMA'
   },
   {
     airport: 'Pensacola Naval Air Station/Forrest Sherman Field, NPA',
     city: 'Pensacola',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NPA'
   },
   {
     airport: 'Pensacola Regional Airport, PNS',
     city: 'Pensacola',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PNS'
   },
   {
     airport: 'Grand Forks Air Force Base, RDR',
     city: 'Red River',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RDR'
   },
   {
     airport: 'William P Hobby Airport, HOU',
     city: 'Houston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HOU'
   },
   {
     airport: 'Buckley Air Force Base, BFK',
     city: 'Buckley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFK'
   },
   {
     airport: 'Northway Airport, ORT',
     city: 'Northway',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ORT'
   },
   {
     airport: 'Warren "Bud" Woods Palmer Municipal Airport, PAQ',
     city: 'Palmer',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PAQ'
   },
   {
     airport: 'Pittsburgh International Airport, PIT',
     city: 'Pittsburgh',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIT'
   },
   {
     airport: 'Wiley Post Will Rogers Memorial Airport, BRW',
     city: 'Barrow',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BRW'
   },
   {
     airport: 'Ellington Airport, EFD',
     city: 'Houston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EFD'
   },
   {
     airport: 'Whidbey Island Naval Air Station (Ault Field), NUW',
     city: 'Whidbey Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NUW'
   },
   {
     airport: 'Alice International Airport, ALI',
     city: 'Alice',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALI'
   },
   {
     airport: 'Moody Air Force Base, VAD',
     city: 'Valdosta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VAD'
   },
   {
     airport: 'Miami International Airport, MIA',
     city: 'Miami',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MIA'
   },
   {
     airport: 'Seattle Tacoma International Airport, SEA',
     city: 'Seattle',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SEA'
   },
   {
     airport: 'Lovell Field, CHA',
     city: 'Chattanooga',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CHA'
   },
   {
     airport: 'Igor I Sikorsky Memorial Airport, BDR',
     city: 'Stratford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BDR'
   },
   {
     airport: 'Jackson-Medgar Wiley Evers International Airport, JAN',
     city: 'Jackson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JAN'
   },
   {
     airport: 'Scholes International At Galveston Airport, GLS',
     city: 'Galveston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GLS'
   },
   {
     airport: 'Long Beach /Daugherty Field/ Airport, LGB',
     city: 'Long Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LGB'
   },
   {
     airport: 'Dillingham Airfield, HDH',
     city: 'Dillingham',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HDH'
   },
   {
     airport: 'Williamsport Regional Airport, IPT',
     city: 'Williamsport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IPT'
   },
   {
     airport: 'Indianapolis International Airport, IND',
     city: 'Indianapolis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IND'
   },
   {
     airport: 'Whiteman Air Force Base, SZL',
     city: 'Knobnoster',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SZL'
   },
   {
     airport: 'Akron Fulton International Airport, AKC',
     city: 'Akron',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKC'
   },
   {
     airport: 'Greenwood–Leflore Airport, GWO',
     city: 'Greenwood',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GWO'
   },
   {
     airport: 'Westchester County Airport, HPN',
     city: 'White Plains',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HPN'
   },
   {
     airport: 'Francis S Gabreski Airport, FOK',
     city: 'West Hampton Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FOK'
   },
   {
     airport: 'Jonesboro Municipal Airport, JBR',
     city: 'Jonesboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JBR'
   },
   {
     airport: 'Tonopah Test Range Airport, XSD',
     city: 'Tonopah',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'XSD'
   },
   {
     airport: 'Palm Beach County Park Airport, LNA',
     city: 'West Palm Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LNA'
   },
   {
     airport: 'North Island Naval Air Station-Halsey Field, NZY',
     city: 'San Diego',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NZY'
   },
   {
     airport: 'Biggs Army Air Field (Fort Bliss), BIF',
     city: 'El Paso',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BIF'
   },
   {
     airport: 'Yuma MCAS/Yuma International Airport, YUM',
     city: 'Yuma',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'YUM'
   },
   {
     airport: 'Cavern City Air Terminal, CNM',
     city: 'Carlsbad',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CNM'
   },
   {
     airport: 'Duluth International Airport, DLH',
     city: 'Duluth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DLH'
   },
   {
     airport: 'Bethel Airport, BET',
     city: 'Bethel',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BET'
   },
   {
     airport: 'Bowman Field, LOU',
     city: 'Louisville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LOU'
   },
   {
     airport: 'Sierra Vista Municipal Libby Army Air Field, FHU',
     city: 'Fort Huachuca',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FHU'
   },
   {
     airport: 'Lihue Airport, LIH',
     city: 'Lihue',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LIH'
   },
   {
     airport: 'Terre Haute Regional Airport, Hulman Field, HUF',
     city: 'Terre Haute',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HUF'
   },
   {
     airport: 'Havre City County Airport, HVR',
     city: 'Havre',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HVR'
   },
   {
     airport: 'Grant County International Airport, MWH',
     city: 'Grant County Airport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MWH'
   },
   {
     airport: 'Edward F Knapp State Airport, MPV',
     city: 'Montpelier',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MPV'
   },
   {
     airport: 'San Nicolas Island Nolf Airport, \\N',
     city: 'San Nicolas Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Richmond International Airport, RIC',
     city: 'Richmond',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RIC'
   },
   {
     airport: 'Shreveport Regional Airport, SHV',
     city: 'Shreveport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHV'
   },
   {
     airport: 'Merle K (Mudhole) Smith Airport, CDV',
     city: 'Cordova',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDV'
   },
   {
     airport: 'Norfolk International Airport, ORF',
     city: 'Norfolk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ORF'
   },
   {
     airport: 'Southeast Texas Regional Airport, BPT',
     city: 'Beaumont',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BPT'
   },
   {
     airport: 'Savannah Hilton Head International Airport, SAV',
     city: 'Savannah',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAV'
   },
   {
     airport: 'Hill Air Force Base, HIF',
     city: 'Ogden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HIF'
   },
   {
     airport: 'Nome Airport, OME',
     city: 'Nome',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OME'
   },
   {
     airport: 'Scappoose Industrial Airpark, \\N',
     city: 'San Luis',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'St Petersburg Clearwater International Airport, PIE',
     city: 'St. Petersburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIE'
   },
   {
     airport: 'Menominee Regional Airport, MNM',
     city: 'Macon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MNM'
   },
   {
     airport: 'Conroe-North Houston Regional Airport, CXO',
     city: 'Conroe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CXO'
   },
   {
     airport: 'Deadhorse Airport, SCC',
     city: 'Deadhorse',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SCC'
   },
   {
     airport: 'San Antonio International Airport, SAT',
     city: 'San Antonio',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAT'
   },
   {
     airport: 'Greater Rochester International Airport, ROC',
     city: 'Rochester',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ROC'
   },
   {
     airport: 'Patrick Air Force Base, COF',
     city: 'Coco Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'COF'
   },
   {
     airport: 'Teterboro Airport, TEB',
     city: 'Teterboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TEB'
   },
   {
     airport: 'Ellsworth Air Force Base, RCA',
     city: 'Rapid City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RCA'
   },
   {
     airport: 'Raleigh Durham International Airport, RDU',
     city: 'Raleigh-durham',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RDU'
   },
   {
     airport: 'James M Cox Dayton International Airport, DAY',
     city: 'Dayton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DAY'
   },
   {
     airport: 'Kenai Municipal Airport, ENA',
     city: 'Kenai',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ENA'
   },
   {
     airport: 'Mc Alester Regional Airport, MLC',
     city: 'Mcalester',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLC'
   },
   {
     airport: 'Niagara Falls International Airport, IAG',
     city: 'Niagara Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IAG'
   },
   {
     airport: 'Coulter Field, CFD',
     city: 'Bryan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CFD'
   },
   {
     airport: 'Wright AAF (Fort Stewart)/Midcoast Regional Airport, LIY',
     city: 'Wright',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LIY'
   },
   {
     airport: 'Newport News Williamsburg International Airport, PHF',
     city: 'Newport News',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PHF'
   },
   {
     airport: 'Esler Regional Airport, ESF',
     city: 'Alexandria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ESF'
   },
   {
     airport: 'Altus Air Force Base, LTS',
     city: 'Altus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LTS'
   },
   {
     airport: 'Tucson International Airport, TUS',
     city: 'Tucson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TUS'
   },
   {
     airport: 'Minot Air Force Base, MIB',
     city: 'Minot',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MIB'
   },
   {
     airport: 'Beale Air Force Base, BAB',
     city: 'Marysville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BAB'
   },
   {
     airport: 'Greater Kankakee Airport, IKK',
     city: 'Kankakee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IKK'
   },
   {
     airport: 'Seymour Johnson Air Force Base, GSB',
     city: 'Goldsboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GSB'
   },
   {
     airport: 'Theodore Francis Green State Airport, PVD',
     city: 'Providence',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PVD'
   },
   {
     airport: 'Salisbury Ocean City Wicomico Regional Airport, SBY',
     city: 'Salisbury',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBY'
   },
   {
     airport: 'Rancho Murieta Airport, \\N',
     city: 'Rancho Murieta',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Bob Hope Airport, BUR',
     city: 'Burbank',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BUR'
   },
   {
     airport: 'Detroit Metropolitan Wayne County Airport, DTW',
     city: 'Detroit',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DTW'
   },
   {
     airport: 'Tampa International Airport, TPA',
     city: 'Tampa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TPA'
   },
   {
     airport: 'Pembina Municipal Airport, PMB',
     city: 'Pembina',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PMB'
   },
   {
     airport: 'Polk Army Air Field, POE',
     city: 'Fort Polk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'POE'
   },
   {
     airport: 'Eielson Air Force Base, EIL',
     city: 'Fairbanks',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EIL'
   },
   {
     airport: 'Range Regional Airport, HIB',
     city: 'Hibbing',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HIB'
   },
   {
     airport: 'Angelina County Airport, LFK',
     city: 'Lufkin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LFK'
   },
   {
     airport: 'Midland International Airport, MAF',
     city: 'Midland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MAF'
   },
   {
     airport: 'Austin Straubel International Airport, GRB',
     city: 'Green Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GRB'
   },
   {
     airport: 'Ardmore Municipal Airport, ADM',
     city: 'Ardmore',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ADM'
   },
   {
     airport: 'Mc Guire Air Force Base, WRI',
     city: 'Wrightstown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WRI'
   },
   {
     airport: 'Cherry Point MCAS /Cunningham Field/, \\N',
     city: 'Cherry Point',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Emanuel County Airport, \\N',
     city: 'Santa Barbara',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Augusta Regional At Bush Field, AGS',
     city: 'Bush Field',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AGS'
   },
   {
     airport: 'Sloulin Field International Airport, ISN',
     city: 'Williston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ISN'
   },
   {
     airport: 'Bill & Hillary Clinton National Airport/Adams Field, LIT',
     city: 'Little Rock',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LIT'
   },
   {
     airport: 'Stewart International Airport, SWF',
     city: 'Newburgh',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SWF'
   },
   {
     airport: 'Baudette International Airport, BDE',
     city: 'Baudette',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BDE'
   },
   {
     airport: 'Sacramento Executive Airport, SAC',
     city: 'Sacramento',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAC'
   },
   {
     airport: 'Homer Airport, HOM',
     city: 'Homer',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HOM'
   },
   {
     airport: 'Waynesville-St. Robert Regional Forney field, TBN',
     city: 'Fort Leonardwood',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TBN'
   },
   {
     airport: 'Dobbins Air Reserve Base, MGE',
     city: 'Marietta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MGE'
   },
   {
     airport: 'Fairchild Air Force Base, SKA',
     city: 'Spokane',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SKA'
   },
   {
     airport: 'Roscommon County - Blodgett Memorial Airport, HTL',
     city: 'Houghton Lake',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HTL'
   },
   {
     airport: 'Tyndall Air Force Base, PAM',
     city: 'Panama City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PAM'
   },
   {
     airport: 'Dallas Fort Worth International Airport, DFW',
     city: 'Dallas-Fort Worth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DFW'
   },
   {
     airport: 'Melbourne International Airport, MLB',
     city: 'Melbourne',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLB'
   },
   {
     airport: 'McChord Air Force Base, TCM',
     city: 'Tacoma',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TCM'
   },
   {
     airport: 'Austin Bergstrom International Airport, AUS',
     city: 'Austin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AUS'
   },
   {
     airport: 'Rickenbacker International Airport, LCK',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LCK'
   },
   {
     airport: 'Sawyer International Airport, MQT',
     city: 'Gwinn',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MQT'
   },
   {
     airport: 'McGhee Tyson Airport, TYS',
     city: 'Knoxville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TYS'
   },
   {
     airport: 'Hood Army Air Field, HLR',
     city: 'Fort Hood',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HLR'
   },
   {
     airport: 'St Louis Lambert International Airport, STL',
     city: 'St. Louis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STL'
   },
   {
     airport: 'Millville Municipal Airport, MIV',
     city: 'Millville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MIV'
   },
   {
     airport: 'Sheppard Air Force Base-Wichita Falls Municipal Airport, SPS',
     city: 'Wichita Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SPS'
   },
   {
     airport: 'Cincinnati Municipal Airport Lunken Field, LUK',
     city: 'Cincinnati',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LUK'
   },
   {
     airport: 'Hartsfield Jackson Atlanta International Airport, ATL',
     city: 'Atlanta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ATL'
   },
   {
     airport: 'Castle Airport, MER',
     city: 'Merced',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MER'
   },
   {
     airport: 'Mc Clellan Airfield, MCC',
     city: 'Sacramento',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCC'
   },
   {
     airport: 'Gerald R. Ford International Airport, GRR',
     city: 'Grand Rapids',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GRR'
   },
   {
     airport: 'Winkler County Airport, INK',
     city: 'Wink',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'INK'
   },
   {
     airport: 'Fresno Yosemite International Airport, FAT',
     city: 'Fresno',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FAT'
   },
   {
     airport: 'Vero Beach Regional Airport, VRB',
     city: 'Vero Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VRB'
   },
   {
     airport: 'Imperial County Airport, IPL',
     city: 'Imperial',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IPL'
   },
   {
     airport: 'Nashville International Airport, BNA',
     city: 'Nashville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BNA'
   },
   {
     airport: 'Laredo International Airport, LRD',
     city: 'Laredo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LRD'
   },
   {
     airport: 'Elmendorf Air Force Base, EDF',
     city: 'Anchorage',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EDF'
   },
   {
     airport: 'Ralph Wien Memorial Airport, OTZ',
     city: 'Kotzebue',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OTZ'
   },
   {
     airport: 'Altoona Blair County Airport, AOO',
     city: 'Altoona',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AOO'
   },
   {
     airport: 'Dyess Air Force Base, DYS',
     city: 'Abilene',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DYS'
   },
   {
     airport: 'South Arkansas Regional At Goodwin Field, ELD',
     city: 'El Dorado',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ELD'
   },
   {
     airport: 'La Guardia Airport, LGA',
     city: 'New York',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LGA'
   },
   {
     airport: 'Tallahassee Regional Airport, TLH',
     city: 'Tallahassee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TLH'
   },
   {
     airport: 'Dupage Airport, DPA',
     city: 'West Chicago',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DPA'
   },
   {
     airport: 'Waco Regional Airport, ACT',
     city: 'Waco',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ACT'
   },
   {
     airport: 'Augusta State Airport, AUG',
     city: 'Augusta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AUG'
   },
   {
     airport: 'Hillsboro Municipal Airport, \\N',
     city: 'Hillsboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jacksonville Naval Air Station (Towers Field), NIP',
     city: 'Jacksonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NIP'
   },
   {
     airport: 'McKellar-Sipes Regional Airport, MKL',
     city: 'Jackson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MKL'
   },
   {
     airport: 'Molokai Airport, MKK',
     city: 'Molokai',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MKK'
   },
   {
     airport: 'Godman Army Air Field, FTK',
     city: 'Fort Knox',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FTK'
   },
   {
     airport: 'New River MCAS /H/ /Mccutcheon Fld/ Airport, \\N',
     city: 'Jacksonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'San Angelo Regional Mathis Field, SJT',
     city: 'San Angelo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SJT'
   },
   {
     airport: 'Calexico International Airport, CXL',
     city: 'Calexico',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CXL'
   },
   {
     airport: 'Chico Municipal Airport, CIC',
     city: 'Chico',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CIC'
   },
   {
     airport: 'Burlington International Airport, BTV',
     city: 'Burlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BTV'
   },
   {
     airport: 'Jacksonville International Airport, JAX',
     city: 'Jacksonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JAX'
   },
   {
     airport: 'Durango La Plata County Airport, DRO',
     city: 'Durango',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DRO'
   },
   {
     airport: 'Washington Dulles International Airport, IAD',
     city: 'Washington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IAD'
   },
   {
     airport: 'Easterwood Field, CLL',
     city: 'College Station',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLL'
   },
   {
     airport: 'Felts Field, SFF',
     city: 'Spokane',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SFF'
   },
   {
     airport: 'General Mitchell International Airport, MKE',
     city: 'Milwaukee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MKE'
   },
   {
     airport: 'Abilene Regional Airport, ABI',
     city: 'Abilene',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ABI'
   },
   {
     airport: 'Columbia Regional Airport, COU',
     city: 'Columbia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'COU'
   },
   {
     airport: 'Portland International Airport, PDX',
     city: 'Portland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PDX'
   },
   {
     airport: 'Dade Collier Training and Transition Airport, TNT',
     city: 'Miami',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TNT'
   },
   {
     airport: 'Palm Beach International Airport, PBI',
     city: 'West Palm Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PBI'
   },
   {
     airport: 'Fort Worth Meacham International Airport, FTW',
     city: 'Fort Worth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FTW'
   },
   {
     airport: 'Ogdensburg International Airport, OGS',
     city: 'Ogdensburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OGS'
   },
   {
     airport: 'Cape Cod Coast Guard Air Station, FMH',
     city: 'Falmouth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FMH'
   },
   {
     airport: 'Boeing Field King County International Airport, BFI',
     city: 'Seattle',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFI'
   },
   {
     airport: 'Lackland Air Force Base, SKF',
     city: 'San Antonio',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SKF'
   },
   {
     airport: 'Daniel K Inouye International Airport, HNL',
     city: 'Honolulu',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HNL'
   },
   {
     airport: 'Des Moines International Airport, DSM',
     city: 'Des Moines',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DSM'
   },
   {
     airport: 'Coastal Carolina Regional Airport, EWN',
     city: 'New Bern',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EWN'
   },
   {
     airport: 'San Diego International Airport, SAN',
     city: 'San Diego',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAN'
   },
   {
     airport: 'Monroe Regional Airport, MLU',
     city: 'Monroe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLU'
   },
   {
     airport: 'Shaw Air Force Base, SSC',
     city: 'Sumter',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SSC'
   },
   {
     airport: 'Ontario International Airport, ONT',
     city: 'Ontario',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ONT'
   },
   {
     airport: 'Majors Airport, GVT',
     city: 'Greenvile',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GVT'
   },
   {
     airport: 'Roswell International Air Center Airport, ROW',
     city: 'Roswell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ROW'
   },
   {
     airport: 'Coleman A. Young Municipal Airport, DET',
     city: 'Detroit',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DET'
   },
   {
     airport: 'Brownsville South Padre Island International Airport, BRO',
     city: 'Brownsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BRO'
   },
   {
     airport: 'Dothan Regional Airport, DHN',
     city: 'Dothan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DHN'
   },
   {
     airport: 'Cape May County Airport, WWD',
     city: 'Wildwood',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WWD'
   },
   {
     airport: 'Fallon Naval Air Station, NFL',
     city: 'Fallon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NFL'
   },
   {
     airport: 'Selfridge Air National Guard Base Airport, MTC',
     city: 'Mount Clemens',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MTC'
   },
   {
     airport: 'Four Corners Regional Airport, FMN',
     city: 'Farmington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FMN'
   },
   {
     airport: 'Corpus Christi International Airport, CRP',
     city: 'Corpus Christi',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CRP'
   },
   {
     airport: 'Syracuse Hancock International Airport, SYR',
     city: 'Syracuse',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SYR'
   },
   {
     airport: 'Naval Air Station Key West/Boca Chica Field, NQX',
     city: 'Key West',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NQX'
   },
   {
     airport: 'Chicago Midway International Airport, MDW',
     city: 'Chicago',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MDW'
   },
   {
     airport: 'Norman Y. Mineta San Jose International Airport, SJC',
     city: 'San Jose',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SJC'
   },
   {
     airport: 'Lea County Regional Airport, HOB',
     city: 'Hobbs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HOB'
   },
   {
     airport: 'Northeast Philadelphia Airport, PNE',
     city: 'Philadelphia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PNE'
   },
   {
     airport: 'Denver International Airport, DEN',
     city: 'Denver',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DEN'
   },
   {
     airport: 'Philadelphia International Airport, PHL',
     city: 'Philadelphia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PHL'
   },
   {
     airport: 'Sioux Gateway Col. Bud Day Field, SUX',
     city: 'Sioux City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SUX'
   },
   {
     airport: 'Middle Georgia Regional Airport, MCN',
     city: 'Macon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCN'
   },
   {
     airport: 'Truth Or Consequences Municipal Airport, TCS',
     city: 'Truth Or Consequences',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TCS'
   },
   {
     airport: 'Palmdale Regional/USAF Plant 42 Airport, PMD',
     city: 'Palmdale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PMD'
   },
   {
     airport: 'Randolph Air Force Base, RND',
     city: 'San Antonio',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RND'
   },
   {
     airport: 'El Centro NAF Airport (Vraciu Field), NJK',
     city: 'El Centro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NJK'
   },
   {
     airport: 'John Glenn Columbus International Airport, CMH',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CMH'
   },
   {
     airport: 'Drake Field, FYV',
     city: 'Fayetteville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FYV'
   },
   {
     airport: 'Henry Post Army Air Field (Fort Sill), FSI',
     city: 'Fort Sill',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FSI'
   },
   {
     airport: 'Princeton Municipal Airport, \\N',
     city: 'Princeton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Wright-Patterson Air Force Base, FFO',
     city: 'Dayton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FFO'
   },
   {
     airport: 'Edward G. Pitka Sr Airport, GAL',
     city: 'Galena',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GAL'
   },
   {
     airport: 'Chandler Municipal Airport, \\N',
     city: 'Chandler',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Mineral Wells Airport, MWL',
     city: 'Mineral Wells',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MWL'
   },
   {
     airport: 'Mc Connell Air Force Base, IAB',
     city: 'Wichita',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IAB'
   },
   {
     airport: 'New Orleans NAS JRB/Alvin Callender Field, NBG',
     city: 'New Orleans',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NBG'
   },
   {
     airport: 'Beaufort County Airport, BFT',
     city: 'Beaufort',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFT'
   },
   {
     airport: 'Texarkana Regional Webb Field, TXK',
     city: 'Texarkana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TXK'
   },
   {
     airport: 'Plattsburgh International Airport, PBG',
     city: 'Plattsburgh',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PBG'
   },
   {
     airport: 'Phillips Army Air Field, APG',
     city: 'Aberdeen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'APG'
   },
   {
     airport: 'Tucumcari Municipal Airport, TCC',
     city: 'Tucumcari',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TCC'
   },
   {
     airport: 'Ted Stevens Anchorage International Airport, ANC',
     city: 'Anchorage',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANC'
   },
   {
     airport: 'Robert Gray  Army Air Field Airport, GRK',
     city: 'Killeen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GRK'
   },
   {
     airport: 'Black Rock Airport, \\N',
     city: 'Zuni Pueblo',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Bellingham International Airport, BLI',
     city: 'Bellingham',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BLI'
   },
   {
     airport: 'Millington-Memphis Airport, NQA',
     city: 'Millington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NQA'
   },
   {
     airport: 'Elkins-Randolph Co-Jennings Randolph Field, EKN',
     city: 'Elkins',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EKN'
   },
   {
     airport: 'Hartford Brainard Airport, HFD',
     city: 'Hartford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HFD'
   },
   {
     airport: 'North Central State Airport, SFZ',
     city: 'Smithfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SFZ'
   },
   {
     airport: 'Mobile Regional Airport, MOB',
     city: 'Mobile',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MOB'
   },
   {
     airport: 'Moffett Federal Airfield, NUQ',
     city: 'Mountain View',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NUQ'
   },
   {
     airport: 'Santa Fe Municipal Airport, SAF',
     city: 'Santa Fe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAF'
   },
   {
     airport: 'Barking Sands Airport, BKH',
     city: 'Barking Sands',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKH'
   },
   {
     airport: 'Beauregard Regional Airport, DRI',
     city: 'Deridder',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DRI'
   },
   {
     airport: 'Bradshaw Army Airfield, BSF',
     city: 'Bradshaw Field',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BSF'
   },
   {
     airport: 'Nogales International Airport, OLS',
     city: 'Nogales',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OLS'
   },
   {
     airport: 'Mac Dill Air Force Base, MCF',
     city: 'Tampa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCF'
   },
   {
     airport: 'Scott AFB/Midamerica Airport, BLV',
     city: 'Belleville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BLV'
   },
   {
     airport: 'Opa-locka Executive Airport, OPF',
     city: 'Miami',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OPF'
   },
   {
     airport: 'Del Rio International Airport, DRT',
     city: 'Del Rio',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DRT'
   },
   {
     airport: 'Southwest Florida International Airport, RSW',
     city: 'Fort Myers',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RSW'
   },
   {
     airport: 'King Salmon Airport, AKN',
     city: 'King Salmon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKN'
   },
   {
     airport: 'Muir Army Air Field (Fort Indiantown Gap) Airport, MUI',
     city: 'Muir',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MUI'
   },
   {
     airport: 'Kapalua Airport, JHM',
     city: 'Lahania-kapalua',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JHM'
   },
   {
     airport: 'John F Kennedy International Airport, JFK',
     city: 'New York',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JFK'
   },
   {
     airport: 'Homestead ARB Airport, HST',
     city: 'Homestead',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HST'
   },
   {
     airport: 'Riverside Municipal Airport, RAL',
     city: 'Riverside',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RAL'
   },
   {
     airport: 'Sherman Army Air Field, FLV',
     city: 'Fort Leavenworth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FLV'
   },
   {
     airport: 'Wallops Flight Facility Airport, WAL',
     city: 'Wallops Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WAL'
   },
   {
     airport: 'Holloman Air Force Base, HMN',
     city: 'Alamogordo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HMN'
   },
   {
     airport: 'Willow Grove Naval Air Station/Joint Reserve Base, NXX',
     city: 'Willow Grove',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NXX'
   },
   {
     airport: 'Cheyenne Regional Jerry Olson Field, CYS',
     city: 'Cheyenne',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CYS'
   },
   {
     airport: 'Stockton Metropolitan Airport, SCK',
     city: 'Stockton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SCK'
   },
   {
     airport: 'Charleston Air Force Base-International Airport, CHS',
     city: 'Charleston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CHS'
   },
   {
     airport: 'Reno Tahoe International Airport, RNO',
     city: 'Reno',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RNO'
   },
   {
     airport: 'Ketchikan International Airport, KTN',
     city: 'Ketchikan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KTN'
   },
   {
     airport: 'Willow Run Airport, YIP',
     city: 'Detroit',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'YIP'
   },
   {
     airport: 'Vandenberg Air Force Base, VBG',
     city: 'Lompoc',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VBG'
   },
   {
     airport: 'Birmingham-Shuttlesworth International Airport, BHM',
     city: 'Birmingham',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BHM'
   },
   {
     airport: 'Lakehurst Maxfield Field Airport, NEL',
     city: 'Lakehurst',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NEL'
   },
   {
     airport: 'Eareckson Air Station, SYA',
     city: 'Shemya',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SYA'
   },
   {
     airport: 'Nellis Air Force Base, LSV',
     city: 'Las Vegas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LSV'
   },
   {
     airport: 'March ARB Airport, RIV',
     city: 'Riverside',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RIV'
   },
   {
     airport: 'Modesto City Co-Harry Sham Field, MOD',
     city: 'Modesto',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MOD'
   },
   {
     airport: 'Sacramento International Airport, SMF',
     city: 'Sacramento',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SMF'
   },
   {
     airport: 'Waukegan National Airport, UGN',
     city: 'Chicago',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UGN'
   },
   {
     airport: 'City of Colorado Springs Municipal Airport, COS',
     city: 'Colorado Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'COS'
   },
   {
     airport: 'Buffalo Niagara International Airport, BUF',
     city: 'Buffalo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BUF'
   },
   {
     airport: 'Griffing Sandusky Airport, SKY',
     city: 'Sandusky',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SKY'
   },
   {
     airport: 'Snohomish County (Paine Field) Airport, PAE',
     city: 'Everett',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PAE'
   },
   {
     airport: 'Mountain Home Air Force Base, MUO',
     city: 'Mountain Home',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MUO'
   },
   {
     airport: 'Cedar City Regional Airport, CDC',
     city: 'Cedar City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDC'
   },
   {
     airport: 'Bradley International Airport, BDL',
     city: 'Windsor Locks',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BDL'
   },
   {
     airport: 'Mc Allen Miller International Airport, MFE',
     city: 'Mcallen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MFE'
   },
   {
     airport: 'Norfolk Naval Station (Chambers Field), NGU',
     city: 'Norfolk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NGU'
   },
   {
     airport: 'Westover ARB/Metropolitan Airport, CEF',
     city: 'Chicopee Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CEF'
   },
   {
     airport: 'Lubbock Preston Smith International Airport, LBB',
     city: 'Lubbock',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LBB'
   },
   {
     airport: 'Chicago O\'Hare International Airport, ORD',
     city: 'Chicago',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ORD'
   },
   {
     airport: 'Boca Raton Airport, BCT',
     city: 'Boca Raton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BCT'
   },
   {
     airport: 'Fairbanks International Airport, FAI',
     city: 'Fairbanks',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FAI'
   },
   {
     airport: 'Quantico MCAF /Turner field, \\N',
     city: 'Quantico',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Cannon Air Force Base, CVS',
     city: 'Clovis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CVS'
   },
   {
     airport: 'Kaneohe Bay MCAS (Marion E. Carl Field) Airport, NGF',
     city: 'Kaneohe Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NGF'
   },
   {
     airport: 'Offutt Air Force Base, OFF',
     city: 'Omaha',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OFF'
   },
   {
     airport: 'Gulkana Airport, GKN',
     city: 'Gulkana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GKN'
   },
   {
     airport: 'Watertown International Airport, ART',
     city: 'Watertown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ART'
   },
   {
     airport: 'Palm Springs International Airport, PSP',
     city: 'Palm Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PSP'
   },
   {
     airport: 'Rick Husband Amarillo International Airport, AMA',
     city: 'Amarillo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AMA'
   },
   {
     airport: 'Fort Dodge Regional Airport, FOD',
     city: 'Fort Dodge',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FOD'
   },
   {
     airport: 'Barksdale Air Force Base, BAD',
     city: 'Shreveport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BAD'
   },
   {
     airport: 'Topeka Regional Airport - Forbes Field, FOE',
     city: 'Topeka',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FOE'
   },
   {
     airport: 'Cotulla-La Salle County Airport, COT',
     city: 'Cotulla',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'COT'
   },
   {
     airport: 'Wilmington International Airport, ILM',
     city: 'Wilmington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ILM'
   },
   {
     airport: 'Baton Rouge Metropolitan Airport, BTR',
     city: 'Baton Rouge',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BTR'
   },
   {
     airport: 'Meridian Naval Air Station, \\N',
     city: 'Meridian',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Tyler Pounds Regional Airport, TYR',
     city: 'Tyler',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TYR'
   },
   {
     airport: 'Baltimore/Washington International Thurgood Marshall Airport, BWI',
     city: 'Baltimore',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BWI'
   },
   {
     airport: 'Hobart Regional Airport, HBR',
     city: 'Hobart',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HBR'
   },
   {
     airport: 'Lanai Airport, LNY',
     city: 'Lanai',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LNY'
   },
   {
     airport: 'Alexandria International Airport, AEX',
     city: 'Alexandria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AEX'
   },
   {
     airport: 'Condron Army Air Field, WSD',
     city: 'White Sands',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WSD'
   },
   {
     airport: 'Cold Bay Airport, CDB',
     city: 'Cold Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDB'
   },
   {
     airport: 'Tulsa International Airport, TUL',
     city: 'Tulsa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TUL'
   },
   {
     airport: 'Sitka Rocky Gutierrez Airport, SIT',
     city: 'Sitka',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SIT'
   },
   {
     airport: 'Long Island Mac Arthur Airport, ISP',
     city: 'Islip',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ISP'
   },
   {
     airport: 'Minneapolis-St Paul International/Wold-Chamberlain Airport, MSP',
     city: 'Minneapolis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSP'
   },
   {
     airport: 'New Castle Airport, ILG',
     city: 'Wilmington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ILG'
   },
   {
     airport: 'Unalaska Airport, DUT',
     city: 'Unalaska',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DUT'
   },
   {
     airport: 'Louis Armstrong New Orleans International Airport, MSY',
     city: 'New Orleans',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSY'
   },
   {
     airport: 'Portland International Jetport Airport, PWM',
     city: 'Portland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PWM'
   },
   {
     airport: 'Will Rogers World Airport, OKC',
     city: 'Oklahoma City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OKC'
   },
   {
     airport: 'Albany International Airport, ALB',
     city: 'Albany',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALB'
   },
   {
     airport: 'Valdez Pioneer Field, VDZ',
     city: 'Valdez',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VDZ'
   },
   {
     airport: 'Langley Air Force Base, LFI',
     city: 'Hampton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LFI'
   },
   {
     airport: 'John Wayne Airport-Orange County Airport, SNA',
     city: 'Santa Ana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SNA'
   },
   {
     airport: 'Columbus Air Force Base, CBM',
     city: 'Colombus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CBM'
   },
   {
     airport: 'Kendall-Tamiami Executive Airport, TMB',
     city: 'Kendall-tamiami',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TMB'
   },
   {
     airport: 'Oceana Naval Air Station, NTU',
     city: 'Oceana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NTU'
   },
   {
     airport: 'Grissom Air Reserve Base, GUS',
     city: 'Peru',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GUS'
   },
   {
     airport: 'Casper-Natrona County International Airport, CPR',
     city: 'Casper',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CPR'
   },
   {
     airport: 'Destin-Ft Walton Beach Airport, VPS',
     city: 'Valparaiso',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VPS'
   },
   {
     airport: 'Craig Field, SEM',
     city: 'Selma',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SEM'
   },
   {
     airport: 'Key West International Airport, EYW',
     city: 'Key West',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EYW'
   },
   {
     airport: 'Charlotte Douglas International Airport, CLT',
     city: 'Charlotte',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLT'
   },
   {
     airport: 'McCarran International Airport, LAS',
     city: 'Las Vegas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAS'
   },
   {
     airport: 'Orlando International Airport, MCO',
     city: 'Orlando',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCO'
   },
   {
     airport: 'Florence Regional Airport, FLO',
     city: 'Florence',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FLO'
   },
   {
     airport: 'Great Falls International Airport, GTF',
     city: 'Great Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GTF'
   },
   {
     airport: 'Youngstown Warren Regional Airport, YNG',
     city: 'Youngstown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'YNG'
   },
   {
     airport: 'Ladd AAF Airfield, FBK',
     city: 'Fort Wainwright',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FBK'
   },
   {
     airport: 'Mc Minnville Municipal Airport, \\N',
     city: 'Mackminnville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Robins Air Force Base, WRB',
     city: 'Macon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WRB'
   },
   {
@@ -22424,43 +22424,43 @@ export const airportData =[
   {
     airport: 'Pullman Moscow Regional Airport, PUW',
     city: 'Pullman',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PUW'
   },
   {
     airport: 'Lewiston Nez Perce County Airport, LWS',
     city: 'Lewiston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LWS'
   },
   {
     airport: 'Elmira Corning Regional Airport, ELM',
     city: 'Elmira',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ELM'
   },
   {
     airport: 'Ithaca Tompkins Regional Airport, ITH',
     city: 'Ithaca',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ITH'
   },
   {
     airport: 'Monterey Peninsula Airport, MRY',
     city: 'Monterey',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MRY'
   },
   {
     airport: 'Santa Barbara Municipal Airport, SBA',
     city: 'Santa Barbara',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBA'
   },
   {
     airport: 'Daytona Beach International Airport, DAB',
     city: 'Daytona Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DAB'
   },
   {
@@ -22688,7 +22688,7 @@ export const airportData =[
   {
     airport: 'Downtown-Manhattan/Wall St Heliport, JRB',
     city: 'New York',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JRB'
   },
   {
@@ -22736,7 +22736,7 @@ export const airportData =[
   {
     airport: 'Talkeetna Airport, TKA',
     city: 'Talkeetna',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TKA'
   },
   {
@@ -22748,25 +22748,25 @@ export const airportData =[
   {
     airport: 'Tweed New Haven Airport, HVN',
     city: 'New Haven',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HVN'
   },
   {
     airport: 'Asheville Regional Airport, AVL',
     city: 'Asheville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AVL'
   },
   {
     airport: 'Piedmont Triad International Airport, GSO',
     city: 'Greensboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GSO'
   },
   {
     airport: 'Joe Foss Field Airport, FSD',
     city: 'Sioux Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FSD'
   },
   {
@@ -22778,13 +22778,13 @@ export const airportData =[
   {
     airport: 'Manchester-Boston Regional Airport, MHT',
     city: 'Manchester NH',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MHT'
   },
   {
     airport: 'Naples Municipal Airport, APF',
     city: 'Naples',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'APF'
   },
   {
@@ -22796,61 +22796,61 @@ export const airportData =[
   {
     airport: 'Louisville International Standiford Field, SDF',
     city: 'Louisville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SDF'
   },
   {
     airport: 'Charlottesville Albemarle Airport, CHO',
     city: 'Charlottesville VA',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CHO'
   },
   {
     airport: 'Roanoke–Blacksburg Regional Airport, ROA',
     city: 'Roanoke VA',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ROA'
   },
   {
     airport: 'Blue Grass Airport, LEX',
     city: 'Lexington KY',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LEX'
   },
   {
     airport: 'Evansville Regional Airport, EVV',
     city: 'Evansville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EVV'
   },
   {
     airport: 'Albuquerque International Sunport, ABQ',
     city: 'Albuquerque',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ABQ'
   },
   {
     airport: 'Gallatin Field, BZN',
     city: 'Bozeman',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BZN'
   },
   {
     airport: 'Billings Logan International Airport, BIL',
     city: 'Billings',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BIL'
   },
   {
     airport: 'Bert Mooney Airport, BTM',
     city: 'Butte',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BTM'
   },
   {
     airport: 'Cherry Capital Airport, TVC',
     city: 'Traverse City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TVC'
   },
   {
@@ -22862,25 +22862,25 @@ export const airportData =[
   {
     airport: 'Hancock County-Bar Harbor Airport, BHB',
     city: 'Bar Harbor',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BHB'
   },
   {
     airport: 'Knox County Regional Airport, RKD',
     city: 'Rockland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RKD'
   },
   {
     airport: 'Jackson Hole Airport, JAC',
     city: 'Jacksn Hole',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JAC'
   },
   {
     airport: 'Chicago Rockford International Airport, RFD',
     city: 'Rockford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RFD'
   },
   {
@@ -22910,91 +22910,91 @@ export const airportData =[
   {
     airport: 'Greenville Spartanburg International Airport, GSP',
     city: 'Greenville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GSP'
   },
   {
     airport: 'Central Illinois Regional Airport at Bloomington-Normal, BMI',
     city: 'Bloomington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BMI'
   },
   {
     airport: 'Gulfport Biloxi International Airport, GPT',
     city: 'Gulfport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GPT'
   },
   {
     airport: 'Kalamazoo Battle Creek International Airport, AZO',
     city: 'Kalamazoo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AZO'
   },
   {
     airport: 'Toledo Express Airport, TOL',
     city: 'Toledo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TOL'
   },
   {
     airport: 'Fort Wayne International Airport, FWA',
     city: 'Fort Wayne',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FWA'
   },
   {
     airport: 'Decatur Airport, DEC',
     city: 'Decatur',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DEC'
   },
   {
     airport: 'The Eastern Iowa Airport, CID',
     city: 'Cedar Rapids',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CID'
   },
   {
     airport: 'La Crosse Municipal Airport, LSE',
     city: 'La Crosse',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LSE'
   },
   {
     airport: 'Central Wisconsin Airport, CWA',
     city: 'Wassau',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CWA'
   },
   {
     airport: 'General Wayne A. Downing Peoria International Airport, PIA',
     city: 'Peoria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIA'
   },
   {
     airport: 'Appleton International Airport, ATW',
     city: 'Appleton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ATW'
   },
   {
     airport: 'Rochester International Airport, RST',
     city: 'Rochester',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RST'
   },
   {
     airport: 'University of Illinois Willard Airport, CMI',
     city: 'Champaign',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CMI'
   },
   {
     airport: 'Manhattan Regional Airport, MHK',
     city: 'Manhattan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MHK'
   },
   {
@@ -23030,7 +23030,7 @@ export const airportData =[
   {
     airport: 'Venango Regional Airport, FKL',
     city: 'Franklin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FKL'
   },
   {
@@ -23060,31 +23060,31 @@ export const airportData =[
   {
     airport: 'Grand Junction Regional Airport, GJT',
     city: 'Grand Junction',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GJT'
   },
   {
     airport: 'St George Municipal Airport, SGU',
     city: 'Saint George',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SGU'
   },
   {
     airport: 'David Wayne Hooks Memorial Airport, DWH',
     city: 'Houston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DWH'
   },
   {
     airport: 'Port O\'Connor Private Heliport, \\N',
     city: 'Port O\\\'Connor',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Sarasota Bradenton International Airport, SRQ',
     city: 'Sarasota',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SRQ'
   },
   {
@@ -23096,19 +23096,19 @@ export const airportData =[
   {
     airport: 'Van Nuys Airport, VNY',
     city: 'Van Nuys',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VNY'
   },
   {
     airport: 'Quad City International Airport, MLI',
     city: 'Moline',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLI'
   },
   {
     airport: 'Panama City-Bay Co International Airport, PFN',
     city: 'Panama City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PFN'
   },
   {
@@ -23156,13 +23156,13 @@ export const airportData =[
   {
     airport: 'Bismarck Municipal Airport, BIS',
     city: 'Bismarck',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BIS'
   },
   {
     airport: 'Telluride Regional Airport, TEX',
     city: 'Telluride',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TEX'
   },
   {
@@ -23180,19 +23180,19 @@ export const airportData =[
   {
     airport: 'Rapid City Regional Airport, RAP',
     city: 'Rapid City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RAP'
   },
   {
     airport: 'Mc Clellan-Palomar Airport, CLD',
     city: 'Carlsbad',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLD'
   },
   {
     airport: 'Bishop International Airport, FNT',
     city: 'Flint',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FNT'
   },
   {
@@ -23246,25 +23246,25 @@ export const airportData =[
   {
     airport: 'Redding Municipal Airport, RDD',
     city: 'Redding',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RDD'
   },
   {
     airport: 'Mahlon Sweet Field, EUG',
     city: 'Eugene',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EUG'
   },
   {
     airport: 'Idaho Falls Regional Airport, IDA',
     city: 'Idaho Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IDA'
   },
   {
     airport: 'Rogue Valley International Medford Airport, MFR',
     city: 'Medford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MFR'
   },
   {
@@ -23276,7 +23276,7 @@ export const airportData =[
   {
     airport: 'Roberts Field, RDM',
     city: 'Redmond-Bend',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RDM'
   },
   {
@@ -23330,37 +23330,37 @@ export const airportData =[
   {
     airport: 'Akron Canton Regional Airport, CAK',
     city: 'Akron',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CAK'
   },
   {
     airport: 'Huntsville International Carl T Jones Field, HSV',
     city: 'Huntsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HSV'
   },
   {
     airport: 'Mid Ohio Valley Regional Airport, PKB',
     city: 'PARKERSBURG',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PKB'
   },
   {
     airport: 'Montgomery Regional (Dannelly Field) Airport, MGM',
     city: 'MONTGOMERY',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MGM'
   },
   {
     airport: 'Tri-Cities Regional TN/VA Airport, TRI',
     city: 'BRISTOL',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TRI'
   },
   {
     airport: 'Barkley Regional Airport, PAH',
     city: 'PADUCAH',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PAH'
   },
   {
@@ -23384,7 +23384,7 @@ export const airportData =[
   {
     airport: 'Page Municipal Airport, PGA',
     city: 'Page',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PGA'
   },
   {
@@ -23396,19 +23396,19 @@ export const airportData =[
   {
     airport: 'Glacier Park International Airport, FCA',
     city: 'Kalispell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FCA'
   },
   {
     airport: 'MBS International Airport, MBS',
     city: 'Saginaw',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MBS'
   },
   {
     airport: 'Greater Binghamton/Edwin A Link field, BGM',
     city: 'Binghamton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BGM'
   },
   {
@@ -23444,7 +23444,7 @@ export const airportData =[
   {
     airport: 'Blythe Airport, BLH',
     city: 'Blythe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BLH'
   },
   {
@@ -23510,7 +23510,7 @@ export const airportData =[
   {
     airport: 'Petersburg James A Johnson Airport, PSG',
     city: 'Petersburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PSG'
   },
   {
@@ -23612,13 +23612,13 @@ export const airportData =[
   {
     airport: 'Orlando Sanford International Airport, SFB',
     city: 'Sanford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SFB'
   },
   {
     airport: 'John Murtha Johnstown Cambria County Airport, JST',
     city: 'Johnstown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JST'
   },
   {
@@ -23864,7 +23864,7 @@ export const airportData =[
   {
     airport: 'Missoula International Airport, MSO',
     city: 'Missoula',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSO'
   },
   {
@@ -23882,13 +23882,13 @@ export const airportData =[
   {
     airport: 'Grand Canyon National Park Airport, GCN',
     city: 'Grand Canyon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GCN'
   },
   {
     airport: 'Sugar Land Regional Airport, SGR',
     city: 'Sugar Land',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SGR'
   },
   {
@@ -23900,61 +23900,61 @@ export const airportData =[
   {
     airport: 'Centennial Airport, APA',
     city: 'Denver',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'APA'
   },
   {
     airport: 'Clovis Municipal Airport, CVN',
     city: 'Clovis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CVN'
   },
   {
     airport: 'Fort Stockton Pecos County Airport, FST',
     city: 'Fort Stockton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FST'
   },
   {
     airport: 'Las Vegas Municipal Airport, LVS',
     city: 'Las Vegas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LVS'
   },
   {
     airport: 'West Houston Airport, IWS',
     city: 'Houston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IWS'
   },
   {
     airport: 'La Junta Municipal Airport, \\N',
     city: 'La Junta',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Las Cruces International Airport, LRU',
     city: 'Las Cruces',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LRU'
   },
   {
     airport: 'Stephens County Airport, BKD',
     city: 'Breckenridge',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKD'
   },
   {
     airport: 'Draughon Miller Central Texas Regional Airport, TPL',
     city: 'Temple',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TPL'
   },
   {
     airport: 'Ozona Municipal Airport, OZA',
     city: 'Ozona',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OZA'
   },
   {
@@ -24014,7 +24014,7 @@ export const airportData =[
   {
     airport: 'Eagle County Regional Airport, EGE',
     city: 'Vail',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EGE'
   },
   {
@@ -24026,73 +24026,73 @@ export const airportData =[
   {
     airport: 'Cuyahoga County Airport, CGF',
     city: 'Richmond Heights',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CGF'
   },
   {
     airport: 'Mansfield Lahm Regional Airport, MFD',
     city: 'Mansfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MFD'
   },
   {
     airport: 'Columbus Metropolitan Airport, CSG',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CSG'
   },
   {
     airport: 'Lawton Fort Sill Regional Airport, LAW',
     city: 'Lawton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAW'
   },
   {
     airport: 'Northern Colorado Regional Airport, FNL',
     city: 'Fort Collins',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FNL'
   },
   {
     airport: 'Flagstaff Pulliam Airport, FLG',
     city: 'Flagstaff',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FLG'
   },
   {
     airport: 'Lake Tahoe Airport, TVL',
     city: 'South Lake Tahoe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TVL'
   },
   {
     airport: 'Joslin Field Magic Valley Regional Airport, TWF',
     city: 'Twin Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TWF'
   },
   {
     airport: 'Martha\'s Vineyard Airport, MVY',
     city: 'Vineyard Haven MA',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MVY'
   },
   {
     airport: 'Concord Municipal Airport, CON',
     city: 'Concord NH',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CON'
   },
   {
     airport: 'Groton New London Airport, GON',
     city: 'Groton CT',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GON'
   },
   {
     airport: 'St Cloud Regional Airport, STC',
     city: 'Saint Cloud',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STC'
   },
   {
@@ -24104,7 +24104,7 @@ export const airportData =[
   {
     airport: 'Golden Triangle Regional Airport, GTR',
     city: 'Columbus Mississippi',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GTR'
   },
   {
@@ -24116,19 +24116,19 @@ export const airportData =[
   {
     airport: 'Bowerman Airport, HQM',
     city: 'Hoquiam',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HQM'
   },
   {
     airport: 'Erie International Tom Ridge Field, ERI',
     city: 'Erie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ERI'
   },
   {
     airport: 'Barnstable Municipal Boardman Polando Field, HYA',
     city: 'Barnstable',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HYA'
   },
   {
@@ -24140,31 +24140,31 @@ export const airportData =[
   {
     airport: 'Sedona Airport, SDX',
     city: 'Sedona',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SDX'
   },
   {
     airport: 'Morgantown Municipal Walter L. Bill Hart Field, MGW',
     city: 'Morgantown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MGW'
   },
   {
     airport: 'Yeager Airport, CRW',
     city: 'Charleston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CRW'
   },
   {
     airport: 'Wilkes Barre Scranton International Airport, AVP',
     city: 'Scranton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AVP'
   },
   {
     airport: 'Bemidji Regional Airport, BJI',
     city: 'Bemidji',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BJI'
   },
   {
@@ -24188,13 +24188,13 @@ export const airportData =[
   {
     airport: 'Hector International Airport, FAR',
     city: 'Fargo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FAR'
   },
   {
     airport: 'Charles B. Wheeler Downtown Airport, MKC',
     city: 'Kansas City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MKC'
   },
   {
@@ -24206,7 +24206,7 @@ export const airportData =[
   {
     airport: 'Gillette Campbell County Airport, GCC',
     city: 'Gillette',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GCC'
   },
   {
@@ -24218,7 +24218,7 @@ export const airportData =[
   {
     airport: 'El Toro Marine Corps Air Station, NZJ',
     city: 'Santa Ana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NZJ'
   },
   {
@@ -24326,7 +24326,7 @@ export const airportData =[
   {
     airport: 'University Park Airport, SCE',
     city: 'State College Pennsylvania',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SCE'
   },
   {
@@ -24398,55 +24398,55 @@ export const airportData =[
   {
     airport: 'Key Field, MEI',
     city: 'Meridian',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MEI'
   },
   {
     airport: 'Abraham Lincoln Capital Airport, SPI',
     city: 'Springfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SPI'
   },
   {
     airport: 'Cortez Municipal Airport, CEZ',
     city: 'Cortez',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CEZ'
   },
   {
     airport: 'Yampa Valley Airport, HDN',
     city: 'Hayden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HDN'
   },
   {
     airport: 'Gallup Municipal Airport, GUP',
     city: 'Gallup',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GUP'
   },
   {
     airport: 'Liberal Mid-America Regional Airport, LBL',
     city: 'Liberal',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LBL'
   },
   {
     airport: 'Lamar Municipal Airport, LAA',
     city: 'Lamar',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAA'
   },
   {
     airport: 'Renner Field-Goodland Municipal Airport, GLD',
     city: 'Goodland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GLD'
   },
   {
     airport: 'Yellowstone Regional Airport, COD',
     city: 'Cody',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'COD'
   },
   {
@@ -24458,13 +24458,13 @@ export const airportData =[
   {
     airport: 'St. Mary\'s Airport, ISC',
     city: 'ST MARY\\\'S',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'ISC'
   },
   {
     airport: 'Springfield Branson National Airport, SGF',
     city: 'Springfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SGF'
   },
   {
@@ -24500,19 +24500,19 @@ export const airportData =[
   {
     airport: 'Joplin Regional Airport, JLN',
     city: 'Joplin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JLN'
   },
   {
     airport: 'Lehigh Valley International Airport, ABE',
     city: 'Allentown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ABE'
   },
   {
     airport: 'Northwest Arkansas Regional Airport, XNA',
     city: 'Bentonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'XNA'
   },
   {
@@ -24530,7 +24530,7 @@ export const airportData =[
   {
     airport: 'South Bend Regional Airport, SBN',
     city: 'South Bend',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBN'
   },
   {
@@ -24656,31 +24656,31 @@ export const airportData =[
   {
     airport: 'Smith Field, SMD',
     city: 'Fort Wayne IN',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SMD'
   },
   {
     airport: 'California Redwood Coast-Humboldt County Airport, ACV',
     city: 'Arcata CA',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ACV'
   },
   {
     airport: 'Albert J Ellis Airport, OAJ',
     city: 'Jacksonville NC',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OAJ'
   },
   {
     airport: 'Tuscaloosa Regional Airport, TCL',
     city: 'Tuscaloosa AL',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TCL'
   },
   {
     airport: 'Dubuque Regional Airport, DBQ',
     city: 'Dubuque IA',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DBQ'
   },
   {
@@ -25598,91 +25598,91 @@ export const airportData =[
   {
     airport: 'Nottingham Airport, NQT',
     city: 'Nottingham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NQT'
   },
   {
     airport: 'Robin Hood Doncaster Sheffield Airport, DSA',
     city: 'Doncaster, Sheffield',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'DSA'
   },
   {
     airport: 'Campbeltown Airport, CAL',
     city: 'Campbeltown',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CAL'
   },
   {
     airport: 'Eday Airport, EOI',
     city: 'Eday',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'EOI'
   },
   {
     airport: 'Fair Isle Airport, FIE',
     city: 'Fair Isle',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'FIE'
   },
   {
     airport: 'North Ronaldsay Airport, NRL',
     city: 'North Ronaldsay',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NRL'
   },
   {
     airport: 'Papa Westray Airport, PPW',
     city: 'Papa Westray',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'PPW'
   },
   {
     airport: 'Stronsay Airport, SOY',
     city: 'Stronsay',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'SOY'
   },
   {
     airport: 'Sanday Airport, NDY',
     city: 'Sanday',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'NDY'
   },
   {
     airport: 'Lerwick / Tingwall Airport, LWK',
     city: 'Lerwick',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LWK'
   },
   {
     airport: 'Westray Airport, WRY',
     city: 'Westray',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'WRY'
   },
   {
     airport: 'Land\'s End Airport, LEQ',
     city: 'Land\'s End',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LEQ'
   },
   {
     airport: 'Penzance Heliport, PZE',
     city: 'Penzance',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'PZE'
   },
   {
     airport: 'Anglesey Airport, VLY',
     city: 'Angelsey',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'VLY'
   },
   {
     airport: 'Barra Airport, BRR',
     city: 'Barra',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BRR'
   },
   {
@@ -26138,7 +26138,7 @@ export const airportData =[
   {
     airport: 'Outer Skerries Airport, OUK',
     city: 'Outer Skerries',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'OUK'
   },
   {
@@ -26432,175 +26432,175 @@ export const airportData =[
   {
     airport: 'Aberdeen Regional Airport, ABR',
     city: 'Aberdeen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ABR'
   },
   {
     airport: 'Southwest Georgia Regional Airport, ABY',
     city: 'Albany',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ABY'
   },
   {
     airport: 'Athens Ben Epps Airport, AHN',
     city: 'Athens',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AHN'
   },
   {
     airport: 'Alamogordo White Sands Regional Airport, ALM',
     city: 'Alamogordo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALM'
   },
   {
     airport: 'Waterloo Regional Airport, ALO',
     city: 'Waterloo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALO'
   },
   {
     airport: 'Walla Walla Regional Airport, ALW',
     city: 'Walla Walla',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALW'
   },
   {
     airport: 'Alpena County Regional Airport, APN',
     city: 'Alpena',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'APN'
   },
   {
     airport: 'Watertown Regional Airport, ATY',
     city: 'Watertown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ATY'
   },
   {
     airport: 'Bradford Regional Airport, BFD',
     city: 'Bradford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFD'
   },
   {
     airport: 'Western Neb. Rgnl/William B. Heilig Airport, BFF',
     city: 'Scottsbluff',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFF'
   },
   {
     airport: 'Raleigh County Memorial Airport, BKW',
     city: 'Beckley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKW'
   },
   {
     airport: 'Brunswick Golden Isles Airport, BQK',
     city: 'Brunswick',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BQK'
   },
   {
     airport: 'Southeast Iowa Regional Airport, BRL',
     city: 'Burlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BRL'
   },
   {
     airport: 'Jack Mc Namara Field Airport, CEC',
     city: 'Crescent City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CEC'
   },
   {
     airport: 'Cape Girardeau Regional Airport, CGI',
     city: 'Cape Girardeau',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CGI'
   },
   {
     airport: 'Chippewa County International Airport, CIU',
     city: 'Sault Ste Marie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CIU'
   },
   {
     airport: 'North Central West Virginia Airport, CKB',
     city: 'Clarksburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CKB'
   },
   {
     airport: 'William R Fairchild International Airport, CLM',
     city: 'Port Angeles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLM'
   },
   {
     airport: 'Houghton County Memorial Airport, CMX',
     city: 'Hancock',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CMX'
   },
   {
     airport: 'Dodge City Regional Airport, DDC',
     city: 'Dodge City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DDC'
   },
   {
     airport: 'DuBois Regional Airport, DUJ',
     city: 'Du Bois',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DUJ'
   },
   {
     airport: 'Chippewa Valley Regional Airport, EAU',
     city: 'Eau Claire',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EAU'
   },
   {
     airport: 'Elko Regional Airport, EKO',
     city: 'Elko',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EKO'
   },
   {
     airport: 'New Bedford Regional Airport, EWB',
     city: 'New Bedford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EWB'
   },
   {
     airport: 'Fayetteville Regional Grannis Field, FAY',
     city: 'Fayetteville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FAY'
   },
   {
     airport: 'Wokal Field Glasgow International Airport, GGW',
     city: 'Glasgow',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GGW'
   },
   {
     airport: 'Central Nebraska Regional Airport, GRI',
     city: 'Grand Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GRI'
   },
   {
     airport: 'Memorial Field, HOT',
     city: 'Hot Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HOT'
   },
   {
     airport: 'Tri-State/Milton J. Ferguson Field, HTS',
     city: 'Huntington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HTS'
   },
   {
@@ -26612,211 +26612,211 @@ export const airportData =[
   {
     airport: 'Kirksville Regional Airport, IRK',
     city: 'Kirksville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IRK'
   },
   {
     airport: 'Jamestown Regional Airport, JMS',
     city: 'Jamestown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JMS'
   },
   {
     airport: 'Laramie Regional Airport, LAR',
     city: 'Laramie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAR'
   },
   {
     airport: 'Arnold Palmer Regional Airport, LBE',
     city: 'Latrobe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LBE'
   },
   {
     airport: 'North Platte Regional Airport Lee Bird Field, LBF',
     city: 'North Platte',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LBF'
   },
   {
     airport: 'Lebanon Municipal Airport, LEB',
     city: 'Lebanon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LEB'
   },
   {
     airport: 'Crater Lake-Klamath Regional Airport, LMT',
     city: 'Klamath Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LMT'
   },
   {
     airport: 'Lancaster Airport, LNS',
     city: 'Lancaster',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LNS'
   },
   {
     airport: 'Lewistown Municipal Airport, LWT',
     city: 'Lewistown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LWT'
   },
   {
     airport: 'Lynchburg Regional Preston Glenn Field, LYH',
     city: 'Lynchburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LYH'
   },
   {
     airport: 'Muskegon County Airport, MKG',
     city: 'Muskegon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MKG'
   },
   {
     airport: 'Frank Wiley Field, MLS',
     city: 'Miles City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLS'
   },
   {
     airport: 'Northwest Alabama Regional Airport, MSL',
     city: 'Muscle Shoals',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSL'
   },
   {
     airport: 'Southwest Oregon Regional Airport, OTH',
     city: 'North Bend',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OTH'
   },
   {
     airport: 'Owensboro Daviess County Airport, OWB',
     city: 'Owensboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OWB'
   },
   {
     airport: 'Hattiesburg Laurel Regional Airport, PIB',
     city: 'Hattiesburg/Laurel',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIB'
   },
   {
     airport: 'Pocatello Regional Airport, PIH',
     city: 'Pocatello',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIH'
   },
   {
     airport: 'Pierre Regional Airport, PIR',
     city: 'Pierre',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIR'
   },
   {
     airport: 'Pellston Regional Airport of Emmet County Airport, PLN',
     city: 'Pellston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PLN'
   },
   {
     airport: 'Portsmouth International at Pease Airport, PSM',
     city: 'Portsmouth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PSM'
   },
   {
     airport: 'Reading Regional Carl A Spaatz Field, RDG',
     city: 'Reading',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RDG'
   },
   {
     airport: 'Rhinelander Oneida County Airport, RHI',
     city: 'Rhinelander',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RHI'
   },
   {
     airport: 'Southwest Wyoming Regional Airport, RKS',
     city: 'Rock Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RKS'
   },
   {
     airport: 'Rutland - Southern Vermont Regional Airport, RUT',
     city: 'Rutland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RUT'
   },
   {
     airport: 'San Luis County Regional Airport, SBP',
     city: 'San Luis Obispo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBP'
   },
   {
     airport: 'Sheridan County Airport, SHR',
     city: 'Sheridan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHR'
   },
   {
     airport: 'Adirondack Regional Airport, SLK',
     city: 'Saranac Lake',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SLK'
   },
   {
     airport: 'Salina Municipal Airport, SLN',
     city: 'Salina',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SLN'
   },
   {
     airport: 'Santa Maria Pub/Capt G Allan Hancock Field, SMX',
     city: 'Santa Maria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SMX'
   },
   {
     airport: 'Tupelo Regional Airport, TUP',
     city: 'Tupelo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TUP'
   },
   {
     airport: 'Quincy Regional Baldwin Field, UIN',
     city: 'Quincy',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UIN'
   },
   {
     airport: 'Victoria Regional Airport, VCT',
     city: 'Victoria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VCT'
   },
   {
     airport: 'Valdosta Regional Airport, VLD',
     city: 'Valdosta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VLD'
   },
   {
     airport: 'Worland Municipal Airport, WRL',
     city: 'Worland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WRL'
   },
   {
     airport: 'Yakima Air Terminal McAllister Field, YKM',
     city: 'Yakima',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'YKM'
   },
   {
@@ -27614,7 +27614,7 @@ export const airportData =[
   {
     airport: 'Al Ain International Airport, AAN',
     city: 'Al Ain',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'AAN'
   },
   {
@@ -27722,67 +27722,67 @@ export const airportData =[
   {
     airport: 'Adak Airport, ADK',
     city: 'Adak Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ADK'
   },
   {
     airport: 'Gustavus Airport, GST',
     city: 'Gustavus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GST'
   },
   {
     airport: 'Skagway Airport, SGY',
     city: 'Skagway',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SGY'
   },
   {
     airport: 'Holy Cross Airport, HCR',
     city: 'Holy Cross',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HCR'
   },
   {
     airport: 'Haines Airport, HNS',
     city: 'Haines',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HNS'
   },
   {
     airport: 'Kalskag Airport, KLG',
     city: 'Kalskag',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KLG'
   },
   {
     airport: 'McGrath Airport, MCG',
     city: 'Mcgrath',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCG'
   },
   {
     airport: 'Mountain Village Airport, MOU',
     city: 'Mountain Village',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MOU'
   },
   {
     airport: 'Aniak Airport, ANI',
     city: 'Aniak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANI'
   },
   {
     airport: 'Chevak Airport, VAK',
     city: 'Chevak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VAK'
   },
   {
     airport: 'Wrangell Airport, WRG',
     city: 'Wrangell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WRG'
   },
   {
@@ -27800,7 +27800,7 @@ export const airportData =[
   {
     airport: 'Kalaupapa Airport, LUP',
     city: 'Molokai',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LUP'
   },
   {
@@ -28586,37 +28586,37 @@ export const airportData =[
   {
     airport: 'Aleknagik / New Airport, WKK',
     city: 'Aleknagik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WKK'
   },
   {
     airport: 'Mercer County Airport, BLF',
     city: 'Bluefield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BLF'
   },
   {
     airport: 'Mid Delta Regional Airport, GLH',
     city: 'Greenville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GLH'
   },
   {
     airport: 'Tri Cities Airport, PSC',
     city: 'Pasco',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PSC'
   },
   {
     airport: 'Akutan Seaplane Base, KQA',
     city: 'Akutan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KQA'
   },
   {
     airport: 'Lopez Island Airport, LPS',
     city: 'Lopez',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LPS'
   },
   {
@@ -30278,7 +30278,7 @@ export const airportData =[
   {
     airport: 'Waikoloa Heliport, WKL',
     city: 'Waikoloa Village',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WKL'
   },
   {
@@ -30326,7 +30326,7 @@ export const airportData =[
   {
     airport: 'Worcester Regional Airport, ORH',
     city: 'Worcester',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ORH'
   },
   {
@@ -30380,19 +30380,19 @@ export const airportData =[
   {
     airport: 'Bremerton National Airport, PWT',
     city: 'Bremerton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PWT'
   },
   {
     airport: 'Spencer Municipal Airport, SPW',
     city: 'Spencer',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SPW'
   },
   {
     airport: 'Jefferson City Memorial Airport, JEF',
     city: 'Jefferson City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JEF'
   },
   {
@@ -30404,7 +30404,7 @@ export const airportData =[
   {
     airport: 'Unst Airport, UNT',
     city: 'Unst',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'UNT'
   },
   {
@@ -30416,7 +30416,7 @@ export const airportData =[
   {
     airport: 'Provincetown Municipal Airport, PVC',
     city: 'Provincetown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PVC'
   },
   {
@@ -30452,7 +30452,7 @@ export const airportData =[
   {
     airport: 'Oban Airport, OBN',
     city: 'North Connel',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'OBN'
   },
   {
@@ -30476,19 +30476,19 @@ export const airportData =[
   {
     airport: 'Fullerton Municipal Airport, FUL',
     city: 'Fullerton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FUL'
   },
   {
     airport: 'Concord-Padgett Regional Airport, USA',
     city: 'Concord',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'USA'
   },
   {
     airport: 'Isle of Wight / Sandown Airport, \\N',
     city: 'Isle Of Wight',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -30524,7 +30524,7 @@ export const airportData =[
   {
     airport: 'Friedman Memorial Airport, SUN',
     city: 'Hailey',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SUN'
   },
   {
@@ -30542,13 +30542,13 @@ export const airportData =[
   {
     airport: 'Mason City Municipal Airport, MCW',
     city: 'Mason City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCW'
   },
   {
     airport: 'Phoenix-Mesa-Gateway Airport, AZA',
     city: 'Mesa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AZA'
   },
   {
@@ -30584,79 +30584,79 @@ export const airportData =[
   {
     airport: 'Anaktuvuk Pass Airport, AKP',
     city: 'Anaktuvuk Pass',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKP'
   },
   {
     airport: 'Anvik Airport, ANV',
     city: 'Anvik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANV'
   },
   {
     airport: 'Atqasuk Edward Burnell Sr Memorial Airport, ATK',
     city: 'Atqasuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ATK'
   },
   {
     airport: 'Gambell Airport, GAM',
     city: 'Gambell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GAM'
   },
   {
     airport: 'Hooper Bay Airport, HPB',
     city: 'Hooper Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HPB'
   },
   {
     airport: 'Kaltag Airport, KAL',
     city: 'Kaltag',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KAL'
   },
   {
     airport: 'St Mary\'s Airport, KSM',
     city: 'St Mary\'s',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KSM'
   },
   {
     airport: 'Kivalina Airport, KVL',
     city: 'Kivalina',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KVL'
   },
   {
     airport: 'Mekoryuk Airport, MYU',
     city: 'Mekoryuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MYU'
   },
   {
     airport: 'Ruby Airport, RBY',
     city: 'Ruby',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RBY'
   },
   {
     airport: 'Shishmaref Airport, SHH',
     city: 'Shishmaref',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHH'
   },
   {
     airport: 'Savoonga Airport, SVA',
     city: 'Savoonga',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SVA'
   },
   {
     airport: 'Noatak Airport, WTK',
     city: 'Noatak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WTK'
   },
   {
@@ -30680,7 +30680,7 @@ export const airportData =[
   {
     airport: 'Arctic Village Airport, ARC',
     city: 'Arctic Village',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ARC'
   },
   {
@@ -30722,7 +30722,7 @@ export const airportData =[
   {
     airport: 'Port Clarence Coast Guard Station, KPC',
     city: 'Port Clarence',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KPC'
   },
   {
@@ -30740,7 +30740,7 @@ export const airportData =[
   {
     airport: 'Hagerstown Regional Richard A Henson Field, HGR',
     city: 'Hagerstown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HGR'
   },
   {
@@ -30758,7 +30758,7 @@ export const airportData =[
   {
     airport: 'Sand Point Airport, SDP',
     city: 'Sand Point',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SDP'
   },
   {
@@ -30830,7 +30830,7 @@ export const airportData =[
   {
     airport: 'Deering Airport, DRG',
     city: 'Deering',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DRG'
   },
   {
@@ -30878,31 +30878,31 @@ export const airportData =[
   {
     airport: 'Igiugig Airport, IGG',
     city: 'Igiugig',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IGG'
   },
   {
     airport: 'New Stuyahok Airport, KNW',
     city: 'New Stuyahok',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KNW'
   },
   {
     airport: 'King Cove Airport, KVC',
     city: 'King Cove',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KVC'
   },
   {
     airport: 'Port Heiden Airport, PTH',
     city: 'Port Heiden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PTH'
   },
   {
     airport: 'Togiak Airport, TOG',
     city: 'Togiak Village',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TOG'
   },
   {
@@ -31088,13 +31088,13 @@ export const airportData =[
   {
     airport: 'Delta County Airport, ESC',
     city: 'Escanaba',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ESC'
   },
   {
     airport: 'Yakutat Airport, YAK',
     city: 'Yakutat',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'YAK'
   },
   {
@@ -31160,7 +31160,7 @@ export const airportData =[
   {
     airport: 'Williamson County Regional Airport, MWA',
     city: 'Marion',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MWA'
   },
   {
@@ -31202,19 +31202,19 @@ export const airportData =[
   {
     airport: 'Ford Airport, IMT',
     city: 'Iron Mountain',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IMT'
   },
   {
     airport: 'Marquette Airport, \\N',
     city: 'Marquette',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Allakaket Airport, AET',
     city: 'Allakaket',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AET'
   },
   {
@@ -31238,25 +31238,25 @@ export const airportData =[
   {
     airport: 'Michigan City Municipal Airport, MGC',
     city: 'Michigan City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MGC'
   },
   {
     airport: 'Seward Airport, SWD',
     city: 'Seward',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SWD'
   },
   {
     airport: 'Grand Marais Cook County Airport, GRM',
     city: 'Grand Marais',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GRM'
   },
   {
     airport: 'Wausau Downtown Airport, AUW',
     city: 'Wausau',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AUW'
   },
   {
@@ -31310,55 +31310,55 @@ export const airportData =[
   {
     airport: 'Delaware County Johnson Field, MIE',
     city: 'Muncie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MIE'
   },
   {
     airport: 'Purdue University Airport, LAF',
     city: 'Lafayette',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAF'
   },
   {
     airport: 'Brown County Airport, \\N',
     city: 'Georgetown',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'North Las Vegas Airport, VGT',
     city: 'Las Vegas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VGT'
   },
   {
     airport: 'Kenosha Regional Airport, ENW',
     city: 'Kenosha',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ENW'
   },
   {
     airport: 'Montrose Regional Airport, MTJ',
     city: 'Montrose CO',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MTJ'
   },
   {
     airport: 'Riverton Regional Airport, RIW',
     city: 'Riverton WY',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RIW'
   },
   {
     airport: 'Eastern Oregon Regional At Pendleton Airport, PDT',
     city: 'Pendleton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PDT'
   },
   {
     airport: 'Lympne Airport, LYM',
     city: 'Lympne',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'LYM'
   },
   {
@@ -31424,7 +31424,7 @@ export const airportData =[
   {
     airport: 'Wittman Regional Airport, OSH',
     city: 'Oshkosh',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OSH'
   },
   {
@@ -31454,7 +31454,7 @@ export const airportData =[
   {
     airport: 'Pangborn Memorial Airport, EAT',
     city: 'Wenatchee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EAT'
   },
   {
@@ -31598,7 +31598,7 @@ export const airportData =[
   {
     airport: 'NAS Fort Worth JRB/Carswell Field, FWH',
     city: 'Dallas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FWH'
   },
   {
@@ -31640,43 +31640,43 @@ export const airportData =[
   {
     airport: 'Gary Chicago International Airport, GYY',
     city: 'Gary',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GYY'
   },
   {
     airport: 'Brainerd Lakes Regional Airport, BRD',
     city: 'Brainerd',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BRD'
   },
   {
     airport: 'Greenbrier Valley Airport, LWB',
     city: 'Lewisburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LWB'
   },
   {
     airport: 'Pitt Greenville Airport, PGV',
     city: 'Greenville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PGV'
   },
   {
     airport: 'Chefornak Airport, CYF',
     city: 'Chefornak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CYF'
   },
   {
     airport: 'Oxnard Airport, OXR',
     city: 'Oxnard',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OXR'
   },
   {
     airport: 'Branson Airport, BKG',
     city: 'Branson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKG'
   },
   {
@@ -31700,7 +31700,7 @@ export const airportData =[
   {
     airport: 'Schenectady County Airport, SCH',
     city: 'Scotia NY',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SCH'
   },
   {
@@ -31754,7 +31754,7 @@ export const airportData =[
   {
     airport: 'Northeast Florida Regional Airport, UST',
     city: 'St. Augustine Airport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UST'
   },
   {
@@ -31772,31 +31772,31 @@ export const airportData =[
   {
     airport: 'Charles M. Schulz Sonoma County Airport, STS',
     city: 'Santa Rosa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STS'
   },
   {
     airport: 'Kissimmee Gateway Airport, ISM',
     city: 'Kissimmee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ISM'
   },
   {
     airport: 'Lake City Gateway Airport, LCQ',
     city: 'Lake City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LCQ'
   },
   {
     airport: 'Deland Municipal Sidney H Taylor Field, \\N',
     city: 'DeLand',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Haller Airpark, \\N',
     city: 'Green Cove Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -31808,25 +31808,25 @@ export const airportData =[
   {
     airport: 'Logan-Cache Airport, LGU',
     city: 'Logan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LGU'
   },
   {
     airport: 'Brigham City Regional Airport, BMC',
     city: 'Brigham City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BMC'
   },
   {
     airport: 'Malad City Airport, \\N',
     city: 'Malad City',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Aspen-Pitkin Co/Sardy Field, ASE',
     city: 'Aspen',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ASE'
   },
   {
@@ -31838,7 +31838,7 @@ export const airportData =[
   {
     airport: 'Kerrville Municipal Louis Schreiner Field, ERV',
     city: 'Kerrville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ERV'
   },
   {
@@ -31850,7 +31850,7 @@ export const airportData =[
   {
     airport: 'Sussex County Airport, GED',
     city: 'Georgetown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GED'
   },
   {
@@ -31862,55 +31862,55 @@ export const airportData =[
   {
     airport: 'Great Bend Municipal Airport, GBD',
     city: 'Great Bend',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GBD'
   },
   {
     airport: 'Hays Regional Airport, HYS',
     city: 'Hays',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HYS'
   },
   {
     airport: 'Spirit of St Louis Airport, SUS',
     city: 'Null',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SUS'
   },
   {
     airport: 'Ely Municipal Airport, LYU',
     city: 'Ely',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LYU'
   },
   {
     airport: 'Grand Rapids Itasca Co-Gordon Newstrom field, GPZ',
     city: 'Grand Rapids MN',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GPZ'
   },
   {
     airport: 'Thief River Falls Regional Airport, TVF',
     city: 'Thief River Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TVF'
   },
   {
     airport: 'Eagle River Union Airport, EGV',
     city: 'Eagle River',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EGV'
   },
   {
     airport: 'Lakeland-Noble F. Lee Memorial field, ARV',
     city: 'Minocqua - Woodruff',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ARV'
   },
   {
     airport: 'Ankeny Regional Airport, \\N',
     city: 'Ankeny',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -31922,19 +31922,19 @@ export const airportData =[
   {
     airport: 'Corpus Christi Naval Air Station/Truax Field, \\N',
     city: 'Corpus Christi',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Catalina Airport, AVX',
     city: 'Catalina Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AVX'
   },
   {
     airport: 'Mojave Airport, MHV',
     city: 'Mojave',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MHV'
   },
   {
@@ -31958,7 +31958,7 @@ export const airportData =[
   {
     airport: 'Hutchinson Municipal Airport, HUT',
     city: 'Hutchinson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HUT'
   },
   {
@@ -31976,7 +31976,7 @@ export const airportData =[
   {
     airport: 'Rosecrans Memorial Airport, STJ',
     city: 'Rosecrans',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STJ'
   },
   {
@@ -31994,13 +31994,13 @@ export const airportData =[
   {
     airport: 'Volk Field, VOK',
     city: 'Camp Douglas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VOK'
   },
   {
     airport: 'Gunnison Crested Butte Regional Airport, GUC',
     city: 'Gunnison',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GUC'
   },
   {
@@ -32012,31 +32012,31 @@ export const airportData =[
   {
     airport: 'Zamperini Field, TOA',
     city: 'Torrance',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TOA'
   },
   {
     airport: 'Manistee Co Blacker Airport, MBL',
     city: 'Manistee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MBL'
   },
   {
     airport: 'Charlotte County Airport, PGD',
     city: 'Punta Gorda',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PGD'
   },
   {
     airport: 'Northern Aroostook Regional Airport, WFK',
     city: 'Frenchville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WFK'
   },
   {
     airport: 'Chautauqua County-Jamestown Airport, JHW',
     city: 'Jamestown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JHW'
   },
   {
@@ -32048,307 +32048,307 @@ export const airportData =[
   {
     airport: 'Lake Cumberland Regional Airport, SME',
     city: 'Somerset',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SME'
   },
   {
     airport: 'Shenandoah Valley Regional Airport, SHD',
     city: 'Weyers Cave',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHD'
   },
   {
     airport: 'Devils Lake Regional Airport, DVL',
     city: 'Devils Lake',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DVL'
   },
   {
     airport: 'Dickinson Theodore Roosevelt Regional Airport, DIK',
     city: 'Dickinson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DIK'
   },
   {
     airport: 'Sidney - Richland Regional Airport, SDY',
     city: 'Sidney',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SDY'
   },
   {
     airport: 'Chadron Municipal Airport, CDR',
     city: 'Chadron',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDR'
   },
   {
     airport: 'Alliance Municipal Airport, AIA',
     city: 'Alliance',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AIA'
   },
   {
     airport: 'Mc Cook Ben Nelson Regional Airport, MCK',
     city: 'McCook',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCK'
   },
   {
     airport: 'The Florida Keys Marathon Airport, MTH',
     city: 'Marathon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MTH'
   },
   {
     airport: 'Dawson Community Airport, GDV',
     city: 'Glendive',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GDV'
   },
   {
     airport: 'L M Clayton Airport, OLF',
     city: 'Wolf Point',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OLF'
   },
   {
     airport: 'Yellowstone Airport, WYS',
     city: 'West Yellowstone',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WYS'
   },
   {
     airport: 'San Luis Valley Regional Bergman Field, ALS',
     city: 'Alamosa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALS'
   },
   {
     airport: 'Canyonlands Field, CNY',
     city: 'Moab',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CNY'
   },
   {
     airport: 'Ely Airport Yelland Field, ELY',
     city: 'Ely',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ELY'
   },
   {
     airport: 'Vernal Regional Airport, VEL',
     city: 'Vernal',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VEL'
   },
   {
     airport: 'Sierra Blanca Regional Airport, RUI',
     city: 'Ruidoso',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RUI'
   },
   {
     airport: 'Show Low Regional Airport, SOW',
     city: 'Show Low',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SOW'
   },
   {
     airport: 'McCall Municipal Airport, MYL',
     city: 'McCall',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MYL'
   },
   {
     airport: 'Lemhi County Airport, SMN',
     city: 'Salmon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SMN'
   },
   {
     airport: 'Mammoth Yosemite Airport, MMH',
     city: 'Mammoth Lakes',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MMH'
   },
   {
     airport: 'Friday Harbor Airport, FRD',
     city: 'Friday Harbor',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FRD'
   },
   {
     airport: 'Orcas Island Airport, ESD',
     city: 'Eastsound',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ESD'
   },
   {
     airport: 'Astoria Regional Airport, AST',
     city: 'Astoria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AST'
   },
   {
     airport: 'Newport Municipal Airport, ONP',
     city: 'Newport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ONP'
   },
   {
     airport: 'Emmonak Airport, EMK',
     city: 'Emmonak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EMK'
   },
   {
     airport: 'Unalakleet Airport, UNK',
     city: 'Unalakleet',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UNK'
   },
   {
     airport: 'Ugnu-Kuparuk Airport, UUK',
     city: 'Kuparuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UUK'
   },
   {
     airport: 'Shageluk Airport, SHX',
     city: 'Shageluk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHX'
   },
   {
     airport: 'Chuathbaluk Airport, CHU',
     city: 'Chuathbaluk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CHU'
   },
   {
     airport: 'Nuiqsut Airport, NUI',
     city: 'Nuiqsut',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NUI'
   },
   {
     airport: 'Eek Airport, EEK',
     city: 'Eek',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EEK'
   },
   {
     airport: 'Kasigluk Airport, KUK',
     city: 'Kasigluk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KUK'
   },
   {
     airport: 'Kwethluk Airport, KWT',
     city: 'Kwethluk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KWT'
   },
   {
     airport: 'Kwigillingok Airport, KWK',
     city: 'Kwigillingok',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KWK'
   },
   {
     airport: 'Marshall Don Hunter Sr Airport, MLL',
     city: 'Marshall',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLL'
   },
   {
     airport: 'Russian Mission Airport, RSH',
     city: 'Russian Mission',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RSH'
   },
   {
     airport: 'Koliganek Airport, KGK',
     city: 'Koliganek',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KGK'
   },
   {
     airport: 'Manokotak Airport, KMO',
     city: 'Manokotak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KMO'
   },
   {
     airport: 'Chalkyitsik Airport, CIK',
     city: 'Chalkyitsik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CIK'
   },
   {
     airport: 'Eagle Airport, EAA',
     city: 'Eagle',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EAA'
   },
   {
     airport: 'Hughes Airport, HUS',
     city: 'Hughes',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HUS'
   },
   {
     airport: 'Huslia Airport, HSL',
     city: 'Huslia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HSL'
   },
   {
     airport: 'Nulato Airport, NUL',
     city: 'Nulato',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NUL'
   },
   {
     airport: 'Venetie Airport, VEE',
     city: 'Venetie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VEE'
   },
   {
     airport: 'Beaver Airport, WBQ',
     city: 'Beaver',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WBQ'
   },
   {
     airport: 'Central Airport, CEM',
     city: 'Central',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CEM'
   },
   {
     airport: 'Shungnak Airport, SHG',
     city: 'Shungnak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHG'
   },
   {
     airport: 'Inyokern Airport, IYK',
     city: 'Inyokern',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IYK'
   },
   {
     airport: 'Visalia Municipal Airport, VIS',
     city: 'Visalia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VIS'
   },
   {
     airport: 'Merced Regional Macready Field, MCE',
     city: 'Merced',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCE'
   },
   {
@@ -32366,7 +32366,7 @@ export const airportData =[
   {
     airport: 'Phoenix Goodyear Airport, GYR',
     city: 'Goodyear',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GYR'
   },
   {
@@ -32402,289 +32402,289 @@ export const airportData =[
   {
     airport: 'Angoon Seaplane Base, AGN',
     city: 'Angoon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AGN'
   },
   {
     airport: 'Elfin Cove Seaplane Base, ELV',
     city: 'Elfin Cove',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ELV'
   },
   {
     airport: 'Funter Bay Seaplane Base, FNR',
     city: 'Funter Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FNR'
   },
   {
     airport: 'Hoonah Airport, HNH',
     city: 'Hoonah',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HNH'
   },
   {
     airport: 'Kake Airport, \\N',
     city: 'Kake',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Metlakatla Seaplane Base, MTM',
     city: 'Metakatla',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MTM'
   },
   {
     airport: 'Hydaburg Seaplane Base, HYG',
     city: 'Hydaburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HYG'
   },
   {
     airport: 'Egegik Airport, EGX',
     city: 'Egegik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EGX'
   },
   {
     airport: 'Perryville Airport, KPV',
     city: 'Perryville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KPV'
   },
   {
     airport: 'Pilot Point Airport, PIP',
     city: 'Pilot Point',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIP'
   },
   {
     airport: 'South Naknek Nr 2 Airport, WSN',
     city: 'South Naknek',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WSN'
   },
   {
     airport: 'Akhiok Airport, AKK',
     city: 'Akhiok',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKK'
   },
   {
     airport: 'Karluk Airport, KYK',
     city: 'Karluk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KYK'
   },
   {
     airport: 'Larsen Bay Airport, KLN',
     city: 'Larsen Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KLN'
   },
   {
     airport: 'Ambler Airport, ABL',
     city: 'Ambler',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ABL'
   },
   {
     airport: 'Buckland Airport, BKC',
     city: 'Buckland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKC'
   },
   {
     airport: 'Bob Baker Memorial Airport, IAN',
     city: 'Kiana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IAN'
   },
   {
     airport: 'Kobuk Airport, OBU',
     city: 'Kobuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OBU'
   },
   {
     airport: 'Robert (Bob) Curtis Memorial Airport, ORV',
     city: 'Noorvik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ORV'
   },
   {
     airport: 'Selawik Airport, WLK',
     city: 'Selawik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WLK'
   },
   {
     airport: 'Brevig Mission Airport, KTS',
     city: 'Brevig Mission',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KTS'
   },
   {
     airport: 'Elim Airport, ELI',
     city: 'Elim',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ELI'
   },
   {
     airport: 'Golovin Airport, GLV',
     city: 'Golovin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GLV'
   },
   {
     airport: 'Teller Airport, TLA',
     city: 'Teller',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TLA'
   },
   {
     airport: 'Wales Airport, WAA',
     city: 'Wales',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WAA'
   },
   {
     airport: 'White Mountain Airport, WMO',
     city: 'White Mountain',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WMO'
   },
   {
     airport: 'Koyuk Alfred Adams Airport, KKA',
     city: 'Koyuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KKA'
   },
   {
     airport: 'St Michael Airport, SMK',
     city: 'St. Michael',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SMK'
   },
   {
     airport: 'Shaktoolik Airport, SKK',
     city: 'Shaktoolik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SKK'
   },
   {
     airport: 'Tin City Long Range Radar Station Airport, TNC',
     city: 'Tin City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TNC'
   },
   {
     airport: 'Atka Airport, AKB',
     city: 'Atka',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKB'
   },
   {
     airport: 'Nikolski Air Station, IKO',
     city: 'Nikolski',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IKO'
   },
   {
     airport: 'Yakataga Airport, CYT',
     city: 'Yakataga',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CYT'
   },
   {
     airport: 'Alakanuk Airport, AUK',
     city: 'Alakanuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AUK'
   },
   {
     airport: 'Kipnuk Airport, KPN',
     city: 'Kipnuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KPN'
   },
   {
     airport: 'False Pass Airport, KFP',
     city: 'False Pass',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KFP'
   },
   {
     airport: 'Nelson Lagoon Airport, NLG',
     city: 'Nelson Lagoon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NLG'
   },
   {
     airport: 'Port Moller Airport, PML',
     city: 'Cold Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PML'
   },
   {
     airport: 'Klawock Airport, KLW',
     city: 'Klawock',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KLW'
   },
   {
     airport: 'Quinhagak Airport, KWN',
     city: 'Quinhagak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KWN'
   },
   {
     airport: 'Kotlik Airport, KOT',
     city: 'Kotlik',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KOT'
   },
   {
     airport: 'Koyukuk Airport, KYU',
     city: 'Koyukuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KYU'
   },
   {
     airport: 'Scammon Bay Airport, SCM',
     city: 'Scammon Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SCM'
   },
   {
     airport: 'Nondalton Airport, NNL',
     city: 'Nondalton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NNL'
   },
   {
     airport: 'Kongiganak Airport, KKH',
     city: 'Kongiganak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KKH'
   },
   {
     airport: 'Nikolai Airport, NIB',
     city: 'Nikolai',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NIB'
   },
   {
     airport: 'Akiak Airport, AKI',
     city: 'Akiak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKI'
   },
   {
     airport: 'Wainwright Airport, AIN',
     city: 'Wainwright',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AIN'
   },
   {
@@ -32720,49 +32720,49 @@ export const airportData =[
   {
     airport: 'Chenega Bay Airport, NCN',
     city: 'Chenega',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NCN'
   },
   {
     airport: 'Tok Junction Airport, TKJ',
     city: 'Tok',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TKJ'
   },
   {
     airport: 'Circle City /New/ Airport, IRC',
     city: 'Circle',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IRC'
   },
   {
     airport: 'Sleetmute Airport, SLQ',
     city: 'Sleetmute',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SLQ'
   },
   {
     airport: 'Healy River Airport, \\N',
     city: 'Healy',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Klawock Seaplane Base, \\N',
     city: 'Klawock',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Minchumina Airport, LMA',
     city: 'Lake Minchumina',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LMA'
   },
   {
     airport: 'Manley Hot Springs Airport, MLY',
     city: 'Manley Hot Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MLY'
   },
   {
@@ -33410,7 +33410,7 @@ export const airportData =[
   {
     airport: 'Eastern WV Regional Airport/Shepherd Field, MRB',
     city: 'Martinsburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MRB'
   },
   {
@@ -33740,37 +33740,37 @@ export const airportData =[
   {
     airport: 'Colonsay Airstrip, CSA',
     city: 'Colonsay',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'CSA'
   },
   {
     airport: 'Rock Hill - York County Airport, RKH',
     city: 'Rock Hill',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RKH'
   },
   {
     airport: 'Allegheny County Airport, AGC',
     city: 'Pittsburgh',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AGC'
   },
   {
     airport: 'Cecil Airport, VQQ',
     city: 'Jacksonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VQQ'
   },
   {
     airport: 'Fulton County Airport Brown Field, FTY',
     city: 'Atlanta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FTY'
   },
   {
     airport: 'Tresco Heliport, \\N',
     city: 'Tresco',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -33830,19 +33830,19 @@ export const airportData =[
   {
     airport: 'The Ohio State University Airport - Don Scott Field, OSU',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OSU'
   },
   {
     airport: 'Addison Airport, ADS',
     city: 'Addison',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ADS'
   },
   {
     airport: 'Destin Executive Airport, DSI',
     city: 'Destin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DSI'
   },
   {
@@ -33878,13 +33878,13 @@ export const airportData =[
   {
     airport: 'Kinston Regional Jetport At Stallings Field, ISO',
     city: 'Kinston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ISO'
   },
   {
     airport: 'First Flight Airport, FFA',
     city: 'Kill Devil Hills',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FFA'
   },
   {
@@ -34094,55 +34094,55 @@ export const airportData =[
   {
     airport: 'Provo Municipal Airport, PVU',
     city: 'Provo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PVU'
   },
   {
     airport: 'Steamboat Springs Bob Adams Field, SBS',
     city: 'Steamboat Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBS'
   },
   {
     airport: 'Delta Municipal Airport, DTA',
     city: 'Delta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DTA'
   },
   {
     airport: 'Richfield Municipal Airport, \\N',
     city: 'Richfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Carbon County Regional/Buck Davis Field, PUC',
     city: 'Price',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PUC'
   },
   {
     airport: 'Los Alamos Airport, LAM',
     city: 'Los Alamos',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAM'
   },
   {
     airport: 'Lake Havasu City Airport, HII',
     city: 'Lake Havasu City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HII'
   },
   {
     airport: 'Winslow Lindbergh Regional Airport, INW',
     city: 'Winslow',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'INW'
   },
   {
     airport: 'Douglas Municipal Airport, DGL',
     city: 'Douglas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DGL'
   },
   {
@@ -34274,7 +34274,7 @@ export const airportData =[
   {
     airport: 'Bartow Municipal Airport, BOW',
     city: 'Bartow',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BOW'
   },
   {
@@ -34292,13 +34292,13 @@ export const airportData =[
   {
     airport: 'Livermore Municipal Airport, LVK',
     city: 'Livermore',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LVK'
   },
   {
     airport: 'Mariposa Yosemite Airport, RMY',
     city: 'Mariposa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RMY'
   },
   {
@@ -34322,85 +34322,85 @@ export const airportData =[
   {
     airport: 'Jacqueline Cochran Regional Airport, TRM',
     city: 'Palm Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TRM'
   },
   {
     airport: 'Santa Monica Municipal Airport, SMO',
     city: 'Santa Monica',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SMO'
   },
   {
     airport: 'Bermuda Dunes Airport, UDD',
     city: 'Palm Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UDD'
   },
   {
     airport: 'Scottsdale Airport, SCF',
     city: 'Scottsdale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SCF'
   },
   {
     airport: 'Olympia Regional Airport, OLM',
     city: 'Olympia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OLM'
   },
   {
     airport: 'Yolo County Davis Woodland Winters Airport, \\N',
     city: 'Davis-Woodland-Winters',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Garfield County Regional Airport, RIL',
     city: 'Rifle',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RIL'
   },
   {
     airport: 'Shively Field, SAA',
     city: 'SARATOGA',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAA'
   },
   {
     airport: 'DeKalb Peachtree Airport, PDK',
     city: 'Atlanta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PDK'
   },
   {
     airport: 'Monroe County Airport, BMG',
     city: 'Bloomington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BMG'
   },
   {
     airport: 'Witham Field, SUA',
     city: 'Stuart',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SUA'
   },
   {
     airport: 'Morristown Municipal Airport, MMU',
     city: 'Morristown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MMU'
   },
   {
     airport: 'Napa County Airport, APC',
     city: 'Napa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'APC'
   },
   {
     airport: 'Brown Field Municipal Airport, SDM',
     city: 'San Diego',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SDM'
   },
   {
@@ -34412,25 +34412,25 @@ export const airportData =[
   {
     airport: 'Venice Municipal Airport, VNC',
     city: 'Venice',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VNC'
   },
   {
     airport: 'Palm Beach County Glades Airport, PHK',
     city: 'Pahokee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PHK'
   },
   {
     airport: 'Northwest Florida Beaches International Airport, ECP',
     city: 'Panama City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ECP'
   },
   {
     airport: 'San Bernardino International Airport, SBD',
     city: 'San Bernardino',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBD'
   },
   {
@@ -34460,7 +34460,7 @@ export const airportData =[
   {
     airport: 'San Carlos Airport, SQL',
     city: 'San Carlos',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SQL'
   },
   {
@@ -34484,31 +34484,31 @@ export const airportData =[
   {
     airport: 'Rocky Mount Wilson Regional Airport, RWI',
     city: 'Rocky Mount',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RWI'
   },
   {
     airport: 'Whittier Airport, \\N',
     city: 'Whittier',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Soldotna Airport, SXQ',
     city: 'Soldotna',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SXQ'
   },
   {
     airport: 'Gillespie Field, SEE',
     city: 'El Cajon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SEE'
   },
   {
     airport: 'San Clemente Island Naval Auxiliary Landing Field, \\N',
     city: 'San Clemente Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -34526,7 +34526,7 @@ export const airportData =[
   {
     airport: 'Truckee Tahoe Airport, TKF',
     city: 'Truckee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TKF'
   },
   {
@@ -34556,7 +34556,7 @@ export const airportData =[
   {
     airport: 'Cobb County-Mc Collum Field, \\N',
     city: 'Atlanta',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -34568,31 +34568,31 @@ export const airportData =[
   {
     airport: 'Dell Flight Strip, \\N',
     city: 'Dell',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Mission Field, LVM',
     city: 'Livingston-Montana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LVM'
   },
   {
     airport: 'Big Timber Airport, \\N',
     city: 'Big Timber',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Tulip City Airport, \\N',
     city: 'Holland',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'London Heliport, \\N',
     city: 'London',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -34622,7 +34622,7 @@ export const airportData =[
   {
     airport: 'Monument Valley Airport, GMV',
     city: 'Monument Valley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GMV'
   },
   {
@@ -34634,7 +34634,7 @@ export const airportData =[
   {
     airport: 'West 30th St. Heliport, JRA',
     city: 'New York',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JRA'
   },
   {
@@ -34652,7 +34652,7 @@ export const airportData =[
   {
     airport: 'Lakeland Linder International Airport, LAL',
     city: 'Lakeland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LAL'
   },
   {
@@ -34670,7 +34670,7 @@ export const airportData =[
   {
     airport: 'Indianola Municipal Airport, \\N',
     city: 'New York',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -34682,7 +34682,7 @@ export const airportData =[
   {
     airport: 'French Valley Airport, RBK',
     city: 'Murrieta-Temecula',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RBK'
   },
   {
@@ -34694,7 +34694,7 @@ export const airportData =[
   {
     airport: 'White Waltham Airfield, \\N',
     city: 'Maidenhead',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -34706,25 +34706,25 @@ export const airportData =[
   {
     airport: 'Carl R Keller Field, \\N',
     city: 'Port Clinton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Dayton-Wright Brothers Airport, MGY',
     city: 'Dayton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MGY'
   },
   {
     airport: 'Richmond Municipal Airport, \\N',
     city: 'Richmond',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Findlay Airport, FDY',
     city: 'Findley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FDY'
   },
   {
@@ -34760,13 +34760,13 @@ export const airportData =[
   {
     airport: 'Wycombe Air Park, HYC',
     city: 'Wycombe',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'HYC'
   },
   {
     airport: 'Bembridge Airport, BBP',
     city: 'Bembridge',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'BBP'
   },
   {
@@ -34778,7 +34778,7 @@ export const airportData =[
   {
     airport: 'Black Hills Airport-Clyde Ice Field, SPF',
     city: 'Spearfish-South Dakota',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SPF'
   },
   {
@@ -34826,7 +34826,7 @@ export const airportData =[
   {
     airport: 'Olive Branch Airport, OLV',
     city: 'Olive Branch',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OLV'
   },
   {
@@ -34850,19 +34850,19 @@ export const airportData =[
   {
     airport: 'Rocky Mountain Metropolitan Airport, BJC',
     city: 'Broomfield-CO',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BJC'
   },
   {
     airport: 'Salem Municipal Airport/McNary Field, SLE',
     city: 'Salem',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SLE'
   },
   {
     airport: 'Tunica Municipal Airport, UTM',
     city: 'Tunica',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UTM'
   },
   {
@@ -34916,13 +34916,13 @@ export const airportData =[
   {
     airport: 'Lawrence J Timmerman Airport, MWC',
     city: 'Milwaukee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MWC'
   },
   {
     airport: 'Southern Wisconsin Regional Airport, JVL',
     city: 'Janesville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JVL'
   },
   {
@@ -34934,31 +34934,31 @@ export const airportData =[
   {
     airport: 'Arlington Municipal Airport, \\N',
     city: 'Arlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Gwinnett County Briscoe Field, LZU',
     city: 'Lawrenceville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LZU'
   },
   {
     airport: 'Bowling Green Warren County Regional Airport, BWG',
     city: 'Bowling Green',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BWG'
   },
   {
     airport: 'Richard Lloyd Jones Jr Airport, RVS',
     city: 'Tulsa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RVS'
   },
   {
     airport: 'Al Minhad Air Base, NHD',
     city: 'Minhad AB',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'NHD'
   },
   {
@@ -34982,13 +34982,13 @@ export const airportData =[
   {
     airport: 'Bryce Canyon Airport, BCE',
     city: 'Bryce Canyon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BCE'
   },
   {
     airport: 'Burlington Alamance Regional Airport, \\N',
     city: 'Burlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -35024,13 +35024,13 @@ export const airportData =[
   {
     airport: 'New Century Aircenter Airport, JCI',
     city: 'Olathe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JCI'
   },
   {
     airport: 'Easton Newnam Field, ESN',
     city: 'Easton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ESN'
   },
   {
@@ -35048,7 +35048,7 @@ export const airportData =[
   {
     airport: 'Yuba County Airport, MYV',
     city: 'Yuba City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MYV'
   },
   {
@@ -35060,31 +35060,31 @@ export const airportData =[
   {
     airport: 'Halliburton Field, DUC',
     city: 'Duncan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DUC'
   },
   {
     airport: 'Garner Field, UVA',
     city: 'Uvalde',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UVA'
   },
   {
     airport: 'Lewis University Airport, LOT',
     city: 'Lockport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LOT'
   },
   {
     airport: 'Buchanan Field, CCR',
     city: 'Concord',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CCR'
   },
   {
     airport: 'Ocean Reef Club Airport, OCA',
     city: 'Ocean Reef Club Airport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OCA'
   },
   {
@@ -35144,13 +35144,13 @@ export const airportData =[
   {
     airport: 'Ohio University Snyder Field, ATO',
     city: 'Athens',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ATO'
   },
   {
     airport: 'Springfield-Beckley Municipal Airport, SGH',
     city: 'Springfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SGH'
   },
   {
@@ -35198,31 +35198,31 @@ export const airportData =[
   {
     airport: 'Philip Billard Municipal Airport, TOP',
     city: 'Topeka',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TOP'
   },
   {
     airport: 'Benson Airstrip, \\N',
     city: 'Uvalde',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Rough River State Park Airport, \\N',
     city: 'Null',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Smyrna Airport, MQY',
     city: 'Smyrna',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MQY'
   },
   {
     airport: 'Franklin County Airport, UOS',
     city: 'Sewanee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UOS'
   },
   {
@@ -35240,19 +35240,19 @@ export const airportData =[
   {
     airport: 'Collin County Regional At Mc Kinney Airport, \\N',
     city: 'DALLAS',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Chicago Executive Airport, PWK',
     city: 'Chicago-Wheeling',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PWK'
   },
   {
     airport: 'Southwest Washington Regional Airport, KLS',
     city: 'Kelso',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'KLS'
   },
   {
@@ -35306,55 +35306,55 @@ export const airportData =[
   {
     airport: 'Wilmington Airpark, ILN',
     city: 'Wilmington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ILN'
   },
   {
     airport: 'Marana Regional Airport, AVW',
     city: 'Tucson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AVW'
   },
   {
     airport: 'Casa Grande Municipal Airport, CGZ',
     city: 'Casa Grande',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CGZ'
   },
   {
     airport: 'Mobile Airport, \\N',
     city: 'Mobile',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Buckeye Municipal Airport, BXK',
     city: 'Buckeye',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BXK'
   },
   {
     airport: 'Gila Bend Municipal Airport, \\N',
     city: 'Gila Bend',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'McMinn County Airport, MMI',
     city: 'Athens',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MMI'
   },
   {
     airport: 'Sterling Municipal Airport, STK',
     city: 'Sterling',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STK'
   },
   {
     airport: 'Rawlins Municipal Airport/Harvey Field, RWL',
     city: 'Rawlins',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RWL'
   },
   {
@@ -35366,25 +35366,25 @@ export const airportData =[
   {
     airport: 'Essex County Airport, CDW',
     city: 'Caldwell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDW'
   },
   {
     airport: 'Lee C Fine Memorial Airport, AIZ',
     city: 'Kaiser Lake Ozark',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AIZ'
   },
   {
     airport: 'Thomasville Regional Airport, TVI',
     city: 'Thomasville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TVI'
   },
   {
     airport: 'Henderson Executive Airport, HSH',
     city: 'Henderson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HSH'
   },
   {
@@ -35396,7 +35396,7 @@ export const airportData =[
   {
     airport: 'Henry Tift Myers Airport, TMA',
     city: 'Tifton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TMA'
   },
   {
@@ -35420,7 +35420,7 @@ export const airportData =[
   {
     airport: 'Phoenix Deer Valley Airport, DVT',
     city: 'Phoenix ',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DVT'
   },
   {
@@ -35444,7 +35444,7 @@ export const airportData =[
   {
     airport: 'Republic Airport, FRG',
     city: 'Farmingdale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FRG'
   },
   {
@@ -35468,7 +35468,7 @@ export const airportData =[
   {
     airport: 'South Texas Regional Airport at Hondo, \\N',
     city: 'Hondo',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -35480,19 +35480,19 @@ export const airportData =[
   {
     airport: 'McKinley National Park Airport, MCL',
     city: 'McKinley Park',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCL'
   },
   {
     airport: 'Lake Hood Airport, \\N',
     city: 'Anchorage',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Prospect Creek Airport, PPC',
     city: 'Prospect Creek',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PPC'
   },
   {
@@ -35516,13 +35516,13 @@ export const airportData =[
   {
     airport: 'Wheeling Ohio County Airport, HLG',
     city: 'Wheeling',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HLG'
   },
   {
     airport: 'Fitzgerald Municipal Airport, \\N',
     city: 'Fitzgerald',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -35546,13 +35546,13 @@ export const airportData =[
   {
     airport: 'Al Maktoum International Airport, DWC',
     city: 'Dubai',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'DWC'
   },
   {
     airport: 'Aransas County Airport, RKP',
     city: 'Rockport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RKP'
   },
   {
@@ -35780,13 +35780,13 @@ export const airportData =[
   {
     airport: 'Crisp County Cordele Airport, \\N',
     city: 'Cordele',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Ormond Beach Municipal Airport, \\N',
     city: 'Ormond Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -35804,19 +35804,19 @@ export const airportData =[
   {
     airport: 'Portland Troutdale Airport, TTD',
     city: 'Troutdale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TTD'
   },
   {
     airport: 'Portland Hillsboro Airport, HIO',
     city: 'Hillsboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HIO'
   },
   {
     airport: 'One Police Plaza Heliport, \\N',
     city: 'New York',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -35846,67 +35846,67 @@ export const airportData =[
   {
     airport: 'Bend Municipal Airport, \\N',
     city: 'Bend',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Christmas Valley Airport, \\N',
     city: 'Christmas Valley',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Burns Municipal Airport, BNO',
     city: 'Burns',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BNO'
   },
   {
     airport: 'Prineville Airport, PRZ',
     city: 'Prineville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PRZ'
   },
   {
     airport: 'Red Bluff Municipal Airport, RBL',
     city: 'Red Bluff',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RBL'
   },
   {
     airport: 'Marin County Airport - Gnoss Field, NOT',
     city: 'Novato',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NOT'
   },
   {
     airport: 'Lake County Airport, LKV',
     city: 'Lakeview',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LKV'
   },
   {
     airport: 'Tillamook Airport, OTK',
     city: 'Tillamook',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OTK'
   },
   {
     airport: 'Ontario Municipal Airport, ONO',
     city: 'Ontario',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ONO'
   },
   {
     airport: 'Columbia Gorge Regional the Dalles Municipal Airport, DLS',
     city: 'The Dalles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DLS'
   },
   {
     airport: 'Montgomery County Airpark, GAI',
     city: 'Gaithersburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GAI'
   },
   {
@@ -35948,7 +35948,7 @@ export const airportData =[
   {
     airport: 'Charlevoix Municipal Airport, \\N',
     city: 'Charelvoix',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -35990,19 +35990,19 @@ export const airportData =[
   {
     airport: 'Flagler Executive Airport, \\N',
     city: 'Flagler',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Morrisville Stowe State Airport, MVL',
     city: 'Morrisville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MVL'
   },
   {
     airport: 'Dallas Executive Airport, RBD',
     city: 'Dallas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RBD'
   },
   {
@@ -36020,25 +36020,25 @@ export const airportData =[
   {
     airport: 'Westerly State Airport, WST',
     city: 'Washington County',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WST'
   },
   {
     airport: 'Block Island State Airport, BID',
     city: 'Block Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BID'
   },
   {
     airport: 'Nightmute Airport, NME',
     city: 'Nightmute',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NME'
   },
   {
     airport: 'Toksook Bay Airport, OOK',
     city: 'Toksook Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OOK'
   },
   {
@@ -36056,7 +36056,7 @@ export const airportData =[
   {
     airport: 'Decatur County Industrial Air Park, BGE',
     city: 'Bainbridge',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BGE'
   },
   {
@@ -36080,19 +36080,19 @@ export const airportData =[
   {
     airport: 'Silver Springs Airport, \\N',
     city: 'Silver Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Whiteman Airport, WHP',
     city: 'Los Angeles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WHP'
   },
   {
     airport: 'Madera Municipal Airport, MAE',
     city: 'Madera',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MAE'
   },
   {
@@ -36248,7 +36248,7 @@ export const airportData =[
   {
     airport: 'Apalachicola Regional Airport, AAF',
     city: 'Apalachicola',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AAF'
   },
   {
@@ -36320,241 +36320,241 @@ export const airportData =[
   {
     airport: 'Douglas Municipal Airport, \\N',
     city: 'Douglas',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'St Lucie County International Airport, FPR',
     city: 'Fort Pierce',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FPR'
   },
   {
     airport: 'Taunton Municipal King Field, \\N',
     city: 'Taunton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Plymouth Municipal Airport, PYM',
     city: 'Plymouth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PYM'
   },
   {
     airport: 'Quonset State Airport, NCO',
     city: 'North Kingstown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NCO'
   },
   {
     airport: 'Norwood Memorial Airport, OWD',
     city: 'Norwood',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OWD'
   },
   {
     airport: 'Westfield-Barnes Regional Airport, BAF',
     city: 'Westfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BAF'
   },
   {
     airport: 'Windham Airport, \\N',
     city: 'Willimantic',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Orange County Airport, MGJ',
     city: 'Montgomery',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MGJ'
   },
   {
     airport: 'Capital City Airport, HAR',
     city: 'Harrisburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HAR'
   },
   {
     airport: 'Marshfield Municipal George Harlow Field, \\N',
     city: 'Marshfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Danbury Municipal Airport, DXR',
     city: 'Danbury',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DXR'
   },
   {
     airport: 'Boire Field, ASH',
     city: 'Nashua',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ASH'
   },
   {
     airport: 'Lawrence Municipal Airport, LWM',
     city: 'Lawrence',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LWM'
   },
   {
     airport: 'Waterbury Oxford Airport, OXC',
     city: 'Oxford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OXC'
   },
   {
     airport: 'Fitchburg Municipal Airport, \\N',
     city: 'Fitchburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Earl L. Small Jr. Field/Stockmar Airport, \\N',
     city: 'Villa Rica',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Cartersville Airport, \\N',
     city: 'Cartersville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Centre-Piedmont-Cherokee County Regional Airport, \\N',
     city: 'Centre',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Richard B Russell Airport, RMG',
     city: 'Rome',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RMG'
   },
   {
     airport: 'Northeast Alabama Regional Airport, GAD',
     city: 'Gadsden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GAD'
   },
   {
     airport: 'Knoxville Downtown Island Airport, \\N',
     city: 'Knoxville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Barrow County Airport, WDR',
     city: 'Winder',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WDR'
   },
   {
     airport: 'Plantation Airpark, \\N',
     city: 'Sylvania',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Dalton Municipal Airport, DNN',
     city: 'Dalton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DNN'
   },
   {
     airport: 'West Georgia Regional O V Gray Field, \\N',
     city: 'Carrollton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'LaGrange Callaway Airport, LGC',
     city: 'LaGrange',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LGC'
   },
   {
     airport: 'Baldwin County Regional Airport, \\N',
     city: 'Milledgeville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Harris County Airport, PIM',
     city: 'Pine Mountain',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PIM'
   },
   {
     airport: 'Peachtree City Falcon Field, \\N',
     city: 'Atlanta',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lee Gilmer Memorial Airport, GVL',
     city: 'Gainesville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GVL'
   },
   {
     airport: 'Harry Clever Field, PHD',
     city: 'New Philadelpha',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PHD'
   },
   {
     airport: 'Darlington County Airport, \\N',
     city: 'Darlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Hilton Head Airport, HHH',
     city: 'Hilton Head Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HHH'
   },
   {
     airport: 'Daniel Field, DNL',
     city: 'Augusta',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DNL'
   },
   {
     airport: 'Foothills Regional Airport, MRN',
     city: 'Morganton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MRN'
   },
   {
     airport: 'Pike County-Hatcher Field, PVL',
     city: 'Pikeville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PVL'
   },
   {
     airport: 'Mallards Landing Airport, \\N',
     city: 'Locust Grove',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Toccoa Airport - R.G. Letourneau Field, TOC',
     city: 'Toccoa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TOC'
   },
   {
     airport: 'Compton Abbas Aerodrome, \\N',
     city: 'Shaftesbury',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -36620,13 +36620,13 @@ export const airportData =[
   {
     airport: 'Fort Worth Alliance Airport, AFW',
     city: 'Fort Worth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AFW'
   },
   {
     airport: 'East Troy Municipal Airport, \\N',
     city: 'East Troy',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -36752,19 +36752,19 @@ export const airportData =[
   {
     airport: 'Lawrence Municipal Airport, LWC',
     city: 'Lawrence',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LWC'
   },
   {
     airport: 'Wellington Municipal Airport, \\N',
     city: 'Wellington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Pompano Beach Airpark, PPM',
     city: 'Pompano Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PPM'
   },
   {
@@ -36782,7 +36782,7 @@ export const airportData =[
   {
     airport: 'Shelby County Airport, \\N',
     city: 'Alabaster',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -36794,7 +36794,7 @@ export const airportData =[
   {
     airport: 'Sky Ranch At Carefree Airport, \\N',
     city: 'Carefree',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -36818,7 +36818,7 @@ export const airportData =[
   {
     airport: 'Glasgow City Heliport, \\N',
     city: 'Glasgow',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -36836,19 +36836,19 @@ export const airportData =[
   {
     airport: 'Indianapolis Metropolitan Airport, \\N',
     city: 'Indianapolis',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'London-Corbin Airport/Magee Field, LOZ',
     city: 'London',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LOZ'
   },
   {
     airport: 'Simmons Army Air Field, FBG',
     city: 'Fredericksburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FBG'
   },
   {
@@ -36896,7 +36896,7 @@ export const airportData =[
   {
     airport: 'John H Batten Airport, RAC',
     city: 'Racine',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RAC'
   },
   {
@@ -36932,19 +36932,19 @@ export const airportData =[
   {
     airport: 'Redlands Municipal Airport, \\N',
     city: 'Redlands',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Flabob Airport, \\N',
     city: 'Riverside',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Tacoma Narrows Airport, TIW',
     city: 'Tacoma',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TIW'
   },
   {
@@ -36956,7 +36956,7 @@ export const airportData =[
   {
     airport: 'Jack Edwards Airport, GUF',
     city: 'Gulf Shores',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GUF'
   },
   {
@@ -36998,19 +36998,19 @@ export const airportData =[
   {
     airport: 'Hazleton Municipal Airport, HZL',
     city: 'Hazleton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HZL'
   },
   {
     airport: 'Greater Cumberland Regional Airport, CBE',
     city: 'Cumberland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CBE'
   },
   {
     airport: 'Sugar Loaf Shores Airport, \\N',
     city: 'Key West',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -37040,37 +37040,37 @@ export const airportData =[
   {
     airport: 'Tri-County Regional Airport, LNR',
     city: 'Lone Rock',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LNR'
   },
   {
     airport: 'Price County Airport, \\N',
     city: 'Phillips',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Monroe Municipal Airport, \\N',
     city: 'Monroe',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Joliet Regional Airport, JOT',
     city: 'Joliet',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JOT'
   },
   {
     airport: 'Illinois Valley Regional Airport-Walter A Duncan Field, VYS',
     city: 'Peru',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VYS'
   },
   {
     airport: 'Jackson County Reynolds Field, JXN',
     city: 'Jackson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JXN'
   },
   {
@@ -37088,223 +37088,223 @@ export const airportData =[
   {
     airport: 'Joseph A. Hardy Connellsville Airport, \\N',
     city: 'Connellsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Bedford County Airport, \\N',
     city: 'Bedford',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Wings Field, BBX',
     city: 'Philadelphia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BBX'
   },
   {
     airport: 'Okeechobee County Airport, OBE',
     city: 'Okeechobee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OBE'
   },
   {
     airport: 'Sebring Regional Airport, SEF',
     city: 'Sebring',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SEF'
   },
   {
     airport: 'Avon Park Executive Airport, AVO',
     city: 'Avon Park',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AVO'
   },
   {
     airport: 'Winter Haven Regional Airport - Gilbert Field, GIF',
     city: 'Winter Haven',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GIF'
   },
   {
     airport: 'Zephyrhills Municipal Airport, ZPH',
     city: 'Zephyrhills',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ZPH'
   },
   {
     airport: 'Ocala International Airport - Jim Taylor Field, OCF',
     city: 'Ocala',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OCF'
   },
   {
     airport: 'Jesup Wayne County Airport, \\N',
     city: 'Jesup',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Madison Municipal Airport, \\N',
     city: 'Madison',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Newnan Coweta County Airport, \\N',
     city: 'Newnan',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Thomson-McDuffie County Airport, \\N',
     city: 'Thomson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Aiken Regional Airport, AIK',
     city: 'Aiken',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AIK'
   },
   {
     airport: 'Woodward Field, CDN',
     city: 'Camden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CDN'
   },
   {
     airport: 'Lumberton Regional Airport, LBT',
     city: 'Lumberton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LBT'
   },
   {
     airport: 'Moore County Airport, SOP',
     city: 'Pinehurst-Southern Pines',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SOP'
   },
   {
     airport: 'Richmond County Airport, \\N',
     city: 'Rockingham',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Baraboo Wisconsin Dells Airport, \\N',
     city: 'Baraboo',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Statesville Regional Airport, SVH',
     city: 'Statesville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SVH'
   },
   {
     airport: 'Burlington Municipal Airport, \\N',
     city: 'Burlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'William T. Piper Memorial Airport, LHV',
     city: 'Lock Haven',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LHV'
   },
   {
     airport: 'Zelienople Municipal Airport, \\N',
     city: 'Zelienople',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lorain County Regional Airport, \\N',
     city: 'Lorain-Elyria',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Burke Lakefront Airport, BKL',
     city: 'Cleveland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKL'
   },
   {
     airport: 'Chautauqua County-Dunkirk Airport, DKK',
     city: 'Dunkirk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DKK'
   },
   {
     airport: 'South Jersey Regional Airport, LLY',
     city: 'Mount Holly',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LLY'
   },
   {
     airport: 'Linden Airport, LDJ',
     city: 'Linden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LDJ'
   },
   {
     airport: 'Tri State Steuben County Airport, ANQ',
     city: 'Angola',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANQ'
   },
   {
     airport: 'Warsaw Municipal Airport, \\N',
     city: 'Warsaw',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Van Wert County Airport, \\N',
     city: 'Van Wert',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Brooks Field, \\N',
     city: 'Marshall',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Genesee County Airport, \\N',
     city: 'Batavia',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Clearwater Air Park, CLW',
     city: 'Clearwater',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLW'
   },
   {
     airport: 'Orlampa Inc Airport, \\N',
     city: 'Forties Alpha',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Chicago Meigs Airport, CGX',
     city: 'Chicago',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CGX'
   },
   {
     airport: 'Pickens County Airport, \\N',
     city: 'Jasper',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -37316,19 +37316,19 @@ export const airportData =[
   {
     airport: 'Grand Strand Airport, CRE',
     city: 'North Myrtle Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CRE'
   },
   {
     airport: 'Lansing Municipal Airport, \\N',
     city: 'Lansing',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Ramona Airport, \\N',
     city: 'Ramona',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -37424,19 +37424,19 @@ export const airportData =[
   {
     airport: 'Branch County Memorial Airport, \\N',
     city: 'Coldwater',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Wilkes Barre Wyoming Valley Airport, WBW',
     city: 'Wilkes-Barre',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WBW'
   },
   {
     airport: 'Willoughby Lost Nation Municipal Airport, LNN',
     city: 'Willoughby',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LNN'
   },
   {
@@ -37460,13 +37460,13 @@ export const airportData =[
   {
     airport: 'Capital City Airport, FFT',
     city: 'Frankfort',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FFT'
   },
   {
     airport: 'Auburn Lewiston Municipal Airport, LEW',
     city: 'Lewiston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LEW'
   },
   {
@@ -37484,55 +37484,55 @@ export const airportData =[
   {
     airport: 'Bloyer Field, \\N',
     city: 'Tomah',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Marco Island Executive Airport, MRK',
     city: 'Marco Island Airport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MRK'
   },
   {
     airport: 'Drummond Island Airport, DRE',
     city: 'Drummond Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DRE'
   },
   {
     airport: 'Gladwin Zettel Memorial Airport, GDW',
     city: 'Gladwin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GDW'
   },
   {
     airport: 'South Haven Area Regional Airport, \\N',
     city: 'South Haven',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Marshfield Municipal Airport, MFI',
     city: 'Marshfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MFI'
   },
   {
     airport: 'Alexander Field South Wood County Airport, ISW',
     city: 'Wisconsin Rapids',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ISW'
   },
   {
     airport: 'Clinton Municipal Airport, CWI',
     city: 'Clinton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CWI'
   },
   {
     airport: 'Beverly Municipal Airport, BVY',
     city: 'Beverly',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BVY'
   },
   {
@@ -37556,37 +37556,37 @@ export const airportData =[
   {
     airport: 'Poplar Bluff Municipal Airport, POF',
     city: 'Poplar Bluff',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'POF'
   },
   {
     airport: 'Somerset Airport, \\N',
     city: 'Somerville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Eastport Municipal Airport, \\N',
     city: 'Eastport',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Keokuk Municipal Airport, EOK',
     city: 'Keokuk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EOK'
   },
   {
     airport: 'Perth/Scone Airport, PSL',
     city: 'Perth',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'PSL'
   },
   {
     airport: 'Caernarfon Airport, \\N',
     city: 'Caernarfon',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -37598,7 +37598,7 @@ export const airportData =[
   {
     airport: 'St Paul Downtown Holman Field, STP',
     city: 'St. Paul',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STP'
   },
   {
@@ -37646,7 +37646,7 @@ export const airportData =[
   {
     airport: 'Oconomowoc Airport, \\N',
     city: 'Oconomowoc',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -37700,7 +37700,7 @@ export const airportData =[
   {
     airport: 'Butler Co Regional Airport - Hogan Field, HAO',
     city: 'Hamilton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HAO'
   },
   {
@@ -37796,19 +37796,19 @@ export const airportData =[
   {
     airport: 'Fond du Lac County Airport, FLD',
     city: 'Fond du Lac',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FLD'
   },
   {
     airport: 'Waupaca Municipal Airport, \\N',
     city: 'Waupaca',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Stevens Point Municipal Airport, STE',
     city: 'Stevens Point',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'STE'
   },
   {
@@ -37826,7 +37826,7 @@ export const airportData =[
   {
     airport: 'Luce County Airport, \\N',
     city: 'Newberry',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -37850,7 +37850,7 @@ export const airportData =[
   {
     airport: 'Galion Municipal Airport, GQQ',
     city: 'Galion',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GQQ'
   },
   {
@@ -37868,19 +37868,19 @@ export const airportData =[
   {
     airport: 'Clarksville–Montgomery County Regional Airport, CKV',
     city: 'Clarksville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CKV'
   },
   {
     airport: 'Lompoc Airport, LPC',
     city: 'Lompoc',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LPC'
   },
   {
     airport: 'Chester County G O Carlson Airport, CTH',
     city: 'Coatesville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CTH'
   },
   {
@@ -37910,7 +37910,7 @@ export const airportData =[
   {
     airport: 'Lake Placid Airport, LKP',
     city: 'Lake Placid',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LKP'
   },
   {
@@ -37940,7 +37940,7 @@ export const airportData =[
   {
     airport: 'Lima Allen County Airport, AOH',
     city: 'Lima',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AOH'
   },
   {
@@ -37952,55 +37952,55 @@ export const airportData =[
   {
     airport: 'Malcolm McKinnon Airport, SSI',
     city: 'Brunswick',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SSI'
   },
   {
     airport: 'Beaver County Airport, BFP',
     city: 'Beaver Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BFP'
   },
   {
     airport: 'Georgetown County Airport, GGE',
     city: 'Georgetown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GGE'
   },
   {
     airport: 'Hardwick Field, HDI',
     city: 'Cleveland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HDI'
   },
   {
     airport: 'Renton Municipal Airport, RNT',
     city: 'Renton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RNT'
   },
   {
     airport: 'Brackett Field, POC',
     city: 'La Verne',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'POC'
   },
   {
     airport: 'Cross City Airport, CTY',
     city: 'Cross City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CTY'
   },
   {
     airport: 'Oconee County Regional Airport, CEU',
     city: 'Clemson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CEU'
   },
   {
     airport: 'Beech Factory Airport, BEC',
     city: 'Wichita',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BEC'
   },
   {
@@ -38012,37 +38012,37 @@ export const airportData =[
   {
     airport: 'Tom B. David Field, \\N',
     city: 'Calhoun',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Habersham County Airport, \\N',
     city: 'Cornelia',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Georgetown Municipal Airport, \\N',
     city: 'Georgetown',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Old Rhinebeck Airport, \\N',
     city: 'Rhinebeck',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Duxford Aerodrome, QFO',
     city: 'Duxford',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'QFO'
   },
   {
     airport: 'Sidney Municipal-Lloyd W Carr Field, SNY',
     city: 'Sidney',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SNY'
   },
   {
@@ -38078,7 +38078,7 @@ export const airportData =[
   {
     airport: 'Kalaeloa Airport, JRF',
     city: 'Kapolei',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JRF'
   },
   {
@@ -38114,25 +38114,25 @@ export const airportData =[
   {
     airport: 'Iosco County Airport, ECA',
     city: 'East Tawas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ECA'
   },
   {
     airport: 'Madison County Executive Airport-Tom Sharp Jr Field, \\N',
     city: 'Huntsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Leesburg Executive Airport, \\N',
     city: 'Leesburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Anoka County-Blaine (Janes Field) Airport, \\N',
     city: 'Anoka',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -38174,19 +38174,19 @@ export const airportData =[
   {
     airport: 'Williamson Sodus Airport, \\N',
     city: 'Williamson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Fairoaks Airport, \\N',
     city: 'Fairoaks',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Boulder Municipal Airport, WBU',
     city: 'Boulder',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WBU'
   },
   {
@@ -38222,7 +38222,7 @@ export const airportData =[
   {
     airport: 'Palo Alto Airport of Santa Clara County, PAO',
     city: 'Palo Alto',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PAO'
   },
   {
@@ -38246,19 +38246,19 @@ export const airportData =[
   {
     airport: 'Falcon Field, MSC',
     city: 'Mesa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MSC'
   },
   {
     airport: 'Coolidge Municipal Airport, \\N',
     city: 'Cooldige',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Cottonwood Airport, \\N',
     city: 'Cottonwood',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -38276,13 +38276,13 @@ export const airportData =[
   {
     airport: 'Ak-Chin Regional Airport, \\N',
     city: 'Phoenix',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Wickenburg Municipal Airport, \\N',
     city: 'Wickenburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -38294,7 +38294,7 @@ export const airportData =[
   {
     airport: 'Oakland County International Airport, PTK',
     city: 'Pontiac',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PTK'
   },
   {
@@ -38306,7 +38306,7 @@ export const airportData =[
   {
     airport: 'Dillant Hopkins Airport, EEN',
     city: 'Keene',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EEN'
   },
   {
@@ -38330,13 +38330,13 @@ export const airportData =[
   {
     airport: 'Glasgow Industrial Airport, \\N',
     city: 'Glasgow',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Rochester Airport, RCS',
     city: 'Rochester',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'RCS'
   },
   {
@@ -38366,7 +38366,7 @@ export const airportData =[
   {
     airport: 'Iowa City Municipal Airport, IOW',
     city: 'Iowa City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IOW'
   },
   {
@@ -38384,19 +38384,19 @@ export const airportData =[
   {
     airport: 'Windom Municipal Airport, \\N',
     city: 'Windom',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Longview Ranch Airport, \\N',
     city: 'Longview',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Rothera Research Station, \\N',
     city: 'Rothera Research Station',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -38408,7 +38408,7 @@ export const airportData =[
   {
     airport: 'Lee Airport, ANP',
     city: 'Annapolis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ANP'
   },
   {
@@ -38444,13 +38444,13 @@ export const airportData =[
   {
     airport: 'Pecos Municipal Airport, PEQ',
     city: 'Pecos',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PEQ'
   },
   {
     airport: 'Hattiesburg Bobby L Chain Municipal Airport, HBG',
     city: 'Hattiesburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HBG'
   },
   {
@@ -38474,13 +38474,13 @@ export const airportData =[
   {
     airport: 'Chan Gurney Municipal Airport, YKN',
     city: 'Yankton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'YKN'
   },
   {
     airport: 'Sir Bani Yas Airport, XSB',
     city: 'Sir Bani Yas Island',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: 'XSB'
   },
   {
@@ -38492,7 +38492,7 @@ export const airportData =[
   {
     airport: 'Beccles Airport, \\N',
     city: 'Beccles',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -38528,7 +38528,7 @@ export const airportData =[
   {
     airport: 'RAF Brawdy, \\N',
     city: 'Brawdy',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -38540,7 +38540,7 @@ export const airportData =[
   {
     airport: 'Redhill Aerodrome, KRH',
     city: 'Redhill',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'KRH'
   },
   {
@@ -38558,7 +38558,7 @@ export const airportData =[
   {
     airport: 'Hayward Executive Airport, HWD',
     city: 'Hayward',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HWD'
   },
   {
@@ -38576,13 +38576,13 @@ export const airportData =[
   {
     airport: 'Enstone Aerodrome, \\N',
     city: 'Enstone',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Ann Arbor Municipal Airport, ARB',
     city: 'Ann Arbor',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ARB'
   },
   {
@@ -38708,7 +38708,7 @@ export const airportData =[
   {
     airport: 'Henry County Airport, \\N',
     city: 'Hampton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -38720,7 +38720,7 @@ export const airportData =[
   {
     airport: 'Alameda Naval Air Station, NGZ',
     city: 'Alameda',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NGZ'
   },
   {
@@ -38768,7 +38768,7 @@ export const airportData =[
   {
     airport: 'Comarapa Airport, \\N',
     city: 'Salt Lake City',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -38792,7 +38792,7 @@ export const airportData =[
   {
     airport: 'Immokalee Regional Airport, IMM',
     city: 'Immokalee ',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IMM'
   },
   {
@@ -38804,7 +38804,7 @@ export const airportData =[
   {
     airport: 'Rancho San Simeon Airport, \\N',
     city: 'Cambria',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -38816,7 +38816,7 @@ export const airportData =[
   {
     airport: 'Dinwiddie County Airport, PTB',
     city: 'Petersburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PTB'
   },
   {
@@ -38840,7 +38840,7 @@ export const airportData =[
   {
     airport: 'Sheboygan County Memorial Airport, SBM',
     city: 'Sheboygan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SBM'
   },
   {
@@ -38882,19 +38882,19 @@ export const airportData =[
   {
     airport: 'Pinal Airpark, MZJ',
     city: 'Marana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MZJ'
   },
   {
     airport: 'Glendale Municipal Airport, \\N',
     city: 'Glendale',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Safford Regional Airport, SAD',
     city: 'Safford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SAD'
   },
   {
@@ -38948,7 +38948,7 @@ export const airportData =[
   {
     airport: 'Sikeston Memorial Municipal Airport, SIK',
     city: 'Sikeston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SIK'
   },
   {
@@ -38960,73 +38960,73 @@ export const airportData =[
   {
     airport: 'Floyd Bennett Memorial Airport, GFL',
     city: 'Queensbury',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GFL'
   },
   {
     airport: 'Saratoga County Airport, \\N',
     city: 'Ballston Spa',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Crystal River Airport, \\N',
     city: 'Crystal River',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Martin State Airport, MTN',
     city: 'Baltimore',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MTN'
   },
   {
     airport: 'Lincoln Regional Karl Harder Field, \\N',
     city: 'Lincoln',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Fostoria Metropolitan Airport, \\N',
     city: 'Fostoria',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Eastern Slopes Regional Airport, FRY',
     city: 'Fryeburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FRY'
   },
   {
     airport: 'Coral Creek Airport, \\N',
     city: 'Placida',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lakefront Airport, NEW',
     city: 'New Orleans',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NEW'
   },
   {
     airport: 'Coeur D\'Alene - Pappy Boyington Field, COE',
     city: 'Coeur d\'Alene',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'COE'
   },
   {
     airport: 'Beaumont Municipal Airport, BMT',
     city: 'Beaumont',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BMT'
   },
   {
     airport: 'Vermilion Regional Airport, DNV',
     city: 'Danville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DNV'
   },
   {
@@ -39038,7 +39038,7 @@ export const airportData =[
   {
     airport: 'Space Coast Regional Airport, TIX',
     city: 'Titusville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TIX'
   },
   {
@@ -39068,13 +39068,13 @@ export const airportData =[
   {
     airport: 'Andrau Airpark, AAP',
     city: 'Houston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AAP'
   },
   {
     airport: 'Flying Cloud Airport, FCM',
     city: 'Eden Prairie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FCM'
   },
   {
@@ -39086,7 +39086,7 @@ export const airportData =[
   {
     airport: 'Johnson County Executive Airport, OJC',
     city: 'Olathe',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OJC'
   },
   {
@@ -39176,19 +39176,19 @@ export const airportData =[
   {
     airport: 'Brandywine Airport, \\N',
     city: 'West Goshen Township',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Manassas Regional Airport/Harry P. Davis Field, MNZ',
     city: 'Manassas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MNZ'
   },
   {
     airport: 'Texas Gulf Coast Regional Airport, LJN',
     city: 'Angleton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LJN'
   },
   {
@@ -39218,13 +39218,13 @@ export const airportData =[
   {
     airport: 'Elstree Airfield, \\N',
     city: 'Elstree',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Sandtoft Airfield, \\N',
     city: 'Sandtoft',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -39236,7 +39236,7 @@ export const airportData =[
   {
     airport: 'Shelby County Airport, \\N',
     city: 'Shelbyville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39272,7 +39272,7 @@ export const airportData =[
   {
     airport: 'Enumclaw Airport, \\N',
     city: 'Enumclaw',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39338,7 +39338,7 @@ export const airportData =[
   {
     airport: 'Port Alsworth Airport, PTA',
     city: 'Port alsworth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PTA'
   },
   {
@@ -39350,7 +39350,7 @@ export const airportData =[
   {
     airport: 'Fairfield County Airport, \\N',
     city: 'Winnsboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39386,7 +39386,7 @@ export const airportData =[
   {
     airport: 'Skyhaven Airport, \\N',
     city: 'Rochester',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39398,7 +39398,7 @@ export const airportData =[
   {
     airport: 'Newton City-County Airport, EWK',
     city: 'Newton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EWK'
   },
   {
@@ -39416,115 +39416,115 @@ export const airportData =[
   {
     airport: 'Taszár Air Base, TZR',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TZR'
   },
   {
     airport: 'Fort Bridger Airport, FBR',
     city: 'Fort Bridger',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FBR'
   },
   {
     airport: 'Prosser Airport, \\N',
     city: 'Prosser',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Chehalis Centralia Airport, CLS',
     city: 'Chehalis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLS'
   },
   {
     airport: 'Desert Aire Regional Airport, \\N',
     city: 'Mattawa',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Evanston-Uinta County Airport-Burns Field, EVW',
     city: 'Evanston',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EVW'
   },
   {
     airport: 'Sabetha Municipal Airport, \\N',
     city: 'Sabetha',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Mt Pleasant Regional-Faison field, \\N',
     city: 'Mount Pleasant',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jimmy Carter Regional Airport, \\N',
     city: 'Americus',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Weedon Field, EUF',
     city: 'Eufala',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EUF'
   },
   {
     airport: 'Saluda County Airport, \\N',
     city: 'Saluda',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Dare County Regional Airport, MEO',
     city: 'Manteo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MEO'
   },
   {
     airport: 'Auburn University Regional Airport, AUO',
     city: 'Auburn',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AUO'
   },
   {
     airport: 'Tri Cities Airport, \\N',
     city: 'Endicott',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Bessemer Airport, \\N',
     city: 'Bessemer',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Colorado Springs East Airport, \\N',
     city: 'Ellicott',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Crystal Airport, \\N',
     city: 'Crystal',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Clarke County Airport, \\N',
     city: 'Quitman',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'W H \'Bud\' Barron Airport, DBN',
     city: 'Dublin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DBN'
   },
   {
@@ -39554,7 +39554,7 @@ export const airportData =[
   {
     airport: 'Corvallis Municipal Airport, CVO',
     city: 'Corvallis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CVO'
   },
   {
@@ -39566,13 +39566,13 @@ export const airportData =[
   {
     airport: 'El Almendro Airport, \\N',
     city: 'Scranton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'San Agustin Airport, \\N',
     city: 'Morristown',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39608,49 +39608,49 @@ export const airportData =[
   {
     airport: 'Ogden Hinckley Airport, OGD',
     city: 'Ogden',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OGD'
   },
   {
     airport: 'Lake Country Regional Airport, \\N',
     city: 'Clarksville',
-    country: 'United Arab Emirates',
+    country: 'UAE',
     airportCode: '\\N'
   },
   {
     airport: 'Robert S Kerr Airport, \\N',
     city: 'Poteau',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Colorado Plains Regional Airport, AKO',
     city: 'Akron',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AKO'
   },
   {
     airport: 'Sanderson Field, SHN',
     city: 'Shelton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SHN'
   },
   {
     airport: 'Napakiak Airport, WNA',
     city: 'Napakiak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WNA'
   },
   {
     airport: 'Napaskiak Airport, PKA',
     city: 'Napaskiak',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PKA'
   },
   {
     airport: 'Tok Airport, \\N',
     city: 'Tok',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39668,13 +39668,13 @@ export const airportData =[
   {
     airport: 'Popham Airfield, \\N',
     city: 'Popham',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Causey Airport, \\N',
     city: 'Liberty',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39698,7 +39698,7 @@ export const airportData =[
   {
     airport: 'Doylestown Airport, DYL',
     city: 'Doylestown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DYL'
   },
   {
@@ -39734,13 +39734,13 @@ export const airportData =[
   {
     airport: 'Warren Field, OCW',
     city: 'Washington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OCW'
   },
   {
     airport: 'Hyde County Airport, \\N',
     city: 'Engelhard',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39752,115 +39752,115 @@ export const airportData =[
   {
     airport: 'Stillwater Regional Airport, SWO',
     city: 'Stillwater',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SWO'
   },
   {
     airport: 'Okmulgee Regional Airport, OKM',
     city: 'Okmulgee',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OKM'
   },
   {
     airport: 'Cushing Municipal Airport, CUH',
     city: 'Cushing',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CUH'
   },
   {
     airport: 'Clinton Sherman Airport, CSM',
     city: 'Clinton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CSM'
   },
   {
     airport: 'Strother Field, WLD',
     city: 'Winfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WLD'
   },
   {
     airport: 'Wiley Post Airport, PWA',
     city: 'Oklahoma City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PWA'
   },
   {
     airport: 'Shreveport Downtown Airport, DTN',
     city: 'Shreveport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DTN'
   },
   {
     airport: 'Stephenville Clark Regional Airport, SEP',
     city: 'Stephenville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SEP'
   },
   {
     airport: 'Perry Municipal Airport, \\N',
     city: 'Perry',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Hamilton Municipal Airport, \\N',
     city: 'Hamilton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Ada Regional Airport, ADT',
     city: 'Ada',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ADT'
   },
   {
     airport: 'Mesquite Metro Airport, \\N',
     city: 'Misquite',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Denton Municipal Airport, \\N',
     city: 'Denton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Austin Executive Airport, \\N',
     city: 'Austin',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lago Vista Tx Rusty Allen Airport, \\N',
     city: 'Lago Vista',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Brenham Municipal Airport, \\N',
     city: 'Brenham',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lakeway Airpark, \\N',
     city: 'Lakeway',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Iraan Municipal Airport, IRB',
     city: 'Iraan',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IRB'
   },
   {
     airport: 'Kestrel Airpark, \\N',
     city: 'San Antonio',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39872,25 +39872,25 @@ export const airportData =[
   {
     airport: 'Wilkes County Airport, IKB',
     city: 'North Wilkesboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IKB'
   },
   {
     airport: 'Charleston Executive Airport, \\N',
     city: 'Charleston',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Danville Regional Airport, DAN',
     city: 'Danville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DAN'
   },
   {
     airport: 'Brookneal/Campbell County Airport, \\N',
     city: 'Brookneal',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -39902,13 +39902,13 @@ export const airportData =[
   {
     airport: 'Cheraw Municipal Airport/Lynch Bellinger Field, HCW',
     city: 'Cheraw',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HCW'
   },
   {
     airport: 'Wauchula Municipal Airport, \\N',
     city: 'Wuchula',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40010,7 +40010,7 @@ export const airportData =[
   {
     airport: 'Conway Horry County Airport, \\N',
     city: 'Conway',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40052,31 +40052,31 @@ export const airportData =[
   {
     airport: 'City Airport Manchester, \\N',
     city: 'Manchester',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Sleap Airport, \\N',
     city: 'Shrewsbury',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Tatenhill Airfield, \\N',
     city: 'Burton-on-Trent',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Full Sutton Airfield, \\N',
     city: 'York',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Sherburn-In-Elmet Airfield, \\N',
     city: 'Leeds',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -40214,7 +40214,7 @@ export const airportData =[
   {
     airport: 'Asheboro Regional Airport, \\N',
     city: 'Asheboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40226,19 +40226,19 @@ export const airportData =[
   {
     airport: 'Henderson Field, \\N',
     city: 'Wallace',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Emporia Greensville Regional Airport, \\N',
     city: 'Emporia',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'San Gabriel Valley Airport, EMT',
     city: 'El Monte',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EMT'
   },
   {
@@ -40256,7 +40256,7 @@ export const airportData =[
   {
     airport: 'Kee Field, \\N',
     city: 'Pineville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40286,37 +40286,37 @@ export const airportData =[
   {
     airport: 'Stinson Municipal Airport, SSF',
     city: 'Stinson',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SSF'
   },
   {
     airport: 'Sallisaw Municipal Airport, \\N',
     city: 'Sallisaw',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jasper County Airport-Bell Field, JAS',
     city: 'Jasper',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JAS'
   },
   {
     airport: 'El Dorado Springs Memorial Airport, \\N',
     city: 'El dorado springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Marfa Municipal Airport, MRF',
     city: 'Marfa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MRF'
   },
   {
     airport: 'Alpine Casparis Municipal Airport, ALE',
     city: 'Alpine',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALE'
   },
   {
@@ -40340,67 +40340,67 @@ export const airportData =[
   {
     airport: 'Cable Airport, CCB',
     city: 'Upland',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CCB'
   },
   {
     airport: 'Mount Sterling Montgomery County Airport, \\N',
     city: 'Mount Sterling',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Elkhart Municipal Airport, EKI',
     city: 'Elkhart',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EKI'
   },
   {
     airport: 'Nappanee Municipal Airport, \\N',
     city: 'Nappanee ',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jim Hamilton L.B. Owens Airport, CUB',
     city: 'Columbia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CUB'
   },
   {
     airport: 'Grove Municipal Airport, \\N',
     city: 'Grove',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Mc Pherson Airport, \\N',
     city: 'Mc Pherson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Donaldson Field Airport, GDC',
     city: 'Greenville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GDC'
   },
   {
     airport: 'Perry Houston County Airport, \\N',
     city: 'Perry',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Hartsville Regional Airport, HVS',
     city: 'Hartsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HVS'
   },
   {
     airport: 'Horace Williams Airport, \\N',
     city: 'Chapel Hill',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40418,13 +40418,13 @@ export const airportData =[
   {
     airport: 'Brunswick County Airport, \\N',
     city: 'Oak Island',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Chesterfield County Airport, \\N',
     city: 'Richmond',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40448,13 +40448,13 @@ export const airportData =[
   {
     airport: 'Henderson Oxford Airport, \\N',
     city: 'Oxford',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Leesburg International Airport, LEE',
     city: 'Leesburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LEE'
   },
   {
@@ -40514,13 +40514,13 @@ export const airportData =[
   {
     airport: 'Shobdon Aerodrome, \\N',
     city: 'Shobdon',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Chino Airport, CNO',
     city: 'Chino',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CNO'
   },
   {
@@ -40550,7 +40550,7 @@ export const airportData =[
   {
     airport: 'Madison County Airport, \\N',
     city: 'London',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40580,7 +40580,7 @@ export const airportData =[
   {
     airport: 'Paso Robles Municipal Airport, PRB',
     city: 'Paso Robles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PRB'
   },
   {
@@ -40604,7 +40604,7 @@ export const airportData =[
   {
     airport: 'Half Moon Bay Airport, HAF',
     city: 'Half Moon Bay',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HAF'
   },
   {
@@ -40622,7 +40622,7 @@ export const airportData =[
   {
     airport: 'General WM J Fox Airfield, WJF',
     city: 'Lancaster',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WJF'
   },
   {
@@ -40670,31 +40670,31 @@ export const airportData =[
   {
     airport: 'Newtownards Airport, \\N',
     city: 'Newtownards',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Lashenden (Headcorn) Airfield, \\N',
     city: 'Headcorn',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Panshanger Aerodrome, \\N',
     city: 'Panshanger',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Thurrock Airfield, \\N',
     city: 'Thurrock',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'Stapleford Aerodrome, \\N',
     city: 'Stapleford',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -40706,7 +40706,7 @@ export const airportData =[
   {
     airport: 'Chichester/Goodwood Airport, QUG',
     city: 'Goodwood',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'QUG'
   },
   {
@@ -40766,7 +40766,7 @@ export const airportData =[
   {
     airport: 'Person County Airport, \\N',
     city: 'Roxboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40838,19 +40838,19 @@ export const airportData =[
   {
     airport: 'Talladega Municipal Airport, ASN',
     city: 'Talladega',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ASN'
   },
   {
     airport: 'Greenville Downtown Airport, GMU',
     city: 'Greenville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GMU'
   },
   {
     airport: 'Mankato Regional Airport, \\N',
     city: 'Mankato',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40862,25 +40862,25 @@ export const airportData =[
   {
     airport: 'Troy Municipal Airport at N Kenneth Campbell Field, TOI',
     city: 'Troy',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TOI'
   },
   {
     airport: 'Merkel Field Sylacauga Municipal Airport, \\N',
     city: 'Sylacauga',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Enterprise Municipal Airport, ETS',
     city: 'Enterprise',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ETS'
   },
   {
     airport: 'Ryan Field, \\N',
     city: 'Tucson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40910,7 +40910,7 @@ export const airportData =[
   {
     airport: 'Thomas C Russell Field, ALX',
     city: 'Alexander City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALX'
   },
   {
@@ -40934,7 +40934,7 @@ export const airportData =[
   {
     airport: 'Meriden Markham Municipal Airport, \\N',
     city: 'Meriden',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -40982,31 +40982,31 @@ export const airportData =[
   {
     airport: 'Ridgely Airpark, \\N',
     city: 'Ridgely',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'New Castle Henry Co. Municipal Airport, \\N',
     city: 'New Castle',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Scott City Municipal Airport, \\N',
     city: 'Scott City',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Brewster Field, HDE',
     city: 'Holdredge',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HDE'
   },
   {
     airport: 'Pratt Regional Airport, PTT',
     city: 'Pratt',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PTT'
   },
   {
@@ -41018,169 +41018,169 @@ export const airportData =[
   {
     airport: 'Wahoo Municipal Airport, \\N',
     city: 'Wahoo',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jim Kelly Field, LXN',
     city: 'Lexington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LXN'
   },
   {
     airport: 'Sublette Municipal Airport, \\N',
     city: 'Sublette',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Council Bluffs Municipal Airport, CBF',
     city: 'Council Bluffs',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CBF'
   },
   {
     airport: 'Kokomo Municipal Airport, OKK',
     city: 'Kokomo',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OKK'
   },
   {
     airport: 'Neodesha Municipal Airport, \\N',
     city: 'Neodesha',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'King Ranch Airport, \\N',
     city: 'Sutton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Elkhart Morton County Airport, \\N',
     city: 'Elkhart',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Front Range Airport, \\N',
     city: 'Denver',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Galesburg Municipal Airport, GBG',
     city: 'Galesburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GBG'
   },
   {
     airport: 'Guymon Municipal Airport, GUY',
     city: 'Guymon',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GUY'
   },
   {
     airport: 'Meade Municipal Airport, \\N',
     city: 'Meade',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Turkey Mountain Estates Airport, \\N',
     city: 'Shell Knob',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Ulysses Airport, \\N',
     city: 'Ulysses',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Flagler Aerial Spraying Inc Airport, \\N',
     city: 'Flagler',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Independence Municipal Airport, IDP',
     city: 'Independence',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'IDP'
   },
   {
     airport: 'Augusta Municipal Airport, \\N',
     city: 'Augusta',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Larned Pawnee County Airport, \\N',
     city: 'Larned',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lampasas Airport, \\N',
     city: 'Lampasas',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Bay City Municipal Airport, BBC',
     city: 'Bay City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BBC'
   },
   {
     airport: 'Cox Field, PRX',
     city: 'Paris',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PRX'
   },
   {
     airport: 'Coffeyville Municipal Airport, CFV',
     city: 'Coffeyville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CFV'
   },
   {
     airport: 'The Farm Airport, \\N',
     city: 'Summit',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Greeley–Weld County Airport, GXY',
     city: 'Greeley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GXY'
   },
   {
     airport: 'General Dewitt Spain Airport, \\N',
     city: 'Memphis',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Oryol Yuzhny Airport, OEL',
     city: 'Oakley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OEL'
   },
   {
     airport: 'Fremont Municipal Airport, FET',
     city: 'Fremont',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FET'
   },
   {
     airport: 'La Grande/Union County Airport, LGD',
     city: 'La Grande',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LGD'
   },
   {
@@ -41192,13 +41192,13 @@ export const airportData =[
   {
     airport: 'Pocono Mountains Municipal Airport, MPO',
     city: 'Mount Pocono',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MPO'
   },
   {
     airport: 'Quakertown Airport, UKT',
     city: 'Quakertown',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UKT'
   },
   {
@@ -41216,7 +41216,7 @@ export const airportData =[
   {
     airport: 'Banning Municipal Airport, BNG',
     city: 'Banning',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BNG'
   },
   {
@@ -41234,7 +41234,7 @@ export const airportData =[
   {
     airport: 'Karl Stefan Memorial Airport, OFK',
     city: 'Norfolk  Nebraska',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OFK'
   },
   {
@@ -41252,7 +41252,7 @@ export const airportData =[
   {
     airport: 'Arlington Municipal Airport, \\N',
     city: 'Arlington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -41288,7 +41288,7 @@ export const airportData =[
   {
     airport: 'Peter O Knight Airport, TPF',
     city: 'Tampa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TPF'
   },
   {
@@ -41468,13 +41468,13 @@ export const airportData =[
   {
     airport: 'Montauk Airport, MTP',
     city: 'Montauk',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MTP'
   },
   {
     airport: 'Porter County Municipal Airport, VPZ',
     city: 'Valparaiso IN',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VPZ'
   },
   {
@@ -41570,13 +41570,13 @@ export const airportData =[
   {
     airport: 'Mason County Airport, LDM',
     city: 'Ludington',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LDM'
   },
   {
     airport: 'Reid-Hillview Airport of Santa Clara County, RHV',
     city: 'San Jose',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RHV'
   },
   {
@@ -41684,7 +41684,7 @@ export const airportData =[
   {
     airport: 'Camarillo Airport, \\N',
     city: 'Camarillo - CA',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -41738,7 +41738,7 @@ export const airportData =[
   {
     airport: 'Watsonville Municipal Airport, WVI',
     city: 'Watsonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WVI'
   },
   {
@@ -41750,13 +41750,13 @@ export const airportData =[
   {
     airport: 'Hollister Municipal Airport, HLI',
     city: 'Hollister',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HLI'
   },
   {
     airport: 'Williamsburg Jamestown Airport, \\N',
     city: 'Williamsburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -41876,7 +41876,7 @@ export const airportData =[
   {
     airport: 'Union County Airport, \\N',
     city: 'Marysville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -42146,13 +42146,13 @@ export const airportData =[
   {
     airport: 'RAF Spadeadam, \\N',
     city: 'Spadeadam',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
     airport: 'RAF Kinloss, FSS',
     city: 'Kinloss',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'FSS'
   },
   {
@@ -42302,331 +42302,331 @@ export const airportData =[
   {
     airport: 'St Louis Regional Airport, ALN',
     city: 'Alton/St Louis',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ALN'
   },
   {
     airport: 'Chandler Field, AXN',
     city: 'Alexandria',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AXN'
   },
   {
     airport: 'Columbus Municipal Airport, CLU',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLU'
   },
   {
     airport: 'Curtis Field, BBD',
     city: 'Brady',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BBD'
   },
   {
     airport: 'Eastern Sierra Regional Airport, BIH',
     city: 'Bishop',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BIH'
   },
   {
     airport: 'Baker City Municipal Airport, BKE',
     city: 'Baker City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BKE'
   },
   {
     airport: 'Miley Memorial Field, BPI',
     city: 'Big Piney',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BPI'
   },
   {
     airport: 'Ozark Regional Airport, WMH',
     city: 'Mountain Home',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WMH'
   },
   {
     airport: 'W K Kellogg Airport, BTL',
     city: 'Battle Creek',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BTL'
   },
   {
     airport: 'Burley Municipal Airport, BYI',
     city: 'Burley',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BYI'
   },
   {
     airport: 'Northeast Iowa Regional Airport, CCY',
     city: 'Charles City',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CCY'
   },
   {
     airport: 'Chanute Martin Johnson Airport, CNU',
     city: 'Chanute',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CNU'
   },
   {
     airport: 'Jacksonville Executive at Craig Airport, CRG',
     city: 'Jacksonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CRG'
   },
   {
     airport: 'Crossville Memorial Whitson Field, CSV',
     city: 'Crossville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CSV'
   },
   {
     airport: 'Davison Army Air Field, DAA',
     city: 'Fort Belvoir',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DAA'
   },
   {
     airport: 'Barstow Daggett Airport, DAG',
     city: 'Daggett',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DAG'
   },
   {
     airport: 'Deming Municipal Airport, DMN',
     city: 'Deming',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DMN'
   },
   {
     airport: 'Desert Rock Airport, DRA',
     city: 'Mercury',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DRA'
   },
   {
     airport: 'Needles Airport, EED',
     city: 'Needles',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EED'
   },
   {
     airport: 'Duke Field, EGI',
     city: 'Crestview',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EGI'
   },
   {
     airport: 'Murray Field, EKA',
     city: 'Eureka',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'EKA'
   },
   {
     airport: 'San Marcos Regional Airport, \\N',
     city: 'San Marcos',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Sawyer County Airport, HYR',
     city: 'Hayward',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HYR'
   },
   {
     airport: 'Kimble County Airport, JCT',
     city: 'Junction',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'JCT'
   },
   {
     airport: 'Monticello Municipal Ellis Field, \\N',
     city: 'Monticello',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Derby Field, LOL',
     city: 'Lovelock',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'LOL'
   },
   {
     airport: 'Mobridge Municipal Airport, MBG',
     city: 'Mobridge',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MBG'
   },
   {
     airport: 'Mc Comb/Pike County Airport/John E Lewis Field, MCB',
     city: 'Mc Comb',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MCB'
   },
   {
     airport: 'Southern Illinois Airport, MDH',
     city: 'Carbondale/Murphysboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MDH'
   },
   {
     airport: 'Mc Entire Joint National Guard Base, MMT',
     city: 'Eastover',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MMT'
   },
   {
     airport: 'Brunswick Executive Airport, NHZ',
     city: 'Brunswick',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NHZ'
   },
   {
     airport: 'Naval Station Mayport (Admiral David L. Mcdonald Field), NRB',
     city: 'Mayport',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'NRB'
   },
   {
     airport: 'Orangeburg Municipal Airport, OGB',
     city: 'Orangeburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OGB'
   },
   {
     airport: 'Columbus Municipal Airport, \\N',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Ottumwa Regional Airport, OTM',
     city: 'Ottumwa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OTM'
   },
   {
     airport: 'Cairns AAF (Fort Rucker) Air Field, OZR',
     city: 'Fort Rucker/Ozark',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'OZR'
   },
   {
     airport: 'Ralph Wenz Field, PWY',
     city: 'Pinedale',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PWY'
   },
   {
     airport: 'Dutchess County Airport, POU',
     city: 'Poughkeepsie',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'POU'
   },
   {
     airport: 'New Richmond Regional Airport, \\N',
     city: 'New Richmond',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Russell Municipal Airport, RSL',
     city: 'Russell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RSL'
   },
   {
     airport: 'Redwood Falls Municipal Airport, RWF',
     city: 'Redwood Falls',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RWF'
   },
   {
     airport: 'Salinas Municipal Airport, SNS',
     city: 'Salinas',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SNS'
   },
   {
     airport: 'Sonora Municipal Airport, \\N',
     city: 'Sonora',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Saline County Regional Airport, \\N',
     city: 'Benton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Tonopah Airport, TPH',
     city: 'Tonopah',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TPH'
   },
   {
     airport: 'Aurora State Airport, \\N',
     city: 'Aurora',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Ukiah Municipal Airport, UKI',
     city: 'Ukiah',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UKI'
   },
   {
     airport: 'University Oxford Airport, UOX',
     city: 'Oxford',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'UOX'
   },
   {
     airport: 'Huntsville Regional Airport, HTV',
     city: 'Huntsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'HTV'
   },
   {
     airport: 'Miller Field, VTN',
     city: 'Valentine',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VTN'
   },
   {
     airport: 'Winnemucca Municipal Airport, WMC',
     city: 'Winnemucca',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WMC'
   },
   {
     airport: 'West Woodward Airport, WWR',
     city: 'Woodward',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WWR'
   },
   {
     airport: 'Cape Canaveral AFS Skid Strip, \\N',
     city: 'Cocoa Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Homey (Area 51) Airport, \\N',
     city: 'Groom Lake',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Zanesville Municipal Airport, ZZV',
     city: 'Zanesville',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ZZV'
   },
   {
@@ -42926,13 +42926,13 @@ export const airportData =[
   {
     airport: 'Nenana Municipal Airport, ENN',
     city: 'Nenana',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ENN'
   },
   {
     airport: 'Wasilla Airport, WWA',
     city: 'Wasilla',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'WWA'
   },
   {
@@ -43862,7 +43862,7 @@ export const airportData =[
   {
     airport: 'Tracy Municipal Airport, \\N',
     city: 'Tracy',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -43940,7 +43940,7 @@ export const airportData =[
   {
     airport: 'Bolton Field, \\N',
     city: 'Columbus',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -43952,7 +43952,7 @@ export const airportData =[
   {
     airport: 'Skagit Regional Airport, MVW',
     city: 'Skagit',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MVW'
   },
   {
@@ -43976,31 +43976,31 @@ export const airportData =[
   {
     airport: 'Marion County Brown Field, APT',
     city: 'Jasper',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'APT'
   },
   {
     airport: 'Evergreen Regional Airport/Middleton Field, \\N',
     city: 'Evergreen',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Pryor Field Regional Airport, DCU',
     city: 'Decatur',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'DCU'
   },
   {
     airport: 'Glasgow Municipal Airport, GLW',
     city: 'Glasgow',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GLW'
   },
   {
     airport: 'Danielson Airport, \\N',
     city: 'Danielson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -44012,13 +44012,13 @@ export const airportData =[
   {
     airport: 'Clearfield Lawrence Airport, \\N',
     city: 'Clearfield',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Jasper County Airport, RNZ',
     city: 'Rensselaer',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RNZ'
   },
   {
@@ -44072,7 +44072,7 @@ export const airportData =[
   {
     airport: 'Statesboro Bulloch County Airport, TBR',
     city: 'Statesboro',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TBR'
   },
   {
@@ -44150,13 +44150,13 @@ export const airportData =[
   {
     airport: 'New Smyrna Beach Municipal Airport, \\N',
     city: 'New Smyrna Beach',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Las Vegas Helicopters Heliport, \\N',
     city: 'Las vegas',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -44204,25 +44204,25 @@ export const airportData =[
   {
     airport: 'Iowa County Airport, \\N',
     city: 'MINERAL POINT',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'West Bend Municipal Airport, ETB',
     city: 'WEST BEND',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'ETB'
   },
   {
     airport: 'Gaylord Regional Airport, GLR',
     city: 'GAYLORD',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'GLR'
   },
   {
     airport: 'Anderson Municipal Darlington Field, AID',
     city: 'ANDERSON',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AID'
   },
   {
@@ -44240,7 +44240,7 @@ export const airportData =[
   {
     airport: 'Prairie Du Chien Municipal Airport, PCD',
     city: 'Prairie du Chien',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PCD'
   },
   {
@@ -44252,7 +44252,7 @@ export const airportData =[
   {
     airport: 'Air Orlando Heliport, \\N',
     city: 'Orlando',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -44270,7 +44270,7 @@ export const airportData =[
   {
     airport: 'RAF Mona, \\N',
     city: 'Mona',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: '\\N'
   },
   {
@@ -44288,97 +44288,97 @@ export const airportData =[
   {
     airport: 'Stanly County Airport, \\N',
     city: 'Albemarle',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Davidson County Airport, \\N',
     city: 'Lexington',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Windwood Fly-In Resort Airport, \\N',
     city: 'Davis',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Lathan Strip, \\N',
     city: 'Mocksville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Double Eagle II Airport, \\N',
     city: 'Albuquerque',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Socorro Municipal Airport, \\N',
     city: 'Socorro',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Bentonville Municipal-Louise M Thaden Field, \\N',
     city: 'Bentonville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Blue Ridge Airport, \\N',
     city: 'Martinsville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Mount Airy Surry County Airport, \\N',
     city: 'Mount Airy',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Taos Regional Airport, TSM',
     city: 'Taos',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'TSM'
   },
   {
     airport: 'Raton Municipal-Crews Field, RTN',
     city: 'Raton',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RTN'
   },
   {
     airport: 'Rusk County Airport, \\N',
     city: 'Ladysmith',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Perry Lefors Field, PPA',
     city: 'Pampa',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PPA'
   },
   {
     airport: 'William R. Pogue Municipal Airport, \\N',
     city: 'Sand Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Marion County Regional Airport, FLP',
     city: 'Flippin',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'FLP'
   },
   {
     airport: 'Hutchinson County Airport, BGD',
     city: 'Borger',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'BGD'
   },
   {
@@ -44396,7 +44396,7 @@ export const airportData =[
   {
     airport: 'St. Helena Airport, HLE',
     city: 'Longwood',
-    country: 'United Kingdom',
+    country: 'UK',
     airportCode: 'HLE'
   },
   {
@@ -44414,7 +44414,7 @@ export const airportData =[
   {
     airport: 'Santa Ynez Airport, SQA',
     city: 'Santa Ynez',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SQA'
   },
   {
@@ -44492,7 +44492,7 @@ export const airportData =[
   {
     airport: 'Spartanburg Downtown Memorial Airport, SPA',
     city: 'Spartangurg',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SPA'
   },
   {
@@ -44534,7 +44534,7 @@ export const airportData =[
   {
     airport: 'Tri-City Airport, PPF',
     city: 'Parsons',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PPF'
   },
   {
@@ -44546,7 +44546,7 @@ export const airportData =[
   {
     airport: 'Waycross Ware County Airport, AYS',
     city: 'Waycross',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'AYS'
   },
   {
@@ -44558,13 +44558,13 @@ export const airportData =[
   {
     airport: 'Mid-State Regional Airport, \\N',
     city: 'Philipsburg',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Greater Portsmouth Regional Airport, PMH',
     city: 'Portsmouth',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'PMH'
   },
   {
@@ -44582,7 +44582,7 @@ export const airportData =[
   {
     airport: 'Camilla Mitchell County Airport, \\N',
     city: 'Camilla',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -44612,7 +44612,7 @@ export const airportData =[
   {
     airport: 'Clarks Point Airport, CLP',
     city: 'Clarks Point',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'CLP'
   },
   {
@@ -44654,7 +44654,7 @@ export const airportData =[
   {
     airport: 'Sandpoint Airport, \\N',
     city: 'Sandpoint',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45026,7 +45026,7 @@ export const airportData =[
   {
     airport: 'Oakland Troy Airport, \\N',
     city: 'Troy',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45044,7 +45044,7 @@ export const airportData =[
   {
     airport: 'Red Dog Airport, RDB',
     city: 'Red Dog',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'RDB'
   },
   {
@@ -45428,13 +45428,13 @@ export const airportData =[
   {
     airport: 'Frankfort Dow Memorial Field, \\N',
     city: 'Frankfort',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Cheboygan County Airport, \\N',
     city: 'Cheboygan',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45572,7 +45572,7 @@ export const airportData =[
   {
     airport: 'John C Tune Airport, \\N',
     city: 'Nashville',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45668,7 +45668,7 @@ export const airportData =[
   {
     airport: 'Denali Airport, \\N',
     city: 'McKinley Park',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45680,7 +45680,7 @@ export const airportData =[
   {
     airport: 'Potomac Airpark, \\N',
     city: 'Berkeley Springs',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45758,7 +45758,7 @@ export const airportData =[
   {
     airport: 'Stennis International Airport, \\N',
     city: 'Bay St. Louis',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45776,7 +45776,7 @@ export const airportData =[
   {
     airport: 'Seldovia Airport, SOV',
     city: 'Seldovia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'SOV'
   },
   {
@@ -45806,19 +45806,19 @@ export const airportData =[
   {
     airport: 'Julian Carroll Airport, \\N',
     city: 'Jackson',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Beaufort MCAS - Merritt Field, \\N',
     city: 'Beaufort',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Camp Pendleton MCAS (Munn Field) Airport, \\N',
     city: 'Oceanside',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45902,19 +45902,19 @@ export const airportData =[
   {
     airport: 'Vidalia Regional Airport, VDI',
     city: 'Vidalia',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'VDI'
   },
   {
     airport: 'Granbury Regional Airport, \\N',
     city: 'Granbury',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
     airport: 'Oswego County Airport, \\N',
     city: 'Fulton',
-    country: 'United States',
+    country: 'USA',
     airportCode: '\\N'
   },
   {
@@ -45986,7 +45986,7 @@ export const airportData =[
   {
     airport: 'Mitchell Municipal Airport, MHE',
     city: 'Mitchell',
-    country: 'United States',
+    country: 'USA',
     airportCode: 'MHE'
   },
   {

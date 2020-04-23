@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {ChangeDetectorRef, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {ChartDataSets, ChartOptions} from 'chart.js';
 import {Color, Label} from 'ng2-charts';
 import {HistoricalDataService} from './service/historical-data.service';
@@ -61,7 +61,8 @@ export class AppComponent implements OnInit {
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
-  constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder) {
+
+  constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder, private cd: ChangeDetectorRef) {
     const users = Array.from(createNewUser());
 
     this.dataSource = new MatTableDataSource(users);
@@ -109,6 +110,7 @@ export class AppComponent implements OnInit {
       this.historicalDataService.fetchRoute(airport.airportCode).subscribe((data: Airport[]) => {
         const countriesOfAirport = data.map(x => x.country.toLowerCase());
         this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+        this.cd.detectChanges();
       });
       this.selectedAirport = airport.airportCode;
       this.airlines = this.historicalDataService.getAirlinesRoutes(airport.airportCode);
@@ -121,7 +123,15 @@ export class AppComponent implements OnInit {
     this.historicalDataService.fetchRoute(this.selectedAirport, airlineCode).subscribe((data: Airport[]) => {
       const countriesOfAirport = data.map(x => x.country.toLowerCase());
       this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+      this.cd.detectChanges();
     });
+  }
+
+  resetOriginalState() {
+    this.usersForm.get('userInput').reset();
+    this.selectedAirport = null;
+    this.dataSource.data = this.initialDataSet;
+    this.cd.detectChanges();
   }
 
   applyFilter(event: Event) {
