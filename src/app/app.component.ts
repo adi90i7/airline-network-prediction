@@ -37,7 +37,7 @@ export enum GrowthClassification {
 })
 export class AppComponent implements OnInit {
 
-  displayedColumns: string[] = ['country', 'province', 'riskFactor'];
+  displayedColumns: string[] = ['country', 'province', 'sevLevel'];
   GrowthClassification = GrowthClassification;
   dataSource: MatTableDataSource<HistoricalDataModel>;
   expandedElement: HistoricalDataModel | null;
@@ -74,7 +74,10 @@ export class AppComponent implements OnInit {
     this.historicalDataService.fetchHistoricalData().subscribe(async (data: HistoricalDataModel[]) => {
       const caseSeverity = await this.historicalDataService.getSeverityLevel().toPromise();
       const transformedData = data.map((x) => {
-        return {...x, ...caseSeverity[0]};
+        return {
+          ...x, ...caseSeverity[0],
+          sevLevel: x.growthAverage > caseSeverity[0].high ? 'High' : (x.growthAverage < caseSeverity[0].low ? 'Low' : 'Medium')
+        };
       });
       this.dataSource.data = transformedData;
       this.initialDataSet = transformedData;
