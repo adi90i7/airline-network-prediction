@@ -1,4 +1,4 @@
-<div class="login" style="height:800px;max-width: 100%;overflow: hidden; background-color: #f8f9f9">
+<!-- <div class="login" style="height:800px;max-width: 100%;overflow: hidden; background-color: #f8f9f9">
   <section>
     <mat-card id="loginCnt" class="bwsg-mat-card__login be-loading">
       <div class="login-form">
@@ -12,7 +12,7 @@
             <div class="flex-input">
               <mat-form-field>
                 <input matInput [attr.disabled]="true" placeholder="UserName" type="text" formControlName="username"
-                       value="">
+                  value="">
                 <mat-error *ngIf="hasError('username', 'required')">Required !</mat-error>
               </mat-form-field>
             </div>
@@ -22,7 +22,7 @@
 
               <mat-form-field>
                 <input matInput [attr.disabled]="true" placeholder="Password" autocomplete="on" type="password"
-                       formControlName="password">
+                  formControlName="password">
                 <mat-error *ngIf="hasError('password', 'required')">Required !</mat-error>
               </mat-form-field>
 
@@ -34,9 +34,65 @@
         <button mat-raised-button (click)="onSubmit($event)" class="" color="accent" type="button">Login</button>
       </div>
       <div class="be-spinner"><svg height="40px" viewBox="0 0 66 66" width="40px" xmlns="http://www.w3.org/2000/svg">
-        <circle class="circle" cx="33" cy="33" fill="none" r="30" stroke-linecap="round" stroke-width="4"></circle>
-      </svg></div>
+          <circle class="circle" cx="33" cy="33" fill="none" r="30" stroke-linecap="round" stroke-width="4"></circle>
+        </svg></div>
     </mat-card>
 
   </section>
+</div> -->
+
+
+<div class="wrapper wrapper-full-page add-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 ml-auto mr-auto">
+        <div class="card card-chart card-sigin">
+          <div class="card-header card-header-info">
+            <h4 class="card-title">Login</h4>
+          </div>
+
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12">
+                <div class="row" *ngIf="identificationError">
+                  <div class="col-12 alert alert-danger">Login Failed</div>
+                </div>
+
+                <form [formGroup]="loginFormGroup">
+                  <div class="row">
+                    <div class="col-12">
+                      <mat-form-field class="mat-form-remove ">
+                        <input matInput [attr.disabled]="true" placeholder="UserName" type="text"
+                          formControlName="username" value="" class="form-control">
+                        <mat-error *ngIf="hasError('username', 'required')">Required !</mat-error>
+                      </mat-form-field>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <mat-form-field class="mat-form-remove ">
+                        <input matInput [attr.disabled]="true" placeholder="Password" autocomplete="on" type="password"
+                          formControlName="password" class="form-control">
+                        <mat-error *ngIf="hasError('password', 'required')">Required !</mat-error>
+                      </mat-form-field>
+                    </div>
+                  </div>
+                </form>
+
+                <div class="row mt-2">
+                  <div class="col-12">
+                    <button class="btn btn-primary btn-bg" (click)="onSubmit($event)" type="submit">Login</button>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>

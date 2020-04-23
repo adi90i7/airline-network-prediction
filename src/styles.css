@@ -19,3 +19,9 @@ body {
 .card-header.card-header-icon.card-header-rose .card-icon {
   background: #00a1de !important;
 }
+
+.mat-form-remove .mat-form-field-flex  {
+  background-color: #fff !important;
+  padding: 0 !important;
+}
+
