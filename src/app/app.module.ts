@@ -16,31 +16,45 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
+import {AppRoutingModule} from './app-routing.module';
+import {LoginComponent} from './login/login.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MainComponent} from './main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    MainComponent
   ],
-    imports: [
-        HttpClientModule,
-        BrowserModule,
-        BrowserAnimationsModule,
-        HttpClientModule,
-        MatInputModule,
-        MatTableModule,
-        MatPaginatorModule,
-        MatSortModule,
-        MatProgressSpinnerModule,
-        ChartsModule,
-        BrowserModule.withServerTransition({appId: 'serverApp'}),
-        MatAutocompleteModule,
-        ReactiveFormsModule,
-        MatSelectModule,
-        MatButtonModule
-    ],
+  imports: [
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatProgressSpinnerModule,
+    ChartsModule,
+    BrowserModule.withServerTransition({appId: 'serverApp'}),
+    MatAutocompleteModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule
+  ],
   providers: [HistoricalDataService,
-    { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } }],
+    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}],
   bootstrap: [AppComponent]
 })
 export class AppModule {
+}
+
+export function getLocalStorage() {
+  return (typeof window !== 'undefined') ? window.localStorage : null;
 }

@@ -16,12 +16,17 @@ import {airportData} from './airports';
 import {routes} from './routes';
 
 const cors = require('cors');
+const bodyParser = require('body-parser');
+import 'localstorage-polyfill';
+
+global['localStorage'] = localStorage;
 
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app() {
   const server = express();
   server.use(cors());
+  server.use(bodyParser.json());
   const distFolder = join(process.cwd(), 'dist/network-predict/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
@@ -75,6 +80,22 @@ export function app() {
     const userQuery = req.query.airportCode;
     const airlines = routes.filter(x => x.source.toLowerCase() === userQuery.toLowerCase()).map(route => route.airline);
     res.send([...new Set(airlines)]);
+  });
+
+  server.post('/identifyLogin', (req, res) => {
+    const {username, password} = req.body;
+
+    if (username === 'admin' && password === 'admin') {
+      res.status(200).send({
+        id: 9858685,
+        username: 'admin',
+        firstName: 'Admin',
+        lastName: 'System',
+        token: 'aswdefrgtyhu',
+      });
+    } else {
+      res.status(200).send(null);
+    }
   });
 
   mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {

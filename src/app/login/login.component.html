@@ -1,0 +1,42 @@
+<div class="login" style="height:100%;max-width: 100%;overflow: hidden; background-color: #f8f9f9">
+  <section>
+    <mat-card id="loginCnt" class="bwsg-mat-card__login be-loading">
+      <div class="login-form">
+        <div class="title">Login</div>
+        <div class="error-box" *ngIf="identificationError">
+          <mat-icon>error</mat-icon>
+          Login Failed.
+        </div>
+        <form [formGroup]="loginFormGroup">
+          <div class="flex row username">
+            <div class="flex-input">
+              <mat-form-field>
+                <input matInput [attr.disabled]="true" placeholder="UserName" type="text" formControlName="username"
+                       value="">
+                <mat-error *ngIf="hasError('username', 'required')">Required !</mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="flex row password">
+            <div class="flex-input">
+
+              <mat-form-field>
+                <input matInput [attr.disabled]="true" placeholder="Password" autocomplete="on" type="password"
+                       formControlName="password">
+                <mat-error *ngIf="hasError('password', 'required')">Required !</mat-error>
+              </mat-form-field>
+
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="submit-cnt">
+        <button mat-raised-button (click)="onSubmit($event)" class="" color="accent" type="button">Login</button>
+      </div>
+      <div class="be-spinner"><svg height="40px" viewBox="0 0 66 66" width="40px" xmlns="http://www.w3.org/2000/svg">
+        <circle class="circle" cx="33" cy="33" fill="none" r="30" stroke-linecap="round" stroke-width="4"></circle>
+      </svg></div>
+    </mat-card>
+
+  </section>
+</div>

@@ -1,0 +1,175 @@
+import {ChangeDetectorRef, Component, DoCheck, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {ChartDataSets, ChartOptions} from 'chart.js';
+import {Color, Label} from 'ng2-charts';
+import {MatTableDataSource} from '@angular/material/table';
+import {MatPaginator} from '@angular/material/paginator';
+import {MatSort} from '@angular/material/sort';
+import {animate, state, style, transition, trigger} from '@angular/animations';
+import {FormBuilder, FormGroup} from '@angular/forms';
+import {debounceTime, finalize, map, switchMap, tap} from 'rxjs/operators';
+import {Observable} from 'rxjs';
+import {User} from '../User';
+import {HistoricalDataModel} from '../historical-data.model';
+import {HistoricalDataService} from '../service/historical-data.service';
+import {AppService} from '../app.service';
+
+export interface Airport {
+  airport: string;
+  city: string;
+  country: string;
+  airportCode: string;
+}
+
+export enum GrowthClassification {
+  High = 1.5,
+  Low = 0.9
+}
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.scss'],
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
+  ],
+})
+export class MainComponent implements OnInit, DoCheck {
+
+  hasLoggedIn: User;
+
+
+  displayedColumns: string[] = ['country', 'province', 'sevLevel'];
+  GrowthClassification = GrowthClassification;
+  dataSource: MatTableDataSource<HistoricalDataModel>;
+  expandedElement: HistoricalDataModel | null;
+  lineChartOptions: ChartOptions = {
+    responsive: false
+  };
+  lineChartColors: Color[] = [
+    {
+      borderColor: 'black',
+      backgroundColor: 'rgba(255,0,0,0.3)',
+    },
+  ];
+
+  filteredUsers: Airport[] = [];
+  usersForm: FormGroup;
+  isLoading = false;
+  selectedAirport: string;
+  airlines: Observable<string[]>;
+  private initialDataSet: HistoricalDataModel[];
+
+  @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
+  @ViewChild(MatSort, {static: true}) sort: MatSort;
+
+
+  constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder, private cd: ChangeDetectorRef,
+              private appService: AppService) {
+    const users = Array.from(createNewUser());
+
+    this.dataSource = new MatTableDataSource(users);
+  }
+
+  ngOnInit() {
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    this.historicalDataService.fetchHistoricalData().subscribe(async (data: HistoricalDataModel[]) => {
+      const caseSeverity = await this.historicalDataService.getSeverityLevel().toPromise();
+      const transformedData = data.map((x) => {
+        return {
+          ...x, ...caseSeverity[0],
+          sevLevel: x.growthAverage > caseSeverity[0].high ? 'High' : (x.growthAverage < caseSeverity[0].low ? 'Low' : 'Medium')
+        };
+      });
+      this.dataSource.data = transformedData;
+      this.initialDataSet = transformedData;
+    });
+    this.usersForm = this.fb.group({
+      userInput: null,
+    });
+
+    this.usersForm
+      .get('userInput')
+      .valueChanges
+      .pipe(
+        debounceTime(300),
+        tap(() => this.isLoading = true),
+        switchMap(value => this.historicalDataService.fetchAirportList(value)
+          .pipe(
+            finalize(() => this.isLoading = false),
+          )
+        ),
+        map((data: Airport[]) => data.slice(0, 5))
+      )
+      .subscribe(users => this.filteredUsers = users);
+  }
+
+  ngDoCheck(): void {
+    this.hasLoggedIn = this.appService.currentUserValue;
+  }
+
+
+  displayFn(user: Airport) {
+    if (user) {
+      return user.airport;
+    }
+  }
+
+  selected(airport: Airport) {
+    if (airport && airport.airportCode) {
+      this.historicalDataService.fetchRoute(airport.airportCode).subscribe((data: Airport[]) => {
+        const countriesOfAirport = data.map(x => x.country.toLowerCase());
+        this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+        this.cd.detectChanges();
+      });
+      this.selectedAirport = airport.airportCode;
+      this.airlines = this.historicalDataService.getAirlinesRoutes(airport.airportCode);
+    } else {
+      this.dataSource.data = this.initialDataSet;
+    }
+  }
+
+  updateCountryList(airlineCode: string) {
+    this.historicalDataService.fetchRoute(this.selectedAirport, airlineCode).subscribe((data: Airport[]) => {
+      const countriesOfAirport = data.map(x => x.country.toLowerCase());
+      this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+      this.cd.detectChanges();
+    });
+  }
+
+  resetOriginalState() {
+    this.usersForm.get('userInput').reset();
+    this.selectedAirport = null;
+    this.dataSource.data = this.initialDataSet;
+    this.cd.detectChanges();
+  }
+
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+  }
+}
+
+function createNewUser(): HistoricalDataModel[] {
+  return [{
+    country: 'Afghanistan',
+    growthAverage: 1,
+    predictedValue7: 0,
+    predictedValue14: 0,
+    casePrediction: [0, 0, 0, 0],
+    predictedValue: 0,
+    caseCount: [0, 0, 0, 0],
+    caseHistory: ['0', '0', '0', '0'],
+    province: '',
+    timeline: Math.round(Math.random() * 100).toString()
+  }];
+}
+
