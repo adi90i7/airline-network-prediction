@@ -3,7 +3,7 @@ import {ChartDataSets, ChartOptions} from 'chart.js';
 import {Color, Label} from 'ng2-charts';
 import {MatTableDataSource} from '@angular/material/table';
 import {MatPaginator} from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
+import {MatSort, Sort} from '@angular/material/sort';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import {FormBuilder, FormGroup} from '@angular/forms';
 import {debounceTime, finalize, map, switchMap, tap} from 'rxjs/operators';
@@ -76,7 +76,6 @@ export class MainComponent implements OnInit, DoCheck {
 
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
     this.historicalDataService.fetchHistoricalData().subscribe(async (data: HistoricalDataModel[]) => {
       const caseSeverity = await this.historicalDataService.getSeverityLevel().toPromise();
       const transformedData = data.map((x) => {
@@ -84,6 +83,14 @@ export class MainComponent implements OnInit, DoCheck {
           ...x, ...caseSeverity[0],
           sevLevel: x.growthAverage > caseSeverity[0].high ? 'High' : (x.growthAverage < caseSeverity[0].low ? 'Low' : 'Medium')
         };
+      });
+      transformedData.sort( (a, b) => {
+        const severity = {
+          Low: 1,
+          Medium: 2,
+          High: 3
+        };
+        return severity[a.sevLevel] - severity[b.sevLevel];
       });
       this.dataSource.data = transformedData;
       this.initialDataSet = transformedData;
@@ -106,6 +113,37 @@ export class MainComponent implements OnInit, DoCheck {
         map((data: Airport[]) => data.slice(0, 5))
       )
       .subscribe(users => this.filteredUsers = users);
+  }
+
+
+  sortData(sort: Sort) {
+    const data = this.dataSource.data.slice();
+    if (!sort.active || sort.direction === '') {
+      this.dataSource.data = data;
+      return;
+    }
+
+    this.dataSource.data = data.sort((a, b) => {
+      const isAsc = sort.direction === 'asc';
+      switch (sort.active) {
+        case 'country': return this.compare(a.country, b.country, isAsc);
+        case 'province': return this.compare(a.province, b.province, isAsc);
+        case 'sevLevel': return this.compareSeverityLevel(a.sevLevel, b.sevLevel, isAsc);
+        default: return 0;
+      }
+    });
+  }
+  compare(a: number | string, b: number | string, isAsc: boolean) {
+    return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
+  }
+
+  compareSeverityLevel(a: number | string, b: number | string, isAsc: boolean) {
+    const severity = {
+      Low: 1,
+      Medium: 2,
+      High: 3
+    };
+    return (severity[a] <= severity[b] ? -1 : 1) * (isAsc ? 1 : -1);
   }
 
   ngDoCheck(): void {
@@ -169,7 +207,8 @@ function createNewUser(): HistoricalDataModel[] {
     caseCount: [0, 0, 0, 0],
     caseHistory: ['0', '0', '0', '0'],
     province: '',
-    timeline: Math.round(Math.random() * 100).toString()
+    timeline: Math.round(Math.random() * 100).toString(),
+    sevLevel: 'Low'
   }];
 }
 
