@@ -203,6 +203,7 @@ function createNewUser(): HistoricalDataModel[] {
     predictedValue7: 0,
     predictedValue14: 0,
     casePrediction: [0, 0, 0, 0],
+    casePredictionPolynomial: [0, 0, 0, 0],
     predictedValue: 0,
     caseCount: [0, 0, 0, 0],
     caseHistory: ['0', '0', '0', '0'],

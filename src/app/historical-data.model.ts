@@ -9,5 +9,6 @@ export interface HistoricalDataModel {
   growthAverage: number;
   predictedValue: number;
   casePrediction: Array<number>;
+  casePredictionPolynomial :Array<number>;
   sevLevel: string;
 }

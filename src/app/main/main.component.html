@@ -78,12 +78,14 @@
                     <div class="example-element-detail"
                          [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
                       <div class="example-element-description">
-                        <canvas baseChart width="800" height="350" [datasets]="[{data: element.caseCount, label: 'Historical data'},
-                                                          {data: element.casePrediction, label:'Predicted data'}]"
+                        <canvas baseChart width="800" height="350" [datasets]="[
+                                                          {data: element.caseCount, label: 'Historical data'},
+                                                          {data: element.casePredictionPolynomial, label:'Predicted data (Polynomial)'},
+                                                          {data: element.casePrediction, label:'Predicted data (Exponential)'}]"
                                 [labels]="element.caseTimeline" [options]="lineChartOptions" [colors]="lineChartColors"
                                 [chartType]="'line'">
                         </canvas>
-                        <span class="graph-note">Note: The future prediction is based on exponential prediction algorithm = ab^x</span>
+                        <span class="graph-note">Note: The future prediction is based on exponential prediction algorithm = ab^x and polynomial equation aixj ... + a0x0</span>
                       </div>
                     </div>
                   </td>
@@ -102,7 +104,7 @@
               <mat-paginator [pageSizeOptions]="[10, 25, 100]"></mat-paginator>
             </div>
             <div class="formulae-note">
-              Note: The calculation on the future prediction is based on the exponential prediction algorithm. In real life scenarios, this may not be the case
+              Note: The calculation on the future prediction is based on the polynomial and exponential prediction algorithm. In real life scenarios, this may not be the case
             </div>
           </div>
         </div>

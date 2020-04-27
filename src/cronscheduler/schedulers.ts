@@ -1,5 +1,6 @@
 import CovidCase from 'src/cronscheduler/historicalData';
-import {CronJob} from 'cron';
+import { CronJob } from 'cron';
+import * as regression from 'regression';
 
 const axios = require('axios').default;
 
@@ -16,7 +17,7 @@ export async function runSchedulers() {
 async function fetchAndStoreCovidHistoricalData() {
   await axios.get('https://corona.lmao.ninja/v2/historical?lastdays=60').then(async (response: any) => {
     const countryCases = response.data;
-    for (let i = 0; i < countryCases.length - 1; i++) {
+    for (let i = 0; i < countryCases.length; i++) {
       const historicalDataResult = {
         country: countryCases[i].country,
         province: countryCases[i].province
@@ -29,18 +30,26 @@ async function fetchAndStoreCovidHistoricalData() {
       }
       const growthTimeline = calculateGrowthFactor(initialCaseTimeline);
       const growthAverage = growthTimeline.length > 0 ? (growthTimeline.reduce((p, c) => p + c, 0) / growthTimeline.length) : 0;
-      const casePrediction = Array(Object.keys(timeline).length - 1).fill(0);
+      const casePredictionPolynomial = Array(Object.keys(timeline).length - 1).fill(0);
+      const casePredictionExponential = Array(Object.keys(timeline).length - 1).fill(0);
       const caseCount = Object.values(timeline);
-      casePrediction.push(caseCount[caseCount.length - 1]);
+      const predict = []
+      for (let i = 0; i < caseCount.length; i++) {
+        predict.push([i + 1, caseCount[i]])
+      }
+      casePredictionPolynomial.push(caseCount[caseCount.length - 1]);
+      casePredictionExponential.push(caseCount[caseCount.length - 1]);
       for (let j = 0; j < 14; j++) {
-        casePrediction.push(calculatePredictedGrowth(timeline, growthAverage, j + 1));
+        casePredictionPolynomial.push(calculatePredictedGrowthPolynomial(timeline, predict, growthAverage, j + 1));
+        casePredictionExponential.push(calculatePredictedGrowthExponential(timeline, predict, growthAverage, j + 1));
       }
       await CovidCase.findOneAndUpdate(historicalDataResult, {
         timeline,
         caseTimeline: calculateTimeline(Object.keys(timeline)),
         caseCount,
         growthAverage,
-        casePrediction
+        casePrediction: casePredictionExponential,
+        casePredictionPolynomial
       }, {
         new: true,
         upsert: true
@@ -63,14 +72,18 @@ function calculateGrowthFactor(caseTimeline) {
   return growth;
 }
 
-function calculatePredictedGrowth(caseTimeline, growthAverage, days) {
+function calculatePredictedGrowthPolynomial(caseTimeline, predict, growthAverage, days) {
+  const result = regression.polynomial(predict);
+  return result.predict(days + Object.values(caseTimeline).length)[1];
+}
+
+function calculatePredictedGrowthExponential(caseTimeline, predict, growthAverage, days) {
   const cases: number[] = Object.values(caseTimeline);
-  // return Math.log(cases[cases.length - 1]) + (Math.log(growthAverage) * days);
   return Math.round(cases[cases.length - 1] * Math.pow(growthAverage, days));
 }
 
 function appendTimeLine(apiTimeLine, dbTimeLine) {
-  return {...apiTimeLine, ...dbTimeLine};
+  return { ...apiTimeLine, ...dbTimeLine };
 }
 
 function calculateTimeline(caseTime) {

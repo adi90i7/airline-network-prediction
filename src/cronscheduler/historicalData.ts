@@ -1,4 +1,4 @@
-import {Schema} from 'mongoose';
+import { Schema } from 'mongoose';
 
 const mongoose = require('mongoose');
 
@@ -12,6 +12,7 @@ const HistoricalDataSchema: Schema = new Schema({
   predictedValue7: Number,
   predictedValue14: Number,
   growthAverage: Number,
-  casePrediction: Array
+  casePrediction: Array,
+  casePredictionPolynomial: Array
 });
 export default mongoose.model('CovidCase', HistoricalDataSchema);
