@@ -41,11 +41,14 @@
 
                 </form>
                 <mat-form-field>
-                  <mat-label>Country Filter</mat-label>
-                  <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Canada">
+                  <mat-label>Search Table</mat-label>
+                  <input matInput (keyup)="applyFilter($event)" placeholder="eg. Canada">
                 </mat-form-field>
 
-                <button mat-raised-button (click)="resetOriginalState()" color="primary"> Reset</button>
+                <button mat-raised-button (click)="resetOriginalState()" color="primary" class="reset-button"> Reset</button>
+                <mat-chip-list [multiple]="true" [selectable]="true" class="country-filters">
+                  <mat-chip *ngFor="let chip of chips" [selected]="chip.state" (selectionChange)="selectChip($event,chip)" (click)="chip.state=!chip.state">{{chip.name}}</mat-chip>
+                </mat-chip-list>
               </div>
               <div class="col-md-6 ml-auto mr-auto">
                 <div class="map">

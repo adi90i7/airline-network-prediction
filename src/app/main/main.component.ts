@@ -1,17 +1,18 @@
-import {ChangeDetectorRef, Component, DoCheck, ElementRef, OnInit, ViewChild} from '@angular/core';
-import {ChartDataSets, ChartOptions} from 'chart.js';
-import {Color, Label} from 'ng2-charts';
-import {MatTableDataSource} from '@angular/material/table';
-import {MatPaginator} from '@angular/material/paginator';
-import {MatSort, Sort} from '@angular/material/sort';
-import {animate, state, style, transition, trigger} from '@angular/animations';
-import {FormBuilder, FormGroup} from '@angular/forms';
-import {debounceTime, finalize, map, switchMap, tap} from 'rxjs/operators';
-import {Observable} from 'rxjs';
-import {User} from '../User';
-import {HistoricalDataModel} from '../historical-data.model';
-import {HistoricalDataService} from '../service/historical-data.service';
-import {AppService} from '../app.service';
+import { ChangeDetectorRef, Component, DoCheck, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { ChartDataSets, ChartOptions } from 'chart.js';
+import { Color, Label } from 'ng2-charts';
+import { MatTableDataSource } from '@angular/material/table';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort, Sort } from '@angular/material/sort';
+import { animate, state, style, transition, trigger } from '@angular/animations';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { debounceTime, finalize, map, switchMap, tap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { User } from '../User';
+import { HistoricalDataModel } from '../historical-data.model';
+import { HistoricalDataService } from '../service/historical-data.service';
+import { AppService } from '../app.service';
+import { countryContinent } from './routes.filter';
 
 export interface Airport {
   airport: string;
@@ -31,8 +32,8 @@ export enum GrowthClassification {
   styleUrls: ['./main.component.scss'],
   animations: [
     trigger('detailExpand', [
-      state('collapsed', style({height: '0px', minHeight: '0'})),
-      state('expanded', style({height: '*'})),
+      state('collapsed', style({ height: '0px', minHeight: '0' })),
+      state('expanded', style({ height: '*' })),
       transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
     ]),
   ],
@@ -61,14 +62,25 @@ export class MainComponent implements OnInit, DoCheck {
   isLoading = false;
   selectedAirport: string;
   airlines: Observable<string[]>;
+  chips = [
+    { name: 'High Traffic' },
+    { name: 'Europe' },
+    { name: 'Asia' },
+    { name: 'North America' },
+    { name: 'South America' },
+    { name: 'Africa' },
+    { name: 'Oceania' }
+  ];
   private initialDataSet: HistoricalDataModel[];
+  private updatedDataSet: HistoricalDataModel[];
+  private selectedChips: any[] = [];
 
-  @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
-  @ViewChild(MatSort, {static: true}) sort: MatSort;
+  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
+  @ViewChild(MatSort, { static: true }) sort: MatSort;
 
 
   constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder, private cd: ChangeDetectorRef,
-              private appService: AppService) {
+    private appService: AppService) {
     const users = Array.from(createNewUser());
 
     this.dataSource = new MatTableDataSource(users);
@@ -84,7 +96,7 @@ export class MainComponent implements OnInit, DoCheck {
           sevLevel: x.growthAverage > caseSeverity[0].high ? 'High' : (x.growthAverage < caseSeverity[0].low ? 'Low' : 'Medium')
         };
       });
-      transformedData.sort( (a, b) => {
+      transformedData.sort((a, b) => {
         const severity = {
           Low: 1,
           Medium: 2,
@@ -94,6 +106,7 @@ export class MainComponent implements OnInit, DoCheck {
       });
       this.dataSource.data = transformedData;
       this.initialDataSet = transformedData;
+      this.updatedDataSet = transformedData;
     });
     this.usersForm = this.fb.group({
       userInput: null,
@@ -115,6 +128,25 @@ export class MainComponent implements OnInit, DoCheck {
       .subscribe(users => this.filteredUsers = users);
   }
 
+
+  selectChip(event: any, chip: any) {
+    const index = this.selectedChips.indexOf(chip);
+    if (index >= 0) {
+      this.selectedChips.splice(index, 1);
+    } else {
+      this.selectedChips.push(chip);
+    }
+
+    const countriesInContinent = [];
+    this.selectedChips.forEach(element => {
+      countriesInContinent.push(...countryContinent.filter(x => x.continent.toLowerCase() === element.name.toLowerCase()).map(x => x.country.toLowerCase()))
+    });
+    if (this.selectedChips.length > 0) {
+      this.dataSource.data = this.updatedDataSet.filter(x => countriesInContinent.includes(x.country.toLowerCase()));
+    } else {
+      this.dataSource.data = this.updatedDataSet;
+    }
+  }
 
   sortData(sort: Sort) {
     const data = this.dataSource.data.slice();
@@ -162,6 +194,7 @@ export class MainComponent implements OnInit, DoCheck {
       this.historicalDataService.fetchRoute(airport.airportCode).subscribe((data: Airport[]) => {
         const countriesOfAirport = data.map(x => x.country.toLowerCase());
         this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+        this.updatedDataSet = this.dataSource.data;
         this.cd.detectChanges();
       });
       this.selectedAirport = airport.airportCode;
@@ -175,6 +208,7 @@ export class MainComponent implements OnInit, DoCheck {
     this.historicalDataService.fetchRoute(this.selectedAirport, airlineCode).subscribe((data: Airport[]) => {
       const countriesOfAirport = data.map(x => x.country.toLowerCase());
       this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+      this.updatedDataSet = this.dataSource.data;
       this.cd.detectChanges();
     });
   }
