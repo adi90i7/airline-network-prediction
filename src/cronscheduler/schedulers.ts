@@ -73,8 +73,10 @@ function calculateGrowthFactor(caseTimeline) {
 }
 
 function calculatePredictedGrowthPolynomial(caseTimeline, predict, growthAverage, days) {
+  const cases: number[] = Object.values(caseTimeline);
   const result = regression.polynomial(predict);
-  return result.predict(days + Object.values(caseTimeline).length)[1];
+  const predictResult = result.predict(days + cases.length)[1];
+  return predictResult > cases[cases.length - 1] ? predictResult : cases[cases.length - 1];
 }
 
 function calculatePredictedGrowthExponential(caseTimeline, predict, growthAverage, days) {
