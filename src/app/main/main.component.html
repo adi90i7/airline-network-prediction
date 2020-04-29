@@ -63,12 +63,12 @@
 
                 <ng-container matColumnDef="country">
                   <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary"> Destination Country</th>
-                  <td mat-cell *matCellDef="let row"> {{row.country}}</td>
+                  <td mat-cell *matCellDef="let row"> {{row.country}}, {{row.province}}</td>
                 </ng-container>
 
                 <ng-container matColumnDef="province">
-                  <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary"> Province / State</th>
-                  <td mat-cell *matCellDef="let row"> {{row.province}}</td>
+                  <th mat-header-cell *matHeaderCellDef mat-sort-header class="text-primary"> Airport Code</th>
+                  <td mat-cell class="table-airport-code" *matCellDef="let row"> {{row.airportCodes? row.airportCodes.join(','): ''}}</td>
                 </ng-container>
 
                 <ng-container matColumnDef="sevLevel">

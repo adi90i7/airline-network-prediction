@@ -192,9 +192,22 @@ export class MainComponent implements OnInit, DoCheck {
   selected(airport: Airport) {
     if (airport && airport.airportCode) {
       this.historicalDataService.fetchRoute(airport.airportCode).subscribe((data: Airport[]) => {
-        const countriesOfAirport = data.map(x => x.country.toLowerCase());
-        this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
-        this.updatedDataSet = this.dataSource.data;
+        const countriesOfAirport = data.map(countryOfAirport => countryOfAirport.country.toLowerCase());
+        const countryCodesOfAirport = data.map(countryCodeOfAirport => countryCodeOfAirport.airportCode.toLowerCase());
+        console.log(countryCodesOfAirport);
+        const transformedData = this.initialDataSet.filter(historicalData => {
+          return countriesOfAirport.includes(historicalData.country.toLowerCase());
+        }).map(historicalData => {
+          return {
+            ...historicalData,
+            airportCodes: historicalData.airportCodes.filter(airportCode => countryCodesOfAirport.includes(airportCode.toLowerCase()))
+          };
+        });
+        console.log(transformedData);
+        this.dataSource.data = transformedData;
+        this.initialDataSet = transformedData;
+        this.updatedDataSet = transformedData;
+
         this.cd.detectChanges();
       });
       this.selectedAirport = airport.airportCode;
@@ -243,7 +256,8 @@ function createNewUser(): HistoricalDataModel[] {
     caseHistory: ['0', '0', '0', '0'],
     province: '',
     timeline: Math.round(Math.random() * 100).toString(),
-    sevLevel: 'Low'
+    sevLevel: 'Low',
+    airportCodes: ['AAA', 'AAB']
   }];
 }
 

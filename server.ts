@@ -40,7 +40,14 @@ export function app() {
 
   server.get('/historicalData', (req, res) => {
     CovidCase.find({}, (err, users) => {
-      res.send(users);
+      res.send(users.map(user => {
+        return {
+          ...user._doc,
+          airportCodes: airportData
+            .filter(airport => airport.country.toLowerCase() === user.country.toLowerCase())
+            .map(airport => airport.airportCode)
+        };
+      }));
     });
   });
 

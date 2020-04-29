@@ -10,6 +10,13 @@ tr.example-element-row:not(.example-expanded-row):active {
   background: #efefef;
 }
 
+.table-airport-code{
+  white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .example-element-row td {
   border-bottom-width: 0;
 }
