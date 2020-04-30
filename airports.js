@@ -13550,103 +13550,103 @@ export const airportData =[
   {
     airport: 'Gwangju Airport, KWJ',
     city: 'Kwangju',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'KWJ'
   },
   {
     airport: 'Jeon Ju Airport (G-703), CHN',
     city: 'Jhunju',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'CHN'
   },
   {
     airport: 'Yeosu Airport, RSU',
     city: 'Yeosu',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'RSU'
   },
   {
     airport: 'Sokcho Airport, \\N',
     city: 'Sokch\'o',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: '\\N'
   },
   {
     airport: 'Gangneung Airport (K-18), KAG',
     city: 'Kangnung',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'KAG'
   },
   {
     airport: 'Jeju International Airport, CJU',
     city: 'Cheju',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'CJU'
   },
   {
     airport: 'Jinhae Airbase/Airport (G-813/K-10), CHF',
     city: 'Chinhae',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'CHF'
   },
   {
     airport: 'Gimhae International Airport, PUS',
     city: 'Busan',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'PUS'
   },
   {
     airport: 'Ulsan Airport, USN',
     city: 'Ulsan',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'USN'
   },
   {
     airport: 'A 511 Airport, \\N',
     city: 'Pyongtaek',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: '\\N'
   },
   {
     airport: 'Seoul Air Base (K-16), SSN',
     city: 'Seoul East',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'SSN'
   },
   {
     airport: 'Osan Air Base, OSN',
     city: 'Osan',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'OSN'
   },
   {
     airport: 'Gimpo International Airport, GMP',
     city: 'Seoul',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'GMP'
   },
   {
     airport: 'Suwon Airport, SWU',
     city: 'Suwon',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'SWU'
   },
   {
     airport: 'Pohang Airport (G-815/K-3), KPO',
     city: 'Pohang',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'KPO'
   },
   {
     airport: 'Daegu Airport, TAE',
     city: 'Taegu',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'TAE'
   },
   {
     airport: 'Yecheon Airbase, YEC',
     city: 'Yechon',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'YEC'
   },
   {
@@ -22346,7 +22346,7 @@ export const airportData =[
   {
     airport: 'Incheon International Airport, ICN',
     city: 'Seoul',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'ICN'
   },
   {
@@ -23726,7 +23726,7 @@ export const airportData =[
   {
     airport: 'Muan International Airport, MWX',
     city: 'Muan',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'MWX'
   },
   {
@@ -27884,37 +27884,37 @@ export const airportData =[
   {
     airport: 'Kunsan Air Base, KUV',
     city: 'Kunsan',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'KUV'
   },
   {
     airport: 'Mokpo Heliport, MPK',
     city: 'Mokpo',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'MPK'
   },
   {
     airport: 'Wonju/Hoengseong Air Base (K-38/K-46), WJU',
     city: 'Wonju',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'WJU'
   },
   {
     airport: 'Yangyang International Airport, YNY',
     city: 'Sokcho / Gangneung',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'YNY'
   },
   {
     airport: 'Sacheon Air Base/Airport, HIN',
     city: 'Sacheon',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'HIN'
   },
   {
     airport: 'Cheongju International Airport/Cheongju Air Base (K-59/G-513), CJJ',
     city: 'Chongju',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'CJJ'
   },
   {
@@ -31592,7 +31592,7 @@ export const airportData =[
   {
     airport: 'Tuzla International Airport, TZL',
     city: 'Null',
-    country: 'Bosnia and Herzegovina',
+    country: 'Bosnia',
     airportCode: 'TZL'
   },
   {
@@ -36866,7 +36866,7 @@ export const airportData =[
   {
     airport: 'Jeongseok Airport, JDG',
     city: 'Seogwipo',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'JDG'
   },
   {
@@ -40220,7 +40220,7 @@ export const airportData =[
   {
     airport: 'Seosan Air Base, HMY',
     city: 'Seosan',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: 'HMY'
   },
   {
@@ -40586,7 +40586,7 @@ export const airportData =[
   {
     airport: 'N 104 Helipad, \\N',
     city: 'Ulleung',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: '\\N'
   },
   {
@@ -42962,7 +42962,7 @@ export const airportData =[
   {
     airport: 'Jungwon Air Base/Chungju Airport, \\N',
     city: '',
-    country: 'South Korea',
+    country: 'S. Korea',
     airportCode: '\\N'
   },
   {

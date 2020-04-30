@@ -1,5 +1,5 @@
 import CovidCase from 'src/cronscheduler/historicalData';
-import { CronJob } from 'cron';
+import * as cron from 'cron';
 import * as regression from 'regression';
 
 const axios = require('axios').default;
@@ -8,10 +8,15 @@ const dateFormat = require('dateformat');
 
 export async function runSchedulers() {
   await fetchAndStoreCovidHistoricalData();
-  new CronJob('1 * * * *', async () => {
-    console.log('cron is triggerd');
-    // await fetchAndStoreCovidHistoricalData();
-  }, null, true).start();
+  var job = new cron.CronJob('0 6,12,18 * * *',
+    async function () {
+      await fetchAndStoreCovidHistoricalData();
+    },
+    null,
+    true,
+    'America/Los_Angeles'
+  );
+  job.start();
 }
 
 async function fetchAndStoreCovidHistoricalData() {
