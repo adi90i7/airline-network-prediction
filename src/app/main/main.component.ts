@@ -13,6 +13,8 @@ import { HistoricalDataModel } from '../historical-data.model';
 import { HistoricalDataService } from '../service/historical-data.service';
 import { AppService } from '../app.service';
 import { countryContinent } from './routes.filter';
+import { CountriesData } from 'countries-map';
+import { countries } from './country'
 
 export interface Airport {
   airport: string;
@@ -75,6 +77,14 @@ export class MainComponent implements OnInit, DoCheck {
   private updatedDataSet: HistoricalDataModel[];
   private selectedChips: any[] = [];
 
+  public mapData: any = {
+    'ES': { 'value': 1 },
+    'GB': { 'value': 2 },
+    'FR': { 'value': 3 }
+  };
+
+  public apiKey = 'AIzaSyDx5sVwRM7EG4QB4QmWpyA8jB0mIoCd99Q'
+
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
 
@@ -107,6 +117,18 @@ export class MainComponent implements OnInit, DoCheck {
       this.dataSource.data = transformedData;
       this.initialDataSet = transformedData;
       this.updatedDataSet = transformedData;
+      this.mapData = transformedData.map(x => {
+        let somthing = countries.find(country => country.name === x.country)
+        if (!somthing) {
+          console.log(x.country)
+          somthing = { code: 'xx', name: 'xx' };
+        }
+        return {
+          [somthing.code]: {
+            value: x.sevLevel === 'Medium' ? 2 : (x.sevLevel === 'High' ? 3 : 1)
+          }
+        }
+      });
     });
     this.usersForm = this.fb.group({
       userInput: null,

@@ -49,11 +49,12 @@
                 <mat-chip-list [multiple]="true" [selectable]="true" class="country-filters">
                   <mat-chip *ngFor="let chip of chips" [selected]="chip.state" (selectionChange)="selectChip($event,chip)" (click)="chip.state=!chip.state">{{chip.name}}</mat-chip>
                 </mat-chip-list>
+
+               
+
               </div>
               <div class="col-md-6 ml-auto mr-auto">
-                <div class="map">
-                  <img src="../assets/img/map.png"/>
-                </div>
+                <countries-map [data]="mapData" [captionBelow]='false' [showCaption]='false' [apiKey]="apiKey"></countries-map>
               </div>
             </div>
             <div class="table-responsive">

@@ -22,6 +22,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MainComponent} from './main/main.component';
 import {MatChipsModule} from '@angular/material/chips';
+import {CountriesMapModule} from 'countries-map'
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import {MatChipsModule} from '@angular/material/chips';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
-    MatChipsModule
+    MatChipsModule,
+    CountriesMapModule
   ],
   providers: [HistoricalDataService,
     {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}],
