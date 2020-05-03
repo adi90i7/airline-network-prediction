@@ -167,8 +167,10 @@ export class MainComponent implements OnInit, DoCheck {
     });
     if (this.selectedChips.length > 0) {
       this.dataSource.data = this.updatedDataSet.filter(x => countriesInContinent.includes(x.country.toLowerCase()));
+      this.setMapData(this.dataSource.data);
     } else {
       this.dataSource.data = this.updatedDataSet;
+      this.setMapData(this.dataSource.data);
     }
   }
 
