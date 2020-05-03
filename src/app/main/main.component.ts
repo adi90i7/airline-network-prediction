@@ -13,8 +13,8 @@ import { HistoricalDataModel } from '../historical-data.model';
 import { HistoricalDataService } from '../service/historical-data.service';
 import { AppService } from '../app.service';
 import { countryContinent } from './routes.filter';
-import { CountriesData } from 'countries-map';
-import { countries } from './country'
+import { countries } from './country';
+import {ChartType} from 'angular-google-charts';
 
 export interface Airport {
   airport: string;
@@ -77,20 +77,30 @@ export class MainComponent implements OnInit, DoCheck {
   private updatedDataSet: HistoricalDataModel[];
   private selectedChips: any[] = [];
 
-  public mapData: any = {
-    'ES': { 'value': 1 },
-    'GB': { 'value': 2 },
-    'FR': { 'value': 3 }
+  public myData = [
+    ['Country', 'Popularity'],
+    ['Germany', 200],
+    ['United States', 300],
+    ['Brazil', 400],
+    ['Canada', 500],
+    ['France', 600],
+    ['RU', 700]
+  ];
+
+  public mapOptions = {
+    colorAxis: {colors: ['green', 'orange', 'red']}
   };
 
-  public apiKey = 'AIzaSyDx5sVwRM7EG4QB4QmWpyA8jB0mIoCd99Q'
+
+  public apiKey = 'AIzaSyDx5sVwRM7EG4QB4QmWpyA8jB0mIoCd99Q';
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
+  public geoChart: ChartType = ChartType.GeoChart;
 
 
   constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder, private cd: ChangeDetectorRef,
-    private appService: AppService) {
+              private appService: AppService) {
     const users = Array.from(createNewUser());
 
     this.dataSource = new MatTableDataSource(users);
@@ -117,19 +127,9 @@ export class MainComponent implements OnInit, DoCheck {
       this.dataSource.data = transformedData;
       this.initialDataSet = transformedData;
       this.updatedDataSet = transformedData;
-      this.mapData = transformedData.map(x => {
-        let somthing = countries.find(country => country.name === x.country)
-        if (!somthing) {
-          console.log(x.country)
-          somthing = { code: 'xx', name: 'xx' };
-        }
-        return {
-          [somthing.code]: {
-            value: x.sevLevel === 'Medium' ? 2 : (x.sevLevel === 'High' ? 3 : 1)
-          }
-        }
-      });
+      this.setMapData(transformedData);
     });
+
     this.usersForm = this.fb.group({
       userInput: null,
     });
@@ -161,7 +161,9 @@ export class MainComponent implements OnInit, DoCheck {
 
     const countriesInContinent = [];
     this.selectedChips.forEach(element => {
-      countriesInContinent.push(...countryContinent.filter(x => x.continent.toLowerCase() === element.name.toLowerCase()).map(x => x.country.toLowerCase()))
+      countriesInContinent.push(
+        ...countryContinent.filter(x => x.continent.toLowerCase() === element.name.toLowerCase()).map(x => x.country.toLowerCase())
+      );
     });
     if (this.selectedChips.length > 0) {
       this.dataSource.data = this.updatedDataSet.filter(x => countriesInContinent.includes(x.country.toLowerCase()));
@@ -229,7 +231,7 @@ export class MainComponent implements OnInit, DoCheck {
         this.dataSource.data = transformedData;
         this.initialDataSet = transformedData;
         this.updatedDataSet = transformedData;
-
+        this.setMapData(transformedData);
         this.cd.detectChanges();
       });
       this.selectedAirport = airport.airportCode;
@@ -237,6 +239,32 @@ export class MainComponent implements OnInit, DoCheck {
     } else {
       this.dataSource.data = this.initialDataSet;
     }
+  }
+
+  setMapData(transformedData) {
+    const countryData = {};
+    transformedData.map(txData => {
+      if (txData.country === 'USA') {
+        txData.country = 'United States';
+      }
+      if (txData.country === 'UK') {
+        txData.country = 'United Kingdom';
+      }
+      if (( undefined === countryData[txData.country])) {
+        countryData[txData.country] = txData.sevLevel === 'Medium' ? 2 : (txData.sevLevel === 'High' ? 3 : 1);
+      }
+      else {
+        //countryData[txData.country] += txData.lastCount;
+      }
+    });
+    const mapData = [];
+    for (const [key, value] of Object.entries(countryData)) {
+      const returnData = [];
+      returnData.push(key);
+      returnData.push(value);
+      mapData.push(returnData);
+    }
+    this.myData = mapData;
   }
 
   updateCountryList(airlineCode: string) {

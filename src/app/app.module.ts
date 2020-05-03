@@ -22,7 +22,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MainComponent} from './main/main.component';
 import {MatChipsModule} from '@angular/material/chips';
-import {CountriesMapModule} from 'countries-map'
+import {CountriesMapModule} from 'countries-map';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import {CountriesMapModule} from 'countries-map'
     MatIconModule,
     MatCardModule,
     MatChipsModule,
-    CountriesMapModule
+    CountriesMapModule,
+    GoogleChartsModule
   ],
   providers: [HistoricalDataService,
     {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}],

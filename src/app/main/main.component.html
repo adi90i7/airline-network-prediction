@@ -50,11 +50,11 @@
                   <mat-chip *ngFor="let chip of chips" [selected]="chip.state" (selectionChange)="selectChip($event,chip)" (click)="chip.state=!chip.state">{{chip.name}}</mat-chip>
                 </mat-chip-list>
 
-               
+
 
               </div>
               <div class="col-md-6 ml-auto mr-auto">
-                <countries-map [data]="mapData" [captionBelow]='false' [showCaption]='false' [apiKey]="apiKey"></countries-map>
+                <google-chart [type]="geoChart" [data]="myData" [options]="mapOptions" [accessKey]="apiKey"></google-chart>
               </div>
             </div>
             <div class="table-responsive">

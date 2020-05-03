@@ -38,6 +38,7 @@ async function fetchAndStoreCovidHistoricalData() {
       const casePredictionPolynomial = Array(Object.keys(timeline).length - 1).fill(0);
       const casePredictionExponential = Array(Object.keys(timeline).length - 1).fill(0);
       const caseCount = Object.values(timeline);
+      const lastCount = caseCount[caseCount.length - 1];
       const predict = []
       for (let i = 0; i < caseCount.length; i++) {
         predict.push([i + 1, caseCount[i]])
@@ -52,6 +53,7 @@ async function fetchAndStoreCovidHistoricalData() {
         timeline,
         caseTimeline: calculateTimeline(Object.keys(timeline)),
         caseCount,
+        lastCount,
         growthAverage,
         casePrediction: casePredictionExponential,
         casePredictionPolynomial

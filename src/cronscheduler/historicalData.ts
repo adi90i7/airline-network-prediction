@@ -9,6 +9,7 @@ const HistoricalDataSchema: Schema = new Schema({
   timeline: Object,
   caseTimeline: Array,
   caseCount: Array,
+  lastCount: Number,
   predictedValue7: Number,
   predictedValue14: Number,
   growthAverage: Number,
