@@ -24,12 +24,62 @@ import {MainComponent} from './main/main.component';
 import {MatChipsModule} from '@angular/material/chips';
 import {CountriesMapModule} from 'countries-map';
 import { GoogleChartsModule } from 'angular-google-charts';
+import { HeaderComponent } from './header/header.component';
+
+import { A11yModule } from '@angular/cdk/a11y';
+import { BidiModule } from '@angular/cdk/bidi';
+import { ObserversModule } from '@angular/cdk/observers';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { PlatformModule } from '@angular/cdk/platform';
+import { PortalModule } from '@angular/cdk/portal';
+import { CdkStepperModule } from '@angular/cdk/stepper';
+import { CdkTableModule } from '@angular/cdk/table';
+import { CdkTreeModule } from '@angular/cdk/tree';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { NavService } from './service/nav.service';
+import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
+
+
+/**
+ * NgModule that includes all Material modules that are required.
+ */
+@NgModule({
+  exports: [
+    // CDK
+    A11yModule,
+    BidiModule,
+    ObserversModule,
+    OverlayModule,
+    PlatformModule,
+    PortalModule,
+    CdkStepperModule,
+    CdkTableModule,
+    CdkTreeModule,
+
+    MatListModule,
+    MatMenuModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatSlideToggleModule,
+    MatToolbarModule,
+    MatButtonModule
+  ]
+})
+export class MaterialModule { }
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
     LoginComponent,
-    MainComponent
+    MainComponent,
+    MenuListItemComponent
   ],
   imports: [
     AppRoutingModule,
@@ -52,9 +102,13 @@ import { GoogleChartsModule } from 'angular-google-charts';
     MatCardModule,
     MatChipsModule,
     CountriesMapModule,
-    GoogleChartsModule
+    GoogleChartsModule,
+    LayoutModule,
+    FlexLayoutModule,
+    MaterialModule
   ],
   providers: [HistoricalDataService,
+    NavService,
     {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}],
   bootstrap: [AppComponent]
 })

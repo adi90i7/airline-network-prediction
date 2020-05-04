@@ -1,6 +1,13 @@
-<div class="social-distance-app">
-  <section class="container">
-    <router-outlet #routerOutlet="outlet"></router-outlet>
-  </section>
-  <div class="overlay-bg"></div>
+<div class="social-distance-app" [class.kl-theme]="!isGenericTheme" >
+  <app-header [includeKLMLogo]="!isGenericTheme"></app-header>
+  <mat-sidenav-container>
+      <mat-sidenav #appDrawer fixedTopGap="56" opened="false">
+        <mat-nav-list>
+          <app-menu-list-item *ngFor="let item of sideNavItems" [item]="item"></app-menu-list-item>
+        </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <router-outlet #routerOutlet="outlet"></router-outlet>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
 </div>
