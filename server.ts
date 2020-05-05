@@ -41,6 +41,12 @@ export function app() {
   server.get('/historicalData', (req, res) => {
     CovidCase.find({}, (err, users) => {
       res.send(users.map(user => {
+        if (user._doc.country === 'USA') {
+          user._doc.country = 'United States';
+        }
+        if (user._doc.country === 'UK') {
+          user._doc.country = 'United Kingdom';
+        }
         return {
           ...user._doc,
           airportCodes: airportData

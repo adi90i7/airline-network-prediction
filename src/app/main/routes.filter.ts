@@ -908,11 +908,11 @@ export const countryContinent = [
         "continent": "Asia"
     },
     {
-        "country": "UK",
+        "country": "United Kingdom",
         "continent": "Europe"
     },
     {
-        "country": "USA",
+        "country": "United States",
         "continent": "North America"
     },
     {
@@ -984,11 +984,11 @@ export const countryContinent = [
         "continent": "High Traffic"
     },
     {
-        "country": "UK",
+        "country": "United Kingdom",
         "continent": "High Traffic"
     },
     {
-        "country": "USA",
+        "country": "United States",
         "continent": "High Traffic"
     },
     {
