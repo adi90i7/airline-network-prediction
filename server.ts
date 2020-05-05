@@ -1,7 +1,7 @@
 import 'zone.js/dist/zone-node';
 
 import {ngExpressEngine} from '@nguniversal/express-engine';
-import * as express from 'express';
+import express from 'express';
 import {join} from 'path';
 
 import {AppServerModule} from './src/main.server';
@@ -9,7 +9,7 @@ import {APP_BASE_HREF} from '@angular/common';
 import {existsSync} from 'fs';
 import {runSchedulers} from './src/cronscheduler/schedulers';
 
-import * as mongoose from 'mongoose';
+import mongoose from 'mongoose';
 import CovidCase from 'src/cronscheduler/historicalData';
 import Severity from 'src/severity';
 import {airportData} from './airports';

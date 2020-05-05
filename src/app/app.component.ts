@@ -1,15 +1,7 @@
-import {ChangeDetectorRef, Component, DoCheck, ElementRef, OnInit, ViewChild, AfterViewInit, OnDestroy} from '@angular/core';
-import {ChartDataSets, ChartOptions} from 'chart.js';
-import {Color, Label} from 'ng2-charts';
-import {HistoricalDataService} from './service/historical-data.service';
-import {HistoricalDataModel} from './historical-data.model';
-import {MatTableDataSource} from '@angular/material/table';
-import {MatPaginator} from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
+import {Component, DoCheck, ElementRef, OnInit, ViewChild, AfterViewInit} from '@angular/core';
+
 import {animate, state, style, transition, trigger} from '@angular/animations';
-import {FormBuilder, FormGroup} from '@angular/forms';
-import {debounceTime, finalize, map, switchMap, tap} from 'rxjs/operators';
-import {Observable} from 'rxjs';
+
 import {AppService} from './app.service';
 import {User} from './User';
 import { NavService } from './service/nav.service';
@@ -41,7 +33,7 @@ export enum GrowthClassification {
     ]),
   ],
 })
-export class AppComponent implements AfterViewInit, DoCheck, OnInit, OnDestroy {
+export class AppComponent implements AfterViewInit, DoCheck, OnInit {
 
   @ViewChild('appDrawer') appDrawer: ElementRef;
 
@@ -49,8 +41,6 @@ export class AppComponent implements AfterViewInit, DoCheck, OnInit, OnDestroy {
 
   sideNavItems: NavItem[];
   isGenericTheme: boolean;
-  mobileQuery: MediaQueryList;
-  private _mobileQueryListener: () => void;
 
   constructor(
     private appService: AppService,
@@ -73,14 +63,9 @@ export class AppComponent implements AfterViewInit, DoCheck, OnInit, OnDestroy {
       });
   }
 
-  ngOnDestroy(): void {
-    this.mobileQuery.removeListener(this._mobileQueryListener);
-  }
-
   ngDoCheck(): void {
     this.hasLoggedIn = this.appService.currentUserValue;
   }
-
 
 }
 
