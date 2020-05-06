@@ -72,9 +72,9 @@ export function app() {
     if (userQuery) {
       const filteredList = airportData.filter(x => x.airport.toLowerCase()
         .split(/\s+|\./).filter(word => word.startsWith(userQuery.toLowerCase())).length);
-      res.send(filteredList);
+      res.send(convertCountriesUKandUSA(filteredList));
     } else {
-      res.send(airportData);
+      res.send(convertCountriesUKandUSA(airportData));
     }
   });
 
@@ -86,9 +86,20 @@ export function app() {
       filteredRoutes = filteredRoutes.filter(x => x.airline.toLowerCase() === airline.toLowerCase());
     }
     const countries = airportData.filter(x => filteredRoutes.map(route => route.destination).includes(x.airportCode));
-    res.send(countries);
+    res.send(convertCountriesUKandUSA(countries));
   });
 
+  function convertCountriesUKandUSA(countries) {
+    return countries.map(data => {
+      if (data.country === 'USA') {
+        data.country = 'United States';
+      }
+      if (data.country === 'UK') {
+        data.country = 'United Kingdom';
+      }
+      return data;
+    });
+  }
   server.get('/airlines', async (req, res) => {
     const userQuery = req.query.airportCode;
     const airlines = routes.filter(x => x.source.toLowerCase() === userQuery.toLowerCase()).map(route => route.airline);

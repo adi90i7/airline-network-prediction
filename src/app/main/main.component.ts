@@ -1,6 +1,6 @@
-import { ChangeDetectorRef, Component, DoCheck, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { ChartDataSets, ChartOptions } from 'chart.js';
-import { Color, Label } from 'ng2-charts';
+import { ChangeDetectorRef, Component, DoCheck, OnInit, ViewChild } from '@angular/core';
+import { ChartOptions } from 'chart.js';
+import { Color} from 'ng2-charts';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, Sort } from '@angular/material/sort';
@@ -13,7 +13,6 @@ import { HistoricalDataModel } from '../historical-data.model';
 import { HistoricalDataService } from '../service/historical-data.service';
 import { AppService } from '../app.service';
 import { countryContinent } from './routes.filter';
-import { countries } from './country';
 import {ChartType} from 'angular-google-charts';
 
 export interface Airport {
@@ -22,12 +21,6 @@ export interface Airport {
   country: string;
   airportCode: string;
 }
-
-export enum GrowthClassification {
-  High = 1.5,
-  Low = 0.9
-}
-
 @Component({
   selector: 'app-root',
   templateUrl: './main.component.html',
@@ -46,7 +39,6 @@ export class MainComponent implements OnInit, DoCheck {
 
 
   displayedColumns: string[] = ['country', 'province', 'sevLevel'];
-  GrowthClassification = GrowthClassification;
   dataSource: MatTableDataSource<HistoricalDataModel>;
   expandedElement: HistoricalDataModel | null;
   lineChartOptions: ChartOptions = {
@@ -231,8 +223,6 @@ export class MainComponent implements OnInit, DoCheck {
         });
         console.log(transformedData);
         this.dataSource.data = transformedData;
-        this.initialDataSet = transformedData;
-        this.updatedDataSet = transformedData;
         this.setMapData(transformedData);
         this.cd.detectChanges();
       });
@@ -269,10 +259,20 @@ export class MainComponent implements OnInit, DoCheck {
     this.myData = mapData;
   }
 
-  updateCountryList(airlineCode: string) {
+  updateCountryList($event) {
+    const airlineCode = $event.value;
     this.historicalDataService.fetchRoute(this.selectedAirport, airlineCode).subscribe((data: Airport[]) => {
       const countriesOfAirport = data.map(x => x.country.toLowerCase());
-      this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+      const countryCodesOfAirport = data.map(countryCodeOfAirport => countryCodeOfAirport.airportCode.toLowerCase());
+      this.dataSource.data = this.initialDataSet.filter(historicalData => {
+        return countriesOfAirport.includes(historicalData.country.toLowerCase());
+      }).map(historicalData => {
+        return {
+          ...historicalData,
+          airportCodes: historicalData.airportCodes.filter(airportCode => countryCodesOfAirport.includes(airportCode.toLowerCase()))
+        };
+      });
+      this.setMapData(this.dataSource.data);
       this.updatedDataSet = this.dataSource.data;
       this.cd.detectChanges();
     });
@@ -282,6 +282,7 @@ export class MainComponent implements OnInit, DoCheck {
     this.usersForm.get('userInput').reset();
     this.selectedAirport = null;
     this.dataSource.data = this.initialDataSet;
+    this.setMapData(this.initialDataSet);
     this.cd.detectChanges();
   }
 
