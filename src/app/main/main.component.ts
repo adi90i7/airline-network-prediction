@@ -289,7 +289,7 @@ export class MainComponent implements OnInit, DoCheck {
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
-
+    this.setMapData(this.dataSource.filteredData);
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
