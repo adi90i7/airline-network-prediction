@@ -14,6 +14,7 @@ import { HistoricalDataService } from '../service/historical-data.service';
 import { AppService } from '../app.service';
 import { countryContinent } from './routes.filter';
 import {ChartType} from 'angular-google-charts';
+import {GoogleChartInterface} from 'ng2-google-charts';
 
 export interface Airport {
   airport: string;
@@ -79,16 +80,22 @@ export class MainComponent implements OnInit, DoCheck {
     ['RU', 700]
   ];
 
-  public mapOptions = {
-    colorAxis: {colors: ['green', 'orange', 'red']}
+
+  public geoChart: GoogleChartInterface = {
+    chartType: 'GeoChart',
+    dataTable: [
+      ['Country', 'Risk Factor']
+    ],
+    options: {
+      colorAxis: {colors: ['green', 'orange', 'red']},
+      datalessRegionColor: '#f8f9fa',
+      defaultColor: '#6c757d',
+    }
   };
 
 
-  public apiKey = 'AIzaSyDx5sVwRM7EG4QB4QmWpyA8jB0mIoCd99Q';
-
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
-  public geoChart: ChartType = ChartType.GeoChart;
 
 
   constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder, private cd: ChangeDetectorRef,
@@ -246,7 +253,7 @@ export class MainComponent implements OnInit, DoCheck {
         countryData[txData.country] = txData.sevLevel === 'Medium' ? 2 : (txData.sevLevel === 'High' ? 3 : 1);
       }
       else {
-        //countryData[txData.country] += txData.lastCount;
+        // countryData[txData.country] += txData.lastCount;
       }
     });
     const mapData = [];
@@ -257,6 +264,9 @@ export class MainComponent implements OnInit, DoCheck {
       mapData.push(returnData);
     }
     this.myData = mapData;
+    mapData.unshift(['Country', 'Risk Factor']);
+    this.geoChart.dataTable = [...mapData];
+    this.geoChart.component.draw();
   }
 
   updateCountryList($event) {

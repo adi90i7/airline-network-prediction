@@ -44,6 +44,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavService } from './service/nav.service';
 import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
+import { Ng2GoogleChartsModule } from 'ng2-google-charts';
 
 
 /**
@@ -102,10 +103,10 @@ export class MaterialModule { }
     MatCardModule,
     MatChipsModule,
     CountriesMapModule,
-    GoogleChartsModule,
     LayoutModule,
     FlexLayoutModule,
-    MaterialModule
+    MaterialModule,
+    Ng2GoogleChartsModule
   ],
   providers: [HistoricalDataService,
     NavService,

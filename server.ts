@@ -57,6 +57,34 @@ export function app() {
     });
   });
 
+  server.get('/worldMapRiskData', (req, res) => {
+    CovidCase.find({}, (err, historicData) => {
+      Severity.find({}, (severityErr, severityData) => {
+        const countryData = {};
+        historicData.map(history => {
+          if (history._doc.country === 'USA') {
+            history._doc.country = 'United States';
+          }
+          if (history._doc.country === 'UK') {
+            history._doc.country = 'United Kingdom';
+          }
+          if (( undefined === countryData[history._doc.country])) {
+            countryData[history._doc.country] = history.growthAverage > severityData[0].high ?
+              3 : (history.growthAverage < severityData[0].low ? 1 : 2);
+          }
+        });
+        const mapData = [];
+        for (const [key, value] of Object.entries(countryData)) {
+          const returnData = [];
+          returnData.push(key);
+          returnData.push(value);
+          mapData.push(returnData);
+        }
+        res.send(mapData);
+      });
+    });
+  });
+
   server.get('/severity', (req, res) => {
     Severity.find({}, (err, users) => {
       res.send(users);
