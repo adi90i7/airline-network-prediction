@@ -39,48 +39,23 @@ export function app() {
   server.set('views', distFolder);
 
   server.get('/historicalData', (req, res) => {
-    CovidCase.find({}, (err, users) => {
-      res.send(users.map(user => {
-        if (user._doc.country === 'USA') {
-          user._doc.country = 'United States';
-        }
-        if (user._doc.country === 'UK') {
-          user._doc.country = 'United Kingdom';
-        }
-        return {
-          ...user._doc,
-          airportCodes: airportData
-            .filter(airport => airport.country.toLowerCase() === user.country.toLowerCase())
-            .map(airport => airport.airportCode)
-        };
-      }));
-    });
-  });
-
-  server.get('/worldMapRiskData', (req, res) => {
-    CovidCase.find({}, (err, historicData) => {
-      Severity.find({}, (severityErr, severityData) => {
-        const countryData = {};
-        historicData.map(history => {
-          if (history._doc.country === 'USA') {
-            history._doc.country = 'United States';
+    Severity.find({}, (severityErr, severityData) => {
+      CovidCase.find({}, (err, users) => {
+        res.send(users.map(user => {
+          if (user._doc.country === 'USA') {
+            user._doc.country = 'United States';
           }
-          if (history._doc.country === 'UK') {
-            history._doc.country = 'United Kingdom';
+          if (user._doc.country === 'UK') {
+            user._doc.country = 'United Kingdom';
           }
-          if (( undefined === countryData[history._doc.country])) {
-            countryData[history._doc.country] = history.growthAverage > severityData[0].high ?
-              3 : (history.growthAverage < severityData[0].low ? 1 : 2);
-          }
-        });
-        const mapData = [];
-        for (const [key, value] of Object.entries(countryData)) {
-          const returnData = [];
-          returnData.push(key);
-          returnData.push(value);
-          mapData.push(returnData);
-        }
-        res.send(mapData);
+          return {
+            ...user._doc,
+            airportCodes: airportData
+              .filter(airport => airport.country.toLowerCase() === user.country.toLowerCase())
+              .map(airport => airport.airportCode),
+            sevLevel: user.growthAverage > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium')
+          };
+        }));
       });
     });
   });

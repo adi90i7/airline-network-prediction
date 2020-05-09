@@ -108,14 +108,7 @@ export class MainComponent implements OnInit, DoCheck {
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
     this.historicalDataService.fetchHistoricalData().subscribe(async (data: HistoricalDataModel[]) => {
-      const caseSeverity = await this.historicalDataService.getSeverityLevel().toPromise();
-      const transformedData = data.map((x) => {
-        return {
-          ...x, ...caseSeverity[0],
-          sevLevel: x.growthAverage > caseSeverity[0].high ? 'High' : (x.growthAverage < caseSeverity[0].low ? 'Low' : 'Medium')
-        };
-      });
-      transformedData.sort((a, b) => {
+      data.sort((a, b) => {
         const severity = {
           Low: 1,
           Medium: 2,
@@ -123,10 +116,10 @@ export class MainComponent implements OnInit, DoCheck {
         };
         return severity[a.sevLevel] - severity[b.sevLevel];
       });
-      this.dataSource.data = transformedData;
-      this.initialDataSet = transformedData;
-      this.updatedDataSet = transformedData;
-      this.setMapData(transformedData);
+      this.dataSource.data = data;
+      this.initialDataSet = data;
+      this.updatedDataSet = data;
+      this.setMapData(data);
     });
 
     this.usersForm = this.fb.group({
