@@ -1,0 +1,60 @@
+{
+    "applications": [
+      {
+        "displayName": "Social Diatancing",
+        "iconName": "recent_actors",
+        "route": "devfestfl",
+        "children": [
+          {
+            "displayName": "SD Seating",
+            "iconName": "airline_seat_recline_normal",
+            "route": "https://dsd-airline.herokuapp.com/login?returnUrl=%2Fhome"
+            
+          },
+          {
+            "displayName": "SD Boarding",
+            "iconName": "speaker_notes",
+            "route": "devfestfl/sessions"
+          }
+        ]
+      },
+      {
+        "displayName": "Contactless",
+        "iconName": "videocam",
+        "children": [
+          {
+            "displayName": "Crew & Passenger Communication",
+            "iconName": "group",
+            "route": "devfestfl/sessions"
+          },
+          {
+            "displayName": "Self Service Rebooking",
+            "iconName": "speaker_notes",
+            "route": "devfestfl/sessions"
+          }
+        ]
+      },
+      {
+        "displayName": "Route On Demand",
+        "iconName": "group",
+        "children": [
+          {
+            "displayName": "Demand Survey",
+            "iconName": "group",
+            "route": "https://route-demand.herokuapp.com/"
+          },
+          {
+            "displayName": "Demand  Admin View",
+            "iconName": "speaker_notes",
+            "route": "https://route-demand.herokuapp.com/admin"
+          }
+        ]
+      },
+      {
+        "displayName": "Network Prediction",
+        "iconName": "speaker_notes",
+        "route": "https://airline-network-prediction.herokuapp.com/"
+      }
+    ],
+    "headerMenuItems": []
+  }

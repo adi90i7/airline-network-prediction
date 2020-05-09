@@ -1,6 +1,6 @@
-import { ChangeDetectorRef, Component, DoCheck, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { ChartDataSets, ChartOptions } from 'chart.js';
-import { Color, Label } from 'ng2-charts';
+import { ChangeDetectorRef, Component, DoCheck, OnInit, ViewChild } from '@angular/core';
+import { ChartOptions } from 'chart.js';
+import { Color} from 'ng2-charts';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, Sort } from '@angular/material/sort';
@@ -13,8 +13,8 @@ import { HistoricalDataModel } from '../historical-data.model';
 import { HistoricalDataService } from '../service/historical-data.service';
 import { AppService } from '../app.service';
 import { countryContinent } from './routes.filter';
-import { countries } from './country';
 import {ChartType} from 'angular-google-charts';
+import {GoogleChartInterface} from 'ng2-google-charts';
 
 export interface Airport {
   airport: string;
@@ -22,12 +22,6 @@ export interface Airport {
   country: string;
   airportCode: string;
 }
-
-export enum GrowthClassification {
-  High = 1.5,
-  Low = 0.9
-}
-
 @Component({
   selector: 'app-root',
   templateUrl: './main.component.html',
@@ -46,7 +40,6 @@ export class MainComponent implements OnInit, DoCheck {
 
 
   displayedColumns: string[] = ['country', 'province', 'sevLevel'];
-  GrowthClassification = GrowthClassification;
   dataSource: MatTableDataSource<HistoricalDataModel>;
   expandedElement: HistoricalDataModel | null;
   lineChartOptions: ChartOptions = {
@@ -87,16 +80,22 @@ export class MainComponent implements OnInit, DoCheck {
     ['RU', 700]
   ];
 
-  public mapOptions = {
-    colorAxis: {colors: ['green', 'orange', 'red']}
+
+  public geoChart: GoogleChartInterface = {
+    chartType: 'GeoChart',
+    dataTable: [
+      ['Country', 'Risk Factor']
+    ],
+    options: {
+      colorAxis: {colors: ['green', 'orange', 'red']},
+      datalessRegionColor: '#f8f9fa',
+      defaultColor: '#6c757d',
+    }
   };
 
 
-  public apiKey = 'AIzaSyDx5sVwRM7EG4QB4QmWpyA8jB0mIoCd99Q';
-
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
-  public geoChart: ChartType = ChartType.GeoChart;
 
 
   constructor(private historicalDataService: HistoricalDataService, private fb: FormBuilder, private cd: ChangeDetectorRef,
@@ -109,14 +108,7 @@ export class MainComponent implements OnInit, DoCheck {
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
     this.historicalDataService.fetchHistoricalData().subscribe(async (data: HistoricalDataModel[]) => {
-      const caseSeverity = await this.historicalDataService.getSeverityLevel().toPromise();
-      const transformedData = data.map((x) => {
-        return {
-          ...x, ...caseSeverity[0],
-          sevLevel: x.growthAverage > caseSeverity[0].high ? 'High' : (x.growthAverage < caseSeverity[0].low ? 'Low' : 'Medium')
-        };
-      });
-      transformedData.sort((a, b) => {
+      data.sort((a, b) => {
         const severity = {
           Low: 1,
           Medium: 2,
@@ -124,10 +116,10 @@ export class MainComponent implements OnInit, DoCheck {
         };
         return severity[a.sevLevel] - severity[b.sevLevel];
       });
-      this.dataSource.data = transformedData;
-      this.initialDataSet = transformedData;
-      this.updatedDataSet = transformedData;
-      this.setMapData(transformedData);
+      this.dataSource.data = data;
+      this.initialDataSet = data;
+      this.updatedDataSet = data;
+      this.setMapData(data);
     });
 
     this.usersForm = this.fb.group({
@@ -231,8 +223,6 @@ export class MainComponent implements OnInit, DoCheck {
         });
         console.log(transformedData);
         this.dataSource.data = transformedData;
-        this.initialDataSet = transformedData;
-        this.updatedDataSet = transformedData;
         this.setMapData(transformedData);
         this.cd.detectChanges();
       });
@@ -256,7 +246,7 @@ export class MainComponent implements OnInit, DoCheck {
         countryData[txData.country] = txData.sevLevel === 'Medium' ? 2 : (txData.sevLevel === 'High' ? 3 : 1);
       }
       else {
-        //countryData[txData.country] += txData.lastCount;
+        // countryData[txData.country] += txData.lastCount;
       }
     });
     const mapData = [];
@@ -267,12 +257,25 @@ export class MainComponent implements OnInit, DoCheck {
       mapData.push(returnData);
     }
     this.myData = mapData;
+    mapData.unshift(['Country', 'Risk Factor']);
+    this.geoChart.dataTable = [...mapData];
+    this.geoChart.component.draw();
   }
 
-  updateCountryList(airlineCode: string) {
+  updateCountryList($event) {
+    const airlineCode = $event.value;
     this.historicalDataService.fetchRoute(this.selectedAirport, airlineCode).subscribe((data: Airport[]) => {
       const countriesOfAirport = data.map(x => x.country.toLowerCase());
-      this.dataSource.data = this.initialDataSet.filter(x => countriesOfAirport.includes(x.country.toLowerCase()));
+      const countryCodesOfAirport = data.map(countryCodeOfAirport => countryCodeOfAirport.airportCode.toLowerCase());
+      this.dataSource.data = this.initialDataSet.filter(historicalData => {
+        return countriesOfAirport.includes(historicalData.country.toLowerCase());
+      }).map(historicalData => {
+        return {
+          ...historicalData,
+          airportCodes: historicalData.airportCodes.filter(airportCode => countryCodesOfAirport.includes(airportCode.toLowerCase()))
+        };
+      });
+      this.setMapData(this.dataSource.data);
       this.updatedDataSet = this.dataSource.data;
       this.cd.detectChanges();
     });
@@ -282,13 +285,14 @@ export class MainComponent implements OnInit, DoCheck {
     this.usersForm.get('userInput').reset();
     this.selectedAirport = null;
     this.dataSource.data = this.initialDataSet;
+    this.setMapData(this.initialDataSet);
     this.cd.detectChanges();
   }
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
-
+    this.setMapData(this.dataSource.filteredData);
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }

@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@import './palatte';
+
+$app-primary: mat-palette($mat-indigo);
+$app-accent: mat-palette($mat-green);
+$app-warn: mat-palette($mat-red);
+
+$app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
+
+//KL Theme
+$kl-primary: mat-palette($kl-brand);
+$kl-accent: mat-palette($kl-orange);
+
+$kl-theme: mat-light-theme($kl-primary, $kl-accent);

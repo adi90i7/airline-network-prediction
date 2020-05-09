@@ -1,0 +1,31 @@
+<mat-toolbar color="primary" class="mat-elevation-z1">
+	<div>
+		<button mat-icon-button id="menu" (click)="navService.toggleNav()">
+			<mat-icon>menu</mat-icon>
+		</button>
+		
+		<div class="logo-klm" *ngIf="includeKLMLogo" (click)="openShellApp()">
+			<svg enable-background="new 0 0 306.3 204.5" viewBox="0 0 306.3 204.5" xmlns="http://www.w3.org/2000/svg">
+			  <path
+				d="m150 52.7h6.4v-6.4h6.4v-6.4h-6.4v-6.4h-6.4v6.4h-6.4v6.4h6.4zm41.4-1.6c-6.2 0-11.2 5-11.2 11.2s5 11.2 11.2 11.2 11.2-5 11.2-11.2-5-11.2-11.2-11.2zm-76.5 38.4h76.5v-12.8h-76.5zm11.2-27.2c0-6.2-5-11.2-11.1-11.2-6.2 0-11.2 5-11.2 11.2s5 11.2 11.2 11.2c6.1 0 11.1-5 11.1-11.2zm28.7 0c0 6.2 5 11.2 11.2 11.2s11.1-5 11.1-11.2-5-11.2-11.1-11.2c-6.2 0-11.2 5-11.2 11.2zm-14.4 11.2c6.1 0 11.2-5 11.2-11.2s-5-11.2-11.2-11.2-11.2 5-11.2 11.2c.1 6.2 5 11.2 11.2 11.2zm82.9 28.8-9.6 28.8-9.6-28.8h-31.9v51.1h19.1v-38.4l12.8 38.3h19.1l12.7-38.3v38.3h19.1v-51.1h-31.7zm-89.3 0h-19.1v51.1h51v-12.9h-31.9zm-25.5 0h-19.1l-19.2 19.2v-19.2h-19.1v51.1h19.1v-19.2l19.2 19.2h25.5l-28.7-28.8z" />
+			  </svg>
+		  </div>
+
+		<h1>Airline Network Prediction</h1>
+	</div>
+
+	<nav *ngIf="!isMobileMediaMatches">
+		<button *ngFor="let item of menuItems" mat-flat-button color="primary">{{item.displayName}}</button>
+	</nav>
+	<div *ngIf="isMobileMediaMatches">
+
+		<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+			<mat-icon>more_vert</mat-icon>
+		</button>
+		<mat-menu #menu="matMenu">
+			<button mat-menu-item *ngFor="let item of menuItems">
+				<span>{{item.displayName}}</span>
+			</button>
+		</mat-menu>
+	</div>
+</mat-toolbar>
