@@ -1,7 +1,7 @@
 import 'zone.js/dist/zone-node';
 
 import {ngExpressEngine} from '@nguniversal/express-engine';
-import express from 'express';
+import express, {request} from 'express';
 import {join} from 'path';
 
 import {AppServerModule} from './src/main.server';
@@ -14,6 +14,8 @@ import CovidCase from 'src/cronscheduler/historicalData';
 import Severity from 'src/severity';
 import {airportData} from './airports';
 import {routes} from './routes';
+
+const axios = require('axios').default;
 
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -123,6 +125,12 @@ export function app() {
     } else {
       res.status(200).send(null);
     }
+  });
+
+  server.get('/appList', async (req, res) => {
+    await axios.get('http://post-covid-shell-app.herokuapp.com/appList').then(async (response: any) => {
+      res.send(response.data);
+    });
   });
 
   mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {

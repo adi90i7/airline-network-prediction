@@ -8,6 +8,7 @@ import { NavService } from './service/nav.service';
 import { NavItem } from './service/nav-item';
 import navigationItems from '../assets/data/navigation-items.json';
 import { ActivatedRoute } from '@angular/router';
+import {AppListFetcherService} from "./service/app-list-fetcher.service";
 
 export interface Airport {
   airport: string;
@@ -45,8 +46,8 @@ export class AppComponent implements AfterViewInit, DoCheck, OnInit {
   constructor(
     private appService: AppService,
     private navService: NavService,
-    private route: ActivatedRoute) {
-
+    private route: ActivatedRoute,
+    private appListFetcherService: AppListFetcherService) {
   }
 
   ngAfterViewInit() {
@@ -54,7 +55,7 @@ export class AppComponent implements AfterViewInit, DoCheck, OnInit {
   }
 
   ngOnInit() {
-    this.sideNavItems = navigationItems.applications;
+    this.appListFetcherService.fetchAppList().subscribe(async (applications) => this.sideNavItems = applications);
     this.route.queryParams
       .subscribe(params => {
         console.log(params);
