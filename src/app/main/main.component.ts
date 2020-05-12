@@ -87,7 +87,11 @@ export class MainComponent implements OnInit, DoCheck {
       ['Country', 'Risk Factor']
     ],
     options: {
-      colorAxis: {colors: ['green', 'orange', 'red']},
+      colorAxis: {
+        colors: ['green', 'orange', 'red'],
+        minValue: 1,
+        maxValue: 3
+      },
       datalessRegionColor: '#f8f9fa',
       defaultColor: '#6c757d',
     }
