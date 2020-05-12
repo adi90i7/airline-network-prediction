@@ -12,7 +12,9 @@ const HistoricalDataSchema: Schema = new Schema({
   lastCount: Number,
   predictedValue7: Number,
   predictedValue14: Number,
+  growthTimeline: Array,
   growthAverage: Number,
+  growthAverageTimeline: Array,
   casePrediction: Array,
   casePredictionPolynomial: Array
 });

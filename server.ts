@@ -55,7 +55,10 @@ export function app() {
             airportCodes: airportData
               .filter(airport => airport.country.toLowerCase() === user.country.toLowerCase())
               .map(airport => airport.airportCode),
-            sevLevel: user.growthAverage > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium')
+            sevLevel: user.growthAverage > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium'),
+            sevLevelTimeline: user.growthAverageTimeline.map(sevLevel => {
+              return sevLevel > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium');
+            })
           };
         }));
       });
