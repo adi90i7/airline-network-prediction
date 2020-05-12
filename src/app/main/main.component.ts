@@ -94,6 +94,7 @@ export class MainComponent implements OnInit, DoCheck {
       },
       datalessRegionColor: '#f8f9fa',
       defaultColor: '#6c757d',
+      legend: false
     }
   };
 
