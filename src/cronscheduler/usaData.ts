@@ -19,4 +19,4 @@ const HistoricalDataSchema: Schema = new Schema({
   casePrediction: Array,
   casePredictionPolynomial: Array
 });
-export default mongoose.model('CovidCase', HistoricalDataSchema);
+export default mongoose.model('USACase', HistoricalDataSchema);

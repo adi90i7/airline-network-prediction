@@ -11,6 +11,7 @@ import {runSchedulers} from './src/cronscheduler/schedulers';
 
 import mongoose from 'mongoose';
 import CovidCase from 'src/cronscheduler/historicalData';
+import USACase from 'src/cronscheduler/usaData';
 import Severity from 'src/severity';
 import {airportData} from './airports';
 import {routes} from './routes';
@@ -43,24 +44,15 @@ export function app() {
   server.get('/historicalData', (req, res) => {
     Severity.find({}, (severityErr, severityData) => {
       CovidCase.find({}, (err, users) => {
-        res.send(users.map(user => {
-          if (user._doc.country === 'USA') {
-            user._doc.country = 'United States';
-          }
-          if (user._doc.country === 'UK') {
-            user._doc.country = 'United Kingdom';
-          }
-          return {
-            ...user._doc,
-            airportCodes: airportData
-              .filter(airport => airport.country.toLowerCase() === user.country.toLowerCase())
-              .map(airport => airport.airportCode),
-            sevLevel: user.growthAverage > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium'),
-            sevLevelTimeline: user.growthAverageTimeline.map(sevLevel => {
-              return sevLevel > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium');
-            })
-          };
-        }));
+        sendResponse(res, users, severityData);
+      });
+    });
+  });
+
+  server.get('/usaHistoricalData', (req, res) => {
+    Severity.find({}, (severityErr, severityData) => {
+      USACase.find({}, (err, users) => {
+        sendResponse(res, users, severityData);
       });
     });
   });
@@ -97,6 +89,26 @@ export function app() {
     res.send(convertCountriesUKandUSA(countries));
   });
 
+  function sendResponse(res, users, severityData) {
+    res.send(users.map(user => {
+      if (user._doc.country === 'USA') {
+        user._doc.country = 'United States';
+      }
+      if (user._doc.country === 'UK') {
+        user._doc.country = 'United Kingdom';
+      }
+      return {
+        ...user._doc,
+        airportCodes: airportData
+          .filter(airport => airport.country.toLowerCase() === user.country.toLowerCase())
+          .map(airport => airport.airportCode),
+        sevLevel: user.growthAverage > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium'),
+        sevLevelTimeline: user.growthAverageTimeline.map(sevLevel => {
+          return sevLevel > severityData[0].high ? 'High' : (user.growthAverage < severityData[0].low ? 'Low' : 'Medium');
+        })
+      };
+    }));
+  }
   function convertCountriesUKandUSA(countries) {
     return countries.map(data => {
       if (data.country === 'USA') {
