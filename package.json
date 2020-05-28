@@ -43,6 +43,7 @@
     "csvtojson": "^2.0.10",
     "dateformat": "^3.0.3",
     "express": "^4.15.2",
+    "fast-csv": "^4.3.0",
     "localstorage-polyfill": "^1.0.1",
     "mongoose": "^5.9.7",
     "ng2-charts": "^2.3.0",

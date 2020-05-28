@@ -21,6 +21,7 @@ const axios = require('axios').default;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 import 'localstorage-polyfill';
+import {runBingSchedulers} from "./src/cronscheduler/bingData";
 
 global['localStorage'] = localStorage;
 
@@ -152,8 +153,11 @@ export function app() {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
-  })
-    .then(() => console.log('Database connected successfully!'))
+  }).then(() => {
+      console.log('Database connected successfully!');
+      runSchedulers();
+      // runBingSchedulers();
+    })
     .catch((err) => console.error(err));
 
   // All regular routes use the Universal engine
@@ -161,7 +165,6 @@ export function app() {
     res.render(indexHtml, {req, providers: [{provide: APP_BASE_HREF, useValue: req.baseUrl}]});
   });
 
-  runSchedulers();
   return server;
 }
 
