@@ -45,6 +45,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavService } from './service/nav.service';
 import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
 import { Ng2GoogleChartsModule } from 'ng2-google-charts';
+import { AppListFetcherService } from './service/app-list-fetcher.service';
 
 
 /**
@@ -110,6 +111,7 @@ export class MaterialModule { }
   ],
   providers: [HistoricalDataService,
     NavService,
+    AppListFetcherService,
     {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}],
   bootstrap: [AppComponent]
 })
