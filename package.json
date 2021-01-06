@@ -32,7 +32,7 @@
     "@nguniversal/express-engine": "^9.1.0",
     "angular-google-charts": "^1.1.4",
     "angular-oauth2-oidc": "^9.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "bootstrap-material-design": "^4.1.2",
     "chart.js": "^2.9.3",
