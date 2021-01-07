@@ -149,7 +149,7 @@ export function app() {
     });
   });
 
-  mongoose.connect('mongodb://adithya_c:airline1@ds163825.mlab.com:63825/heroku_bmkkf1qq', {
+  mongoose.connect('mongodb+srv://surezh: Kumar@2021@cluster0.3o8ms.mongodb.net/nip?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
